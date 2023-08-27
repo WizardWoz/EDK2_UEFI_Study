@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\DxeCoreMemoryProfileLibNull.c f:\uefiworkspace\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\MemoryAllocationLib.c

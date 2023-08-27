@@ -1,0 +1,197 @@
+ HelloWorld
+
+ Timestamp is 64ea1829 (Sat Aug 26 23:20:09 2023)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000030f2H .text$mn                CODE
+ 0002:00000000 00000facH .rdata                  DATA
+ 0002:00000fac 00000058H .rdata$voltmd           DATA
+ 0002:00001004 00000158H .rdata$zzzdbg           DATA
+ 0003:00000000 00000044H .data                   DATA
+ 0003:00000044 00000014H .bss                    DATA
+ 0004:00000000 00000052H .edata                  DATA
+ 0005:00000000 00000060H .rsrc$01                DATA
+ 0005:00000060 00000120H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0001:00000000       __ModuleEntryPoint         00011000 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:00000060       _ProcessLibraryConstructorList 00011060 f   HelloWorld:AutoGen.obj
+ 0001:000001f0       _ProcessLibraryDestructorList 000111f0 f   HelloWorld:AutoGen.obj
+ 0001:00000200       _ProcessModuleEntryPointList 00011200 f   HelloWorld:AutoGen.obj
+ 0001:00000220       _UefiMain                  00011220 f   HelloWorld:HelloWorld.obj
+ 0001:00000270       _DebugPrint                00011270 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000002a0       _DebugPrintMarker          000112a0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000780       _DebugVPrint               00011780 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000007a0       _DebugAssert               000117a0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000a00       _DebugAssertEnabled        00011a00 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000a30       _DebugPrintEnabled         00011a30 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000a60       _DebugPrintLevelEnabled    00011a60 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000a80       _CopyMem                   00011a80 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00000b20       _InternalMemCopyMem        00011b20 f   BaseMemoryLib:CopyMem.obj
+ 0001:00000e90       _UefiBootServicesTableLibConstructor 00011e90 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000f40       _UefiRuntimeServicesTableLibConstructor 00011f40 f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00000f80       _UefiLibConstructor        00011f80 f   UefiLib:UefiLib.obj
+ 0001:00000fa0       _InternalPrint             00011fa0 f   UefiLib:UefiLibPrint.obj
+ 0001:000010d0       _Print                     000120d0 f   UefiLib:UefiLibPrint.obj
+ 0001:00001110       _UnicodeVSPrint            00012110 f   BasePrintLib:PrintLib.obj
+ 0001:00001190       _BasePrintLibFillBuffer    00012190 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000011f0       _BasePrintLibValueToString 000121f0 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001240       _BasePrintLibSPrintMarker  00012240 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000024d0       _BasePrintLibSPrint        000134d0 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00002510       _InternalAllocatePool      00013510 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002550       _AllocatePool              00013550 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002570       _FreePool                  00013570 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00002600       _GetDebugPrintErrorLevel   00013600 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:00002610       _AsciiStrLen               00013610 f   BaseLib:String.obj
+ 0001:000026b0       _AsciiStrSize              000136b0 f   BaseLib:String.obj
+ 0001:000026d0       _InternalSafeStringIsOverlap 000136d0 f   BaseLib:SafeString.obj
+ 0001:00002710       _InternalSafeStringNoAsciiStrOverlap 00013710 f   BaseLib:SafeString.obj
+ 0001:00002750       _StrnLenS                  00013750 f   BaseLib:SafeString.obj
+ 0001:000027d0       _AsciiStrnLenS             000137d0 f   BaseLib:SafeString.obj
+ 0001:00002820       _AsciiStrnCpyS             00013820 f   BaseLib:SafeString.obj
+ 0001:00002bb0       _CpuBreakpoint             00013bb0 f   BaseLib:CpuBreakpoint.obj
+ 0001:00002bc0       _CpuDeadLoop               00013bc0 f   BaseLib:CpuDeadLoop.obj
+ 0001:00002be0       _ReadUnaligned16           00013be0 f   BaseLib:Unaligned.obj
+ 0001:00002c20       _ReadUnaligned32           00013c20 f   BaseLib:Unaligned.obj
+ 0001:00002c60       _ReadUnaligned64           00013c60 f   BaseLib:Unaligned.obj
+ 0001:00002ca0       _WriteUnaligned64          00013ca0 f   BaseLib:Unaligned.obj
+ 0001:00002cf0       _DivU64x32Remainder        00013cf0 f   BaseLib:DivU64x32Remainder.obj
+ 0001:00002d40       _CpuPause                  00013d40 f   BaseLib:CpuPause.obj
+ 0001:00002d50       _InternalMathDivRemU64x32  00013d50 f   BaseLib:DivU64x32Remainder.obj
+ 0001:00002d70       _InternalGetReportStatusCode 00013d70 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002dd0       _InternalReportStatusCode  00013dd0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002e60       _ReportStatusCodeEx        00013e60 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00003020       _ReportProgressCodeEnabled 00014020 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00003050       _ReportErrorCodeEnabled    00014050 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00003080       _ReportDebugCodeEnabled    00014080 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000030b0       _CopyGuid                  000140b0 f   BaseMemoryLib:MemLibGuid.obj
+ 0002:00000000       __gUefiDriverRevision      00015000     HelloWorld:AutoGen.obj
+ 0002:00000004       ??_C@_0L@EFDKOOG@HelloWorld@ 00015004     HelloWorld:AutoGen.obj
+ 0002:00000010       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00015010     HelloWorld:AutoGen.obj
+ 0002:00000034       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 00015034     HelloWorld:AutoGen.obj
+ 0002:00000060       ??_C@_0HF@EOEDMMCK@f?3?2uefiworkspace?2Build?2Emulator@ 00015060     HelloWorld:AutoGen.obj
+ 0002:000000d8       __gPcd_FixedAtBuild_PcdHelloWorldPrintTimes 000150d8     HelloWorld:AutoGen.obj
+ 0002:000000dc       __gPcd_FixedAtBuild_PcdHelloWorldPrintEnable 000150dc     HelloWorld:AutoGen.obj
+ 0002:000000e0       __gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength 000150e0     HelloWorld:AutoGen.obj
+ 0002:000000e0       __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000150e0     HelloWorld:AutoGen.obj
+ 0002:000000e4       __gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 000150e4     HelloWorld:AutoGen.obj
+ 0002:000000e8       __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 000150e8     HelloWorld:AutoGen.obj
+ 0002:000000ec       __gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize 000150ec     HelloWorld:AutoGen.obj
+ 0002:000000f0       __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 000150f0     HelloWorld:AutoGen.obj
+ 0002:000000f4       __gPcd_FixedAtBuild_PcdHelloWorldPrintString 000150f4     HelloWorld:AutoGen.obj
+ 0002:0000011c       __gPcd_FixedAtBuild_PcdDebugPropertyMask 0001511c     HelloWorld:AutoGen.obj
+ 0002:00000120       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015120     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000138       ??_C@_0FF@OJMNGPG@f?3?2uefiworkspace?2edk2?2MdeModule@ 00015138     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000190       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00015190     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001c0       ??_C@_01OHGJGJJP@?$FL@     000151c0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001c4       ??_C@_02PBFOLPKM@?$FN?5@   000151c4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001c8       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000151c8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001e0       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 000151e0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000218       ??_C@_0EE@GOMGOBAA@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015218     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:0000025c       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 0001525c     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000290       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015290     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000002b0       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000152b0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:0000030c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001530c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000320       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015320     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000334       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015334     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000348       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015348     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000003a8       ??_C@_0DM@NMCFLIEG@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000153a8     UefiLib:UefiLibPrint.obj
+ 0002:000003e4       ??_C@_0CC@KPMNJIIF@?$CI?$CIUINTN?$CJFormat?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 000153e4     UefiLib:UefiLibPrint.obj
+ 0002:00000408       ??_C@_0BI@DIKLKBJC@Console?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015408     UefiLib:UefiLibPrint.obj
+ 0002:00000420       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x@ 00015420     BasePrintLib:PrintLib.obj
+ 0002:00000448       ??_C@_0DN@IKICKOBE@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015448     BasePrintLib:PrintLib.obj
+ 0002:00000488       ??_C@_0CH@KJLBGOBB@?$CI?$CI?$CIUINTN?$CJ?5?$CIFormatString?$CJ?$CJ?5?$CG?50x0@ 00015488     BasePrintLib:PrintLib.obj
+ 0002:000004b0       ??_C@_0EF@BOLGFEOP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000154b0     BasePrintLib:PrintLibInternal.obj
+ 0002:000004f8       ??_C@_0BJ@CNKJJNE@?$CIBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000154f8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000518       ??_C@_0EB@HDGIDCIO@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBu@ 00015518     BasePrintLib:PrintLibInternal.obj
+ 0002:0000055c       ??_C@_0BJ@PPAKKDJG@?$CIFormat?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001555c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000578       ??_C@_0ED@LPDDCECB@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBu@ 00015578     BasePrintLib:PrintLibInternal.obj
+ 0002:000005c0       ??_C@_0IM@BFJJFLGB@?$CIStrnLenS?5?$CI?$CICHAR16?5?$CK?$CJFormat?0?5?$CI_@ 000155c0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000650       ??_C@_0ID@PLGJGION@?$CIAsciiStrnLenS?5?$CIFormat?0?5?$CI_gPcd_@ 00015650     BasePrintLib:PrintLibInternal.obj
+ 0002:000006d4       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO@ 000156d4     BasePrintLib:PrintLibInternal.obj
+ 0002:000006e4       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO@ 000156e4     BasePrintLib:PrintLibInternal.obj
+ 0002:000006f0       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02@ 000156f0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000724       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO@ 00015724     BasePrintLib:PrintLibInternal.obj
+ 0002:00000730       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d@ 00015730     BasePrintLib:PrintLibInternal.obj
+ 0002:0000074c       ??_C@_04JIMNDDED@?$CF08X@  0001574c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000754       ??_C@_02PCIJFNDE@?$AN?6@   00015754     BasePrintLib:PrintLibInternal.obj
+ 0002:00000758       ??_C@_01LIIJDEN@?$AN@      00015758     BasePrintLib:PrintLibInternal.obj
+ 0002:00000760       _mWarningString            00015760     BasePrintLib:PrintLibInternal.obj
+ 0002:00000828       _mErrorString              00015828     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b08       _mHexStr                   00015b08     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b18       ??_C@_0FD@NABGIAAK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015b18     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000b6c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015b6c     BaseLib:String.obj
+ 0002:00000b84       ??_C@_0DG@ODLLMBNP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015b84     BaseLib:String.obj
+ 0002:00000bbc       ??_C@_0CC@GFNLNIOC@?$CI?$CIUINTN?$CJString?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00015bbc     BaseLib:String.obj
+ 0002:00000be0       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00015be0     BaseLib:String.obj
+ 0002:00000c18       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015c18     BaseLib:SafeString.obj
+ 0002:00000c54       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00015c54     BaseLib:SafeString.obj
+ 0002:00000c78       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00015c78     BaseLib:SafeString.obj
+ 0002:00000cb8       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00015cb8     BaseLib:SafeString.obj
+ 0002:00000cd4       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 00015cd4     BaseLib:SafeString.obj
+ 0002:00000ce4       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00015ce4     BaseLib:SafeString.obj
+ 0002:00000cfc       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00015cfc     BaseLib:SafeString.obj
+ 0002:00000d40       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 00015d40     BaseLib:SafeString.obj
+ 0002:00000d9c       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00015d9c     BaseLib:SafeString.obj
+ 0002:00000dac       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00015dac     BaseLib:SafeString.obj
+ 0002:00000dec       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015dec     BaseLib:Unaligned.obj
+ 0002:00000e28       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 00015e28     BaseLib:DivU64x32.obj
+ 0002:00000e38       ??_C@_0EC@JNPELHIH@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00015e38     BaseLib:DivU64x32Remainder.obj
+ 0002:00000e80       ??_C@_0FI@PJEDBJM@f?3?2uefiworkspace?2edk2?2MdeModule@ 00015e80     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000ed8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015ed8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000f18       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00015f18     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000fac       ___volatile_metadata       00015fac     <linker-defined>
+ 0003:00000000       _gEfiStatusCodeSpecificDataGuid 00017000     HelloWorld:AutoGen.obj
+ 0003:00000010       _gEfiStatusCodeRuntimeProtocolGuid 00017010     HelloWorld:AutoGen.obj
+ 0003:00000020       _gEfiCallerBaseName        00017020     HelloWorld:AutoGen.obj
+ 0003:00000024       _gEfiStatusCodeDataTypeDebugGuid 00017024     HelloWorld:AutoGen.obj
+ 0003:00000034       _gEfiCallerIdGuid          00017034     HelloWorld:AutoGen.obj
+ 0003:00000044       _gST                       00017044     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000048       _gImageHandle              00017048     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:0000004c       _gBS                       0001704c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000050       _gRT                       00017050     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:00000054       _mReportStatusCodeLibStatusCodeProtocol 00017054     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0000:ffff5000       .debug$S                   00010000     HelloWorld.exp
+ 0001:00002388       $LN245                     00013388     BasePrintLib:PrintLibInternal.obj
+ 0001:000023b4       $LN244                     000133b4     BasePrintLib:PrintLibInternal.obj
+ 0001:00002424       $LN247                     00013424     BasePrintLib:PrintLibInternal.obj
+ 0001:00002460       $LN246                     00013460     BasePrintLib:PrintLibInternal.obj
+ 0004:00000000       .edata                     00018000     HelloWorld.exp
+ 0004:00000028       rgpv                       00018028     HelloWorld.exp
+ 0004:0000002c       rgszName                   0001802c     HelloWorld.exp
+ 0004:00000030       rgwOrd                     00018030     HelloWorld.exp
+ 0004:00000032       szName                     00018032     HelloWorld.exp
+ 0004:00000041       $N00001                    00018041     HelloWorld.exp
+ 0005:00000060       $R000000                   00019060     HelloWorldhii.lib

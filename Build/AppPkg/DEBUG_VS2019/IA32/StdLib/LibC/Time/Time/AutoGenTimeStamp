@@ -1,0 +1,10 @@
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\Time.inf
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\itimer.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\Time.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\TimeEfi.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\strftime.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\strptime.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\gettimeofday.c
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\timegm.c
+f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\StdLib\LibC\Time\Time\DEBUG\AutoGen.h
+f:\uefiworkspace\edk2-libc\StdLib\LibC\Time\ZoneProc.c

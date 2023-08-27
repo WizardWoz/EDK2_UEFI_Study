@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\EmuBusDriverDxe\ComponentName.c f:\uefiworkspace\edk2\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe.c f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe\DEBUG\AutoGen.c

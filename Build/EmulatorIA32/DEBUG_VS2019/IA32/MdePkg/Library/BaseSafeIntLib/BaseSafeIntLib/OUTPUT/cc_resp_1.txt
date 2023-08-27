@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\BaseSafeIntLib\SafeIntLib.c f:\uefiworkspace\edk2\MdePkg\Library\BaseSafeIntLib\SafeIntLib32.c

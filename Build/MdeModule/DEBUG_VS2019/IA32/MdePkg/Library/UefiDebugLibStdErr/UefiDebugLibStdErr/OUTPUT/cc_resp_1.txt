@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\UefiDebugLibStdErr\DebugLib.c f:\uefiworkspace\edk2\MdePkg\Library\UefiDebugLibStdErr\DebugLibConstructor.c

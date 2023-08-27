@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\StdLib\LibC\Ctype\iCtype.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Ctype\CClass.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Ctype\CConv.c

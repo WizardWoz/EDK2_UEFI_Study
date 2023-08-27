@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer.c f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\AutoGen.c

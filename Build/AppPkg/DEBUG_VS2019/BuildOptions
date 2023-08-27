@@ -1,0 +1,3 @@
+gCommandLineDefines: {'ARCH': 'IA32'}
+BuildOptionPcd: []
+Active Platform: f:\uefiworkspace\edk2-libc\AppPkg\AppPkg.dsc

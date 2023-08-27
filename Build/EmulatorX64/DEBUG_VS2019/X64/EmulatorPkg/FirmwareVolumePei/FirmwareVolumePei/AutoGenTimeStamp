@@ -1,0 +1,16 @@
+f:\uefiworkspace\edk2\MdePkg\Library\PeiMemoryAllocationLib\PeiMemoryAllocationLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\PeiServicesLib\PeiServicesLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\PeimEntryPoint\PeimEntryPoint.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Library\OemHookStatusCodeLibNull\OemHookStatusCodeLibNull.inf
+f:\uefiworkspace\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\AutoGen.h
+f:\uefiworkspace\edk2\MdePkg\Library\RegisterFilterLibNull\RegisterFilterLibNull.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseLib\BaseLib.inf
+f:\uefiworkspace\edk2\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei.c
+f:\uefiworkspace\edk2\MdeModulePkg\Library\PeiReportStatusCodeLib\PeiReportStatusCodeLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseMemoryLib\BaseMemoryLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\PeiPcdLib\PeiPcdLib.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Library\PeiServicesTablePointerLibMagicPage\PeiServicesTablePointerLibMagicPage.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Library\PeiDxeDebugLibReportStatusCode\PeiDxeDebugLibReportStatusCode.inf
+f:\uefiworkspace\edk2\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\PeiHobLib\PeiHobLib.inf

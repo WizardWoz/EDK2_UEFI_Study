@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Core\DxeIplPeim\X64\VirtualMemory.c f:\uefiworkspace\edk2\MdeModulePkg\Core\DxeIplPeim\X64\DxeLoadFunc.c

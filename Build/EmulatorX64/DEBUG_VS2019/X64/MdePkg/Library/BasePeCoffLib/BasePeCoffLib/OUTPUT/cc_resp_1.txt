@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\BasePeCoffLib\BasePeCoff.c f:\uefiworkspace\edk2\MdePkg\Library\BasePeCoffLib\PeCoffLoaderEx.c

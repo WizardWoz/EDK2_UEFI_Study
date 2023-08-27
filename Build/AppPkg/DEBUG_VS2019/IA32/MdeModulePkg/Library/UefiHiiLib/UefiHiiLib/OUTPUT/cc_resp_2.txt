@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Library\UefiHiiLib\HiiLanguage.c f:\uefiworkspace\edk2\MdeModulePkg\Library\UefiHiiLib\HiiString.c f:\uefiworkspace\edk2\MdeModulePkg\Library\UefiHiiLib\HiiLib.c

@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\Library\PlatformBmLib\PlatformBmMemoryTest.c f:\uefiworkspace\edk2\EmulatorPkg\Library\PlatformBmLib\PlatformBm.c f:\uefiworkspace\edk2\EmulatorPkg\Library\PlatformBmLib\PlatformBmData.c

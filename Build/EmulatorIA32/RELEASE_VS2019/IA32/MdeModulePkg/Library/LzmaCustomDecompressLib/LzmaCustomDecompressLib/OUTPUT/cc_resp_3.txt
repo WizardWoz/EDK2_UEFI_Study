@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Library\LzmaCustomDecompressLib\Sdk\C\LzFind.c f:\uefiworkspace\edk2\MdeModulePkg\Library\LzmaCustomDecompressLib\Sdk\C\LzmaDec.c

@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\AppPkg\Applications\Sockets\RawIp4Rx\RawIp4Rx.c f:\uefiworkspace\edk2-libc\AppPkg\Applications\Sockets\RawIp4Rx\Main.c f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\AppPkg\Applications\Sockets\RawIp4Rx\RawIp4Rx\DEBUG\AutoGen.c

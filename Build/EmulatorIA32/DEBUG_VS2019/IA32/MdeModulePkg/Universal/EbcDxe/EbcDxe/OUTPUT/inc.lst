@@ -1,0 +1,13 @@
+/If:\uefiworkspace\edk2\MdeModulePkg\Universal\EbcDxe\Ia32
+/If:\uefiworkspace\edk2\MdeModulePkg\Universal\EbcDxe
+/If:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG
+/If:\uefiworkspace\edk2\MdePkg
+/If:\uefiworkspace\edk2\MdePkg\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\UnitTest\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\Mock\Include
+/If:\uefiworkspace\edk2\MdePkg\Library\MipiSysTLib\mipisyst\library\include
+/If:\uefiworkspace\edk2\MdePkg\Include\Ia32
+/If:\uefiworkspace\edk2\MdeModulePkg
+/If:\uefiworkspace\edk2\MdeModulePkg\Include
+/If:\uefiworkspace\edk2\MdeModulePkg\Test\Mock\Include
+/If:\uefiworkspace\edk2\MdeModulePkg\Library\BrotliCustomDecompressLib\brotli\c\include

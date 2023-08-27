@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\EmuBlockIoDxe\EmuBlockIo.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\EmulatorPkg\EmuBlockIoDxe\EmuBlockIoDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\EmulatorPkg\EmuBlockIoDxe\DriverConfiguration.c f:\uefiworkspace\edk2\EmulatorPkg\EmuBlockIoDxe\ComponentName.c f:\uefiworkspace\edk2\EmulatorPkg\EmuBlockIoDxe\DriverDiagnostics.c

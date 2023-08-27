@@ -1,0 +1,7 @@
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InternalGetSpinLockProperties.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange64.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange32.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange16.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedIncrementMsc.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedDecrementMsc.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/SynchronizationMsc.obj

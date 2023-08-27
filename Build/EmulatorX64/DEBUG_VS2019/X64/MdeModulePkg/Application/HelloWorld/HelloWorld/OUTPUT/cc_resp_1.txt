@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Application\HelloWorld\HelloWorld.c f:\uefiworkspace\Build\EmulatorX64\DEBUG_VS2019\X64\MdeModulePkg\Application\HelloWorld\HelloWorld\DEBUG\AutoGen.c

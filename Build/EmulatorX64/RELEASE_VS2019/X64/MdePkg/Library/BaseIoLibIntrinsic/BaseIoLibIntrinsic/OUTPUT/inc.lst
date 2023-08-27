@@ -1,0 +1,9 @@
+/If:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\X64
+/If:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic
+/If:\uefiworkspace\Build\EmulatorX64\RELEASE_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic\DEBUG
+/If:\uefiworkspace\edk2\MdePkg
+/If:\uefiworkspace\edk2\MdePkg\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\UnitTest\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\Mock\Include
+/If:\uefiworkspace\edk2\MdePkg\Library\MipiSysTLib\mipisyst\library\include
+/If:\uefiworkspace\edk2\MdePkg\Include\X64

@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\CpuRuntimeDxe\CpuIo.c f:\uefiworkspace\edk2\EmulatorPkg\CpuRuntimeDxe\Cpu.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\EmulatorPkg\CpuRuntimeDxe\Cpu\DEBUG\AutoGen.c f:\uefiworkspace\edk2\EmulatorPkg\CpuRuntimeDxe\MpService.c

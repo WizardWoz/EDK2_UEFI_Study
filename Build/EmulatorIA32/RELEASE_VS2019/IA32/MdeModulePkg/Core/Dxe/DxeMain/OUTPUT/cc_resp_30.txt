@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Hand\Handle.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Hand\Locate.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Hand\Notify.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Hand\DriverSupport.c

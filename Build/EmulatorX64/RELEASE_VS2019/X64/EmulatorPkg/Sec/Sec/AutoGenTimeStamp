@@ -1,0 +1,16 @@
+f:\uefiworkspace\edk2\EmulatorPkg\Sec\X64\SwitchRam.asm
+f:\uefiworkspace\edk2\MdePkg\Library\BasePcdLibNull\BasePcdLibNull.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Library\SecPpiListLib\SecPpiListLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Library\SecPeiServicesLib\SecPeiServicesLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\RegisterFilterLibNull\RegisterFilterLibNull.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Sec\X64\SwitchRam.S
+f:\uefiworkspace\edk2\EmulatorPkg\Sec\Sec.c
+f:\uefiworkspace\edk2\MdePkg\Library\BaseLib\BaseLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseMemoryLib\BaseMemoryLib.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Library\PeiEmuSerialPortLib\PeiEmuSerialPortLib.inf
+f:\uefiworkspace\Build\EmulatorX64\RELEASE_VS2019\X64\EmulatorPkg\Sec\Sec\DEBUG\AutoGen.h
+f:\uefiworkspace\edk2\EmulatorPkg\Library\PeiEmuPeCoffGetEntryPointLib\PeiEmuPeCoffGetEntryPointLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BasePrintLib\BasePrintLib.inf
+f:\uefiworkspace\edk2\EmulatorPkg\Sec\Sec.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseDebugLibSerialPort\BaseDebugLibSerialPort.inf

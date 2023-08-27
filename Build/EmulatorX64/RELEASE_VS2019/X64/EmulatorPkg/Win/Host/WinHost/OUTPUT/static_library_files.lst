@@ -1,0 +1,14 @@
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/EmulatorPkg/Win/Host/WinHost/OUTPUT/WinHost.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/EmulatorPkg/Library/SecPpiListLib/SecPpiListLib/OUTPUT/SecPpiListLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/EmulatorPkg/Library/ThunkPpiList/ThunkPpiList/OUTPUT/ThunkPpiList.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/EmulatorPkg/Library/ThunkProtocolList/ThunkProtocolList/OUTPUT/ThunkProtocolList.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/EmulatorPkg/Library/SecPeiServicesLib/SecPeiServicesLib/OUTPUT/SecPeiServicesLib.lib
+f:/uefiworkspace/Build/EmulatorX64/RELEASE_VS2019/X64/MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib/OUTPUT/FrameBufferBltLib.lib

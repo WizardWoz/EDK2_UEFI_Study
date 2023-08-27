@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Mem\HeapGuard.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Mem\MemData.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Mem\Page.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Mem\Pool.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\Mem\MemoryProfileRecord.c

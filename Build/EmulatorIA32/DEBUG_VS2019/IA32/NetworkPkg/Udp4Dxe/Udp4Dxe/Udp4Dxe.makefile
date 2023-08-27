@@ -1,0 +1,1 @@
+f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\Udp4Dxe\Udp4Dxe\Makefile

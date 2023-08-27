@@ -1,0 +1,1 @@
+  f:\uefiworkspace\Build\EmulatorX64\RELEASE_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG\FileExplorerVfr.c f:\uefiworkspace\edk2\MdeModulePkg\Library\FileExplorerLib\FileExplorer.c f:\uefiworkspace\Build\EmulatorX64\RELEASE_VS2019\X64\MdeModulePkg\Library\FileExplorerLib\FileExplorerLib\DEBUG\AutoGen.c

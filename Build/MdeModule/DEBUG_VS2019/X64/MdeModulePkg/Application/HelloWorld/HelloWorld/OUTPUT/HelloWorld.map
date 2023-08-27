@@ -1,0 +1,135 @@
+ HelloWorld
+
+ Timestamp is 64e9e8e9 (Sat Aug 26 19:58:33 2023)
+
+ Preferred load address is 0000000000000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .text                   CODE
+ 0001:00000004 000014d0H .text$mn                CODE
+ 0002:00000000 00000b98H .rdata                  DATA
+ 0002:00000b98 00000020H .rdata$voltmd           DATA
+ 0002:00000bb8 00000164H .rdata$zzzdbg           DATA
+ 0003:00000000 00000000H .data                   DATA
+ 0003:00000000 00000038H .bss                    DATA
+ 0004:00000000 000000b4H .pdata                  DATA
+ 0005:00000000 000000c8H .xdata                  DATA
+ 0006:00000000 00000060H .rsrc$01                DATA
+ 0006:00000060 00000120H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0001:00000000       CpuPause                   00000000000002c0     BaseLib:CpuPause.obj
+ 0001:00000004       _ModuleEntryPoint          00000000000002c4 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:000000e4       DebugPrint                 00000000000003a4 f   UefiDebugLibStdErr:DebugLib.obj
+ 0001:00000108       DebugPrintMarker           00000000000003c8 f   UefiDebugLibStdErr:DebugLib.obj
+ 0001:00000198       DebugAssert                0000000000000458 f   UefiDebugLibStdErr:DebugLib.obj
+ 0001:000001fc       ExitBootServicesCallback   00000000000004bc f   UefiDebugLibStdErr:DebugLibConstructor.obj
+ 0001:00000204       InternalPrint              00000000000004c4 f   UefiLib:UefiLibPrint.obj
+ 0001:000002e8       Print                      00000000000005a8 f   UefiLib:UefiLibPrint.obj
+ 0001:00000318       StrnLenS                   00000000000005d8 f   BaseLib:SafeString.obj
+ 0001:00000370       UnicodeVSPrint             0000000000000630 f   BasePrintLib:PrintLib.obj
+ 0001:000003f4       UnicodeVSPrintAsciiFormat  00000000000006b4 f   BasePrintLib:PrintLib.obj
+ 0001:00000468       UnicodeSPrintAsciiFormat   0000000000000728 f   BasePrintLib:PrintLib.obj
+ 0001:00000488       BasePrintLibFillBuffer     0000000000000748 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000004bc       BasePrintLibValueToString  000000000000077c f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000528       BasePrintLibSPrintMarker   00000000000007e8 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001434       BasePrintLibSPrint         00000000000016f4 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001458       InternalAllocatePool       0000000000001718 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001490       FreePool                   0000000000001750 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000000       ??_C@_0L@EFDKOOG@HelloWorld@ 00000000000017a0     HelloWorld:AutoGen.obj
+ 0002:00000010       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00000000000017b0     HelloWorld:AutoGen.obj
+ 0002:00000038       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 00000000000017d8     HelloWorld:AutoGen.obj
+ 0002:00000060       _gPcd_FixedAtBuild_PcdHelloWorldPrintString 0000000000001800     HelloWorld:AutoGen.obj
+ 0002:00000088       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000001828     UefiDebugLibStdErr:DebugLib.obj
+ 0002:000000a0       ??_C@_0ED@PLAELFMM@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001840     UefiDebugLibStdErr:DebugLib.obj
+ 0002:000000e8       ??_C@_0BI@NOCKJDBJ@ASSERT?5?$FL?$CFa?$FN?5?$CFa?$CI?$CFd?$CJ?3?5?$CFa?6@ 0000000000001888     UefiDebugLibStdErr:DebugLib.obj
+ 0002:00000100       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000018a0     UefiDebugLibStdErr:DebugLib.obj
+ 0002:00000118       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000018b8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000140       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000018e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000001a0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000001940     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000001b8       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000001958     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000001d0       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001970     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000230       ??_C@_0DM@NMCFLIEG@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000019d0     UefiLib:UefiLibPrint.obj
+ 0002:00000270       ??_C@_0CC@KPMNJIIF@?$CI?$CIUINTN?$CJFormat?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0000000000001a10     UefiLib:UefiLibPrint.obj
+ 0002:00000298       ??_C@_0BI@DIKLKBJC@Console?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000001a38     UefiLib:UefiLibPrint.obj
+ 0002:000002b0       ??_C@_0CC@GFNLNIOC@?$CI?$CIUINTN?$CJString?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0000000000001a50     BaseLib:String.obj
+ 0002:000002d8       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001a78     BaseLib:Unaligned.obj
+ 0002:00000318       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 0000000000001ab8     BaseLib:DivU64x32.obj
+ 0002:00000328       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001ac8     BaseLib:SafeString.obj
+ 0002:00000368       ??_C@_0BJ@CNKJJNE@?$CIBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000001b08     BaseLib:SafeString.obj
+ 0002:00000388       ??_C@_0CI@BGLNHBLM@?$CI?$CI?$CIUINTN?$CJ?5?$CIStartOfBuffer?$CJ?$CJ?5?$CG?50x@ 0000000000001b28     BasePrintLib:PrintLib.obj
+ 0002:000003b0       ??_C@_0DN@IKICKOBE@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001b50     BasePrintLib:PrintLib.obj
+ 0002:000003f0       ??_C@_0CH@KJLBGOBB@?$CI?$CI?$CIUINTN?$CJ?5?$CIFormatString?$CJ?$CJ?5?$CG?50x0@ 0000000000001b90     BasePrintLib:PrintLib.obj
+ 0002:00000420       ??_C@_0EF@BOLGFEOP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000001bc0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000470       ??_C@_0EB@HDGIDCIO@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBu@ 0000000000001c10     BasePrintLib:PrintLibInternal.obj
+ 0002:000004b8       ??_C@_0BJ@PPAKKDJG@?$CIFormat?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000001c58     BasePrintLib:PrintLibInternal.obj
+ 0002:000004e0       ??_C@_0ED@LPDDCECB@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBu@ 0000000000001c80     BasePrintLib:PrintLibInternal.obj
+ 0002:00000530       ??_C@_0IM@BFJJFLGB@?$CIStrnLenS?5?$CI?$CICHAR16?5?$CK?$CJFormat?0?5?$CI_@ 0000000000001cd0     BasePrintLib:PrintLibInternal.obj
+ 0002:000005c0       ??_C@_0ID@PLGJGION@?$CIAsciiStrnLenS?5?$CIFormat?0?5?$CI_gPcd_@ 0000000000001d60     BasePrintLib:PrintLibInternal.obj
+ 0002:00000648       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO@ 0000000000001de8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000658       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO@ 0000000000001df8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000668       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02@ 0000000000001e08     BasePrintLib:PrintLibInternal.obj
+ 0002:000006a0       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO@ 0000000000001e40     BasePrintLib:PrintLibInternal.obj
+ 0002:000006b0       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d@ 0000000000001e50     BasePrintLib:PrintLibInternal.obj
+ 0002:000006cc       ??_C@_04JIMNDDED@?$CF08X@  0000000000001e6c     BasePrintLib:PrintLibInternal.obj
+ 0002:000006d4       ??_C@_02PCIJFNDE@?$AN?6@   0000000000001e74     BasePrintLib:PrintLibInternal.obj
+ 0002:000006d8       ??_C@_01LIIJDEN@?$AN@      0000000000001e78     BasePrintLib:PrintLibInternal.obj
+ 0002:000006e0       mWarningString             0000000000001e80     BasePrintLib:PrintLibInternal.obj
+ 0002:000007b0       mErrorString               0000000000001f50     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a90       mHexStr                    0000000000002230     BasePrintLib:PrintLibInternal.obj
+ 0002:00000aa0       ??_C@_0FD@NABGIAAK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000002240     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000b00       ??_C@_0EC@JNPELHIH@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000022a0     BaseLib:DivU64x32Remainder.obj
+ 0002:00000b98       __volatile_metadata        0000000000002338     <linker-defined>
+ 0003:00000000       mPostEBS                   00000000000024c0     UefiDebugLibStdErr:DebugLibConstructor.obj
+ 0003:00000008       gST                        00000000000024c8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000010       gImageHandle               00000000000024d0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000018       gBS                        00000000000024d8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000020       gRT                        00000000000024e0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:00000030       mDebugST                   00000000000024f0     <common>
+
+ entry point at        0001:00000004
+
+ Static symbols
+
+ 0003:00000028       mExitBootServicesEvent     00000000000024e8     UefiDebugLibStdErr:DebugLibConstructor.obj
+ 0005:00000000       $unwind$_ModuleEntryPoint  00000000000025c0     UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0005:0000000c       $unwind$DebugPrint         00000000000025cc     UefiDebugLibStdErr:DebugLib.obj
+ 0005:00000014       $unwind$DebugPrintMarker   00000000000025d4     UefiDebugLibStdErr:DebugLib.obj
+ 0005:00000028       $unwind$DebugAssert        00000000000025e8     UefiDebugLibStdErr:DebugLib.obj
+ 0005:00000030       $unwind$InternalPrint      00000000000025f0     UefiLib:UefiLibPrint.obj
+ 0005:00000048       $unwind$Print              0000000000002608     UefiLib:UefiLibPrint.obj
+ 0005:00000050       $unwind$StrnLenS           0000000000002610     BaseLib:SafeString.obj
+ 0005:00000058       $unwind$UnicodeVSPrint     0000000000002618     BasePrintLib:PrintLib.obj
+ 0005:00000068       $unwind$UnicodeVSPrintAsciiFormat 0000000000002628     BasePrintLib:PrintLib.obj
+ 0005:0000007c       $unwind$UnicodeSPrintAsciiFormat 000000000000263c     BasePrintLib:PrintLib.obj
+ 0005:00000084       $unwind$BasePrintLibValueToString 0000000000002644     BasePrintLib:PrintLibInternal.obj
+ 0005:00000094       $unwind$BasePrintLibSPrintMarker 0000000000002654     BasePrintLib:PrintLibInternal.obj
+ 0005:000000b0       $unwind$BasePrintLibSPrint 0000000000002670     BasePrintLib:PrintLibInternal.obj
+ 0005:000000b8       $unwind$InternalAllocatePool 0000000000002678     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:000000c0       $unwind$FreePool           0000000000002680     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0006:00000060       $R000000                   0000000000002700     HelloWorldhii.lib

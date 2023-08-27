@@ -1,0 +1,226 @@
+ MonotonicCounterRuntimeDxe
+
+ Timestamp is 64e9e850 (Sat Aug 26 19:56:00 2023)
+
+ Preferred load address is 0000000000010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .text                   CODE
+ 0001:00000004 00002d03H .text$mn                CODE
+ 0002:00000000 00000a40H .rdata                  DATA
+ 0002:00000a40 00000050H .rdata$voltmd           DATA
+ 0002:00000a90 0000018cH .rdata$zzzdbg           DATA
+ 0003:00000000 00000078H .data                   DATA
+ 0003:00000078 00000060H .bss                    DATA
+ 0004:00000000 00000062H .edata                  DATA
+ 0005:00000000 00000204H .pdata                  DATA
+ 0006:00000000 00000098H .xdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0001:00000000       CpuPause                   0000000000011000     BaseLib:CpuPause.obj
+ 0001:00000004       _DriverUnloadHandler       0000000000011004 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000040       _ModuleEntryPoint          0000000000011040 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000170       ProcessLibraryConstructorList 0000000000011170 f   MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0001:00000314       ProcessLibraryDestructorList 0000000000011314 f   MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0001:000003ac       ProcessModuleEntryPointList 00000000000113ac f   MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0001:000003d0       ProcessModuleUnloadList    00000000000113d0 f   MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0001:000003d8       MonotonicCounterDriverGetNextMonotonicCount 00000000000113d8 f   MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0001:00000488       MonotonicCounterDriverGetNextHighMonotonicCount 0000000000011488 f   MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0001:00000570       EfiMtcEventHandler         0000000000011570 f   MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0001:00000590       MonotonicCounterDriverInitialize 0000000000011590 f   MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0001:00000830       LShiftU64                  0000000000011830 f   BaseLib:LShiftU64.obj
+ 0001:00000884       RShiftU64                  0000000000011884 f   BaseLib:RShiftU64.obj
+ 0001:000008d8       InternalMathLShiftU64      00000000000118d8 f   BaseLib:Math64.obj
+ 0001:000008f4       InternalMathRShiftU64      00000000000118f4 f   BaseLib:Math64.obj
+ 0001:00000910       DebugPrint                 0000000000011910 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000954       DebugPrintMarker           0000000000011954 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000010d8       DebugVPrint                00000000000120d8 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001108       DebugAssert                0000000000012108 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001484       DebugAssertEnabled         0000000000012484 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000014a8       DebugPrintEnabled          00000000000124a8 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000014cc       DebugPrintLevelEnabled     00000000000124cc f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001500       UefiBootServicesTableLibConstructor 0000000000012500 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:000015dc       UefiRuntimeServicesTableLibConstructor 00000000000125dc f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00001638       RuntimeLibExitBootServicesEvent 0000000000012638 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000164c       RuntimeLibVirtualNotifyEvent 000000000001264c f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00001674       RuntimeDriverLibConstruct  0000000000012674 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00001844       RuntimeDriverLibDeconstruct 0000000000012844 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:000019a0       EfiAtRuntime               00000000000129a0 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:000019a8       EfiGetVariable             00000000000129a8 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:000019f0       EfiSetVariable             00000000000129f0 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00001a38       EfiConvertPointer          0000000000012a38 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00001a60       GetDebugPrintErrorLevel    0000000000012a60 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:00001a68       InternalGetReportStatusCode 0000000000012a68 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001ad0       InternalReportStatusCode   0000000000012ad0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001b88       ReportStatusCodeEx         0000000000012b88 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001de4       ReportProgressCodeEnabled  0000000000012de4 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001e08       ReportErrorCodeEnabled     0000000000012e08 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001e2c       ReportDebugCodeEnabled     0000000000012e2c f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00001e50       CopyMem                    0000000000012e50 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001f28       CopyGuid                   0000000000012f28 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00001f7c       InternalMemCopyMem         0000000000012f7c f   BaseMemoryLib:CopyMem.obj
+ 0001:00002558       AsciiStrLen                0000000000013558 f   BaseLib:String.obj
+ 0001:00002610       AsciiStrSize               0000000000013610 f   BaseLib:String.obj
+ 0001:0000262c       InternalSafeStringIsOverlap 000000000001362c f   BaseLib:SafeString.obj
+ 0001:00002690       InternalSafeStringNoAsciiStrOverlap 0000000000013690 f   BaseLib:SafeString.obj
+ 0001:000026e4       AsciiStrnLenS              00000000000136e4 f   BaseLib:SafeString.obj
+ 0001:00002750       AsciiStrnCpyS              0000000000013750 f   BaseLib:SafeString.obj
+ 0001:00002c40       CpuBreakpoint              0000000000013c40 f   BaseLib:CpuBreakpoint.obj
+ 0001:00002c44       CpuDeadLoop                0000000000013c44 f   BaseLib:CpuDeadLoop.obj
+ 0001:00002c68       ReadUnaligned64            0000000000013c68 f   BaseLib:Unaligned.obj
+ 0001:00002cb0       WriteUnaligned64           0000000000013cb0 f   BaseLib:Unaligned.obj
+ 0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0000000000014000     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000028       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 0000000000014028     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000050       ??_C@_0EN@BMBDHEJO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000014050     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000009d       _gDriverUnloadImageCount   000000000001409d     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:000000a0       _gUefiDriverRevision       00000000000140a0     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:000000a8       ??_C@_0BL@OKHPCBIJ@MonotonicCounterRuntimeDxe@ 00000000000140a8     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:000000d0       ??_C@_0JB@KCMABOLK@f?3?2uefiworkspace?2Build?2Emulator@ 00000000000140d0     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000161       _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0000000000014161     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000164       _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0000000000014164     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000168       _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0000000000014168     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:0000016c       _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 000000000001416c     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000170       _gPcd_FixedAtBuild_PcdDebugPropertyMask 0000000000014170     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0002:00000178       ??_C@_17DGPLEKJI@?$AAM?$AAT?$AAC@ 0000000000014178     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000180       ??_C@_0DG@NBLKNKIB@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000014180     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:000001c0       ??_C@_0FL@BPDFJCEM@f?3?2uefiworkspace?2edk2?2MdeModule@ 00000000000141c0     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000220       ??_C@_0EE@KLEMMEOM@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000014220     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:00000270       ??_C@_0EI@KCEGLMMI@?$CGgEfiMonotonicCounterArchProtoc@ 0000000000014270     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0002:000002b8       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 00000000000142b8     BaseLib:LShiftU64.obj
+ 0002:000002c8       ??_C@_0DJ@POKPBLDK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000142c8     BaseLib:LShiftU64.obj
+ 0002:00000308       ??_C@_0DJ@BLIGCFNI@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000014308     BaseLib:RShiftU64.obj
+ 0002:00000348       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014348     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000360       ??_C@_0FF@OJMNGPG@f?3?2uefiworkspace?2edk2?2MdeModule@ 0000000000014360     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003b8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 00000000000143b8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003e8       ??_C@_01OHGJGJJP@?$FL@     00000000000143e8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003ec       ??_C@_02PBFOLPKM@?$FN?5@   00000000000143ec     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000003f0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000143f0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000408       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014408     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000430       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000014430     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000490       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014490     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004a8       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144a8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004c0       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000144c0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000004e0       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000144e0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000540       ??_C@_0EB@BDJFOKM@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000014540     UefiRuntimeLib:RuntimeLib.obj
+ 0002:00000590       ??_C@_0FI@PJEDBJM@f?3?2uefiworkspace?2edk2?2MdeModule@ 0000000000014590     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000005e8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00000000000145e8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000628       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014628     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000670       ??_C@_0ED@MKGCMJG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014670     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000006c0       ??_C@_0EE@GOMGOBAA@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000146c0     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000708       ??_C@_0DO@MAOBOFEG@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFFFFFF@ 0000000000014708     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000748       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000000000014748     BaseLib:String.obj
+ 0002:00000760       ??_C@_0DG@ODLLMBNP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0000000000014760     BaseLib:String.obj
+ 0002:00000798       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0000000000014798     BaseLib:String.obj
+ 0002:000007d0       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000147d0     BaseLib:SafeString.obj
+ 0002:00000810       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014810     BaseLib:SafeString.obj
+ 0002:00000830       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0000000000014830     BaseLib:SafeString.obj
+ 0002:00000870       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0000000000014870     BaseLib:SafeString.obj
+ 0002:00000890       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0000000000014890     BaseLib:SafeString.obj
+ 0002:000008a0       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00000000000148a0     BaseLib:SafeString.obj
+ 0002:000008b8       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00000000000148b8     BaseLib:SafeString.obj
+ 0002:00000900       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0000000000014900     BaseLib:SafeString.obj
+ 0002:00000960       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0000000000014960     BaseLib:SafeString.obj
+ 0002:00000970       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0000000000014970     BaseLib:SafeString.obj
+ 0002:000009b0       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00000000000149b0     BaseLib:Unaligned.obj
+ 0002:00000a40       __volatile_metadata        0000000000014a40     <linker-defined>
+ 0003:00000000       gEfiLoadedImageProtocolGuid 0000000000015000     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000010       gEfiStatusCodeSpecificDataGuid 0000000000015010     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000020       gEfiStatusCodeRuntimeProtocolGuid 0000000000015020     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000030       gEfiCallerBaseName         0000000000015030     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000038       gEfiStatusCodeDataTypeDebugGuid 0000000000015038     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000048       gEfiMonotonicCounterArchProtocolGuid 0000000000015048     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000058       gEfiCallerIdGuid           0000000000015058     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000068       gMtcVendorGuid             0000000000015068     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0003:00000078       mMonotonicCounterHandle    0000000000015078     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0003:00000080       gST                        0000000000015080     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000088       gBS                        0000000000015088     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000090       gImageHandle               0000000000015090     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000098       gRT                        0000000000015098     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000000a0       mEfiAtRuntime              00000000000150a0     UefiRuntimeLib:RuntimeLib.obj
+ 0003:000000a1       mEfiGoneVirtual            00000000000150a1     UefiRuntimeLib:RuntimeLib.obj
+ 0003:000000a8       mReportStatusCodeLibStatusCodeProtocol 00000000000150a8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:000000b0       mEfiVirtualNotifyEvent     00000000000150b0     <common>
+ 0003:000000b8       mInternalRT                00000000000150b8     <common>
+ 0003:000000c0       mEfiExitBootServicesEvent  00000000000150c0     <common>
+ 0003:000000c8       mEfiMtc                    00000000000150c8     <common>
+ 0003:000000d0       mEfiMtcEvent               00000000000150d0     <common>
+
+ entry point at        0001:00000040
+
+ Static symbols
+
+ 0000:ffff6000       .debug$S                   0000000000010000     MonotonicCounterRuntimeDxe.exp
+ 0004:00000000       .edata                     0000000000016000     MonotonicCounterRuntimeDxe.exp
+ 0004:00000028       rgpv                       0000000000016028     MonotonicCounterRuntimeDxe.exp
+ 0004:0000002c       rgszName                   000000000001602c     MonotonicCounterRuntimeDxe.exp
+ 0004:00000030       rgwOrd                     0000000000016030     MonotonicCounterRuntimeDxe.exp
+ 0004:00000032       szName                     0000000000016032     MonotonicCounterRuntimeDxe.exp
+ 0004:00000051       $N00001                    0000000000016051     MonotonicCounterRuntimeDxe.exp
+ 0006:00000000       $unwind$MonotonicCounterDriverGetNextMonotonicCount 0000000000018000     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0006:00000000       $unwind$AsciiStrLen        0000000000018000     BaseLib:String.obj
+ 0006:00000000       $unwind$_DriverUnloadHandler 0000000000018000     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0006:00000008       $unwind$ProcessLibraryConstructorList 0000000000018008     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0006:00000008       $unwind$ProcessLibraryDestructorList 0000000000018008     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0006:00000008       $unwind$EfiMtcEventHandler 0000000000018008     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0006:00000008       $unwind$_ModuleEntryPoint  0000000000018008     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0006:00000008       $unwind$RuntimeDriverLibDeconstruct 0000000000018008     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000010       $unwind$ProcessModuleEntryPointList 0000000000018010     MonotonicCounterRuntimeDxe:AutoGen.obj
+ 0006:00000010       $unwind$LShiftU64          0000000000018010     BaseLib:LShiftU64.obj
+ 0006:00000010       $unwind$RShiftU64          0000000000018010     BaseLib:RShiftU64.obj
+ 0006:00000010       $unwind$WriteUnaligned64   0000000000018010     BaseLib:Unaligned.obj
+ 0006:00000010       $unwind$CopyGuid           0000000000018010     BaseMemoryLib:MemLibGuid.obj
+ 0006:00000010       $unwind$UefiBootServicesTableLibConstructor 0000000000018010     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0006:00000010       $unwind$EfiConvertPointer  0000000000018010     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000010       $unwind$RuntimeLibVirtualNotifyEvent 0000000000018010     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000010       $unwind$UefiRuntimeServicesTableLibConstructor 0000000000018010     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0006:00000018       $unwind$MonotonicCounterDriverGetNextHighMonotonicCount 0000000000018018     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0006:00000020       $unwind$MonotonicCounterDriverInitialize 0000000000018020     MonotonicCounterRuntimeDxe:MonotonicCounter.obj
+ 0006:00000028       $unwind$DebugPrint         0000000000018028     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000028       $unwind$InternalSafeStringNoAsciiStrOverlap 0000000000018028     BaseLib:SafeString.obj
+ 0006:00000028       $unwind$EfiGetVariable     0000000000018028     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000028       $unwind$EfiSetVariable     0000000000018028     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000030       $unwind$DebugPrintMarker   0000000000018030     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000038       $unwind$DebugVPrint        0000000000018038     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000038       $unwind$CopyMem            0000000000018038     BaseMemoryLib:CopyMemWrapper.obj
+ 0006:00000040       $unwind$DebugAssert        0000000000018040     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000048       $unwind$ReportDebugCodeEnabled 0000000000018048     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000048       $unwind$ReportErrorCodeEnabled 0000000000018048     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000048       $unwind$ReportProgressCodeEnabled 0000000000018048     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000048       $unwind$DebugAssertEnabled 0000000000018048     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000048       $unwind$DebugPrintEnabled  0000000000018048     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000050       $unwind$DebugPrintLevelEnabled 0000000000018050     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0006:00000058       $unwind$RuntimeDriverLibConstruct 0000000000018058     UefiRuntimeLib:RuntimeLib.obj
+ 0006:00000060       $unwind$InternalGetReportStatusCode 0000000000018060     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000060       $unwind$CpuDeadLoop        0000000000018060     BaseLib:CpuDeadLoop.obj
+ 0006:00000068       $unwind$InternalReportStatusCode 0000000000018068     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000070       $unwind$ReportStatusCodeEx 0000000000018070     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0006:00000078       $unwind$InternalMemCopyMem 0000000000018078     BaseMemoryLib:CopyMem.obj
+ 0006:00000080       $unwind$AsciiStrSize       0000000000018080     BaseLib:String.obj
+ 0006:00000080       $unwind$ReadUnaligned64    0000000000018080     BaseLib:Unaligned.obj
+ 0006:00000088       $unwind$AsciiStrnLenS      0000000000018088     BaseLib:SafeString.obj
+ 0006:00000090       $unwind$AsciiStrnCpyS      0000000000018090     BaseLib:SafeString.obj

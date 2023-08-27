@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\BasePrintLib\PrintLibInternal.c f:\uefiworkspace\edk2\MdePkg\Library\BasePrintLib\PrintLib.c

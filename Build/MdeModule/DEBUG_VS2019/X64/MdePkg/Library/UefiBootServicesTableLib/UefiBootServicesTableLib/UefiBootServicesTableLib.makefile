@@ -1,0 +1,1 @@
+f:\uefiworkspace\Build\MdeModule\DEBUG_VS2019\X64\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib\Makefile

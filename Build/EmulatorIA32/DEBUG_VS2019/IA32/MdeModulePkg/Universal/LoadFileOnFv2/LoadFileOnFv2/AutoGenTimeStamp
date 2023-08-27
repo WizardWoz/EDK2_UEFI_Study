@@ -1,0 +1,17 @@
+f:\uefiworkspace\edk2\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Library\DxeReportStatusCodeLib\DxeReportStatusCodeLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.inf
+f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2\DEBUG\AutoGen.h
+f:\uefiworkspace\edk2\MdePkg\Library\RegisterFilterLibNull\RegisterFilterLibNull.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2.c
+f:\uefiworkspace\edk2\MdePkg\Library\BaseLib\BaseLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\DxePcdLib\DxePcdLib.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2.inf
+f:\uefiworkspace\edk2\MdePkg\Library\UefiMemoryAllocationLib\UefiMemoryAllocationLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseMemoryLib\BaseMemoryLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\UefiRuntimeServicesTableLib\UefiRuntimeServicesTableLib.inf
+f:\uefiworkspace\edk2\MdeModulePkg\Library\PeiDxeDebugLibReportStatusCode\PeiDxeDebugLibReportStatusCode.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BasePrintLib\BasePrintLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\UefiDriverEntryPoint\UefiDriverEntryPoint.inf
+f:\uefiworkspace\edk2\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.inf
+f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\UefiLib.inf

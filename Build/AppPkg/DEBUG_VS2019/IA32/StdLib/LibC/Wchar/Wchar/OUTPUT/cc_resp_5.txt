@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\Comparison.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\Copying.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\Concatenation.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\String.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\Searching.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Wchar\ConsDecons.c

@@ -1,0 +1,667 @@
+ VariableRuntimeDxe
+
+ Timestamp is 64e9c7f2 (Sat Aug 26 17:37:54 2023)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000080H .text                   CODE
+ 0001:00000080 0000ecfdH .text$mn                CODE
+ 0002:00000000 00002cc8H .rdata                  DATA
+ 0002:00002cc8 00000068H .rdata$voltmd           DATA
+ 0002:00002d30 00000158H .rdata$zzzdbg           DATA
+ 0003:00000000 00000700H .data                   DATA
+ 0003:00000700 000000f8H .bss                    DATA
+ 0004:00000000 0000005aH .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0001:00000000       _InternalMathDivRemU64x64  00011000     BaseLib:DivU64x64Remainder.obj
+ 0001:00000080       __DriverUnloadHandler      00011080 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000000c0       __ModuleEntryPoint         000110c0 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000001d0       _ProcessLibraryConstructorList 000111d0 f   VariableRuntimeDxe:AutoGen.obj
+ 0001:00000640       _ProcessLibraryDestructorList 00011640 f   VariableRuntimeDxe:AutoGen.obj
+ 0001:000006d0       _ProcessModuleEntryPointList 000116d0 f   VariableRuntimeDxe:AutoGen.obj
+ 0001:000006f0       _TpmMeasureAndLogData      000116f0 f   TpmMeasurementLibNull:TpmMeasurementLibNull.obj
+ 0001:000006f0       _UefiLibConstructor        000116f0 f   UefiLib:UefiLib.obj
+ 0001:000006f0       _ProcessModuleUnloadList   000116f0 f   VariableRuntimeDxe:AutoGen.obj
+ 0001:000006f0       _SetVariableCheckHandlerMor 000116f0 f   VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0001:00000700       _AtRuntime                 00011700 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000710       _InitializeLock            00011710 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000730       _AcquireLockOnlyAtBootTime 00011730 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000750       _ReleaseLockOnlyAtBootTime 00011750 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000770       _GetFtwProtocol            00011770 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:000007a0       _GetFvbByHandle            000117a0 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:000007c0       _GetFvbCountAndBuffer      000117c0 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:000007f0       _VariableClassAddressChangeEvent 000117f0 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000a00       _OnReadyToBoot             00011a00 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000b10       _OnEndOfDxe                00011b10 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000c10       _VariableWriteServiceInitializeDxe 00011c10 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00000d00       _FtwNotificationEvent      00011d00 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00001020       _ProtocolIsVariablePolicyEnabled 00012020 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00001040       _VariableServiceInitialize 00012040 f   VariableRuntimeDxe:VariableDxe.obj
+ 0001:00001610       _UpdateVariableStore       00012610 f   VariableRuntimeDxe:Variable.obj
+ 0001:000019a0       _RecordVarErrorFlag        000129a0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00001c90       _InitializeVarErrorFlag    00012c90 f   VariableRuntimeDxe:Variable.obj
+ 0001:00001d70       _IsUserVariable            00012d70 f   VariableRuntimeDxe:Variable.obj
+ 0001:00001df0       _CalculateCommonUserVariableTotalSize 00012df0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00001ef0       _InitializeVariableQuota   00012ef0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00001f10       _Reclaim                   00012f10 f   VariableRuntimeDxe:Variable.obj
+ 0001:000027b0       _FindVariable              000137b0 f   VariableRuntimeDxe:Variable.obj
+ 0001:000028c0       _GetIndexFromSupportedLangCodes 000138c0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00002a70       _GetLangFromSupportedLangCodes 00013a70 f   VariableRuntimeDxe:Variable.obj
+ 0001:00002bd0       _VariableGetBestLanguage   00013bd0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00002dc0       _CheckRemainingSpaceForConsistencyInternal 00013dc0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00003040       _VariableExLibCheckRemainingSpaceForConsistency 00014040 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:00003040       _CheckRemainingSpaceForConsistency 00014040 f   VariableRuntimeDxe:Variable.obj
+ 0001:00003070       _AutoUpdateLangVariable    00014070 f   VariableRuntimeDxe:Variable.obj
+ 0001:00003730       _UpdateVariable            00014730 f   VariableRuntimeDxe:Variable.obj
+ 0001:00004780       _VariableServiceGetVariable 00015780 f   VariableRuntimeDxe:Variable.obj
+ 0001:00004910       _VariableServiceGetNextVariableName 00015910 f   VariableRuntimeDxe:Variable.obj
+ 0001:00004aa0       _VariableServiceSetVariable 00015aa0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00005200       _VariableServiceQueryVariableInfoInternal 00016200 f   VariableRuntimeDxe:Variable.obj
+ 0001:00005630       _VariableServiceQueryVariableInfo 00016630 f   VariableRuntimeDxe:Variable.obj
+ 0001:00005770       _ReclaimForOS              00016770 f   VariableRuntimeDxe:Variable.obj
+ 0001:000058b0       _GetMaxVariableSize        000168b0 f   VariableRuntimeDxe:Variable.obj
+ 0001:000058e0       _FlushHobVariableToFlash   000168e0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00005cb0       _VariableWriteServiceInitialize 00016cb0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00006050       _ConvertNormalVarStorageToAuthVarStorage 00017050 f   VariableRuntimeDxe:Variable.obj
+ 0001:000062e0       _GetHobVariableStore       000172e0 f   VariableRuntimeDxe:Variable.obj
+ 0001:000065e0       _VariableCommonInitialize  000175e0 f   VariableRuntimeDxe:Variable.obj
+ 0001:00006860       _GetFvbInfoByAddress       00017860 f   VariableRuntimeDxe:Variable.obj
+ 0001:000069f0       _VarCheckRegisterSetVariableCheckHandler 000179f0 f   VariableRuntimeDxe:VarCheck.obj
+ 0001:00006a30       _VarCheckVariablePropertySet 00017a30 f   VariableRuntimeDxe:VarCheck.obj
+ 0001:00006a80       _VarCheckVariablePropertyGet 00017a80 f   VariableRuntimeDxe:VarCheck.obj
+ 0001:00006ad0       _VariableLockRequestToLock 00017ad0 f   VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0001:00006cf0       _MorLockInit               00017cf0 f   VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0001:00006d30       _MorLockInitAtEndOfDxe     00017d30 f   VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0001:00006e90       _IsSecureBootPolicyVariable 00017e90 f   VariableRuntimeDxe:Measurement.obj
+ 0001:00006f00       _MeasureVariable           00017f00 f   VariableRuntimeDxe:Measurement.obj
+ 0001:000070a0       _InternalGetVariable       000180a0 f   VariableRuntimeDxe:Measurement.obj
+ 0001:000071b0       _SecureBootHook            000181b0 f   VariableRuntimeDxe:Measurement.obj
+ 0001:00007450       _RecordSecureBootPolicyVarData 00018450 f   VariableRuntimeDxe:Measurement.obj
+ 0001:000074c0       _IsValidVariableHeader     000184c0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000074f0       _GetVariableStoreStatus    000184f0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000075c0       _GetVariableHeaderSize     000185c0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000075f0       _NameSizeOfVariable        000185f0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007670       _SetNameSizeOfVariable     00018670 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000076a0       _DataSizeOfVariable        000186a0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007720       _SetDataSizeOfVariable     00018720 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007750       _GetVariableNamePtr        00018750 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007770       _GetVendorGuidPtr          00018770 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000077a0       _GetVariableDataPtr        000187a0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000077e0       _GetVariableDataOffset     000187e0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007820       _GetNextVariablePtr        00018820 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007870       _GetStartPointer           00018870 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007880       _GetEndPointer             00018880 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000078a0       _VariableCompareTimeStampInternal 000188a0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:000079e0       _FindVariableEx            000189e0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007bc0       _VariableServiceGetNextVariableInternal 00018bc0 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00007f90       _UpdateVariableInfo        00018f90 f   VariableRuntimeDxe:VariableParsing.obj
+ 0001:00008240       _GetNonVolatileMaxVariableSize 00019240 f   VariableRuntimeDxe:VariableNonVolatile.obj
+ 0001:000082e0       _InitEmuNonVolatileVariableStore 000192e0 f   VariableRuntimeDxe:VariableNonVolatile.obj
+ 0001:000084d0       _InitRealNonVolatileVariableStore 000194d0 f   VariableRuntimeDxe:VariableNonVolatile.obj
+ 0001:00008ac0       _InitNonVolatileVariableStore 00019ac0 f   VariableRuntimeDxe:VariableNonVolatile.obj
+ 0001:00008c90       _GetLbaAndOffsetByAddress  00019c90 f   VariableRuntimeDxe:Reclaim.obj
+ 0001:00008dd0       _FtwVariableSpace          00019dd0 f   VariableRuntimeDxe:Reclaim.obj
+ 0001:00008ec0       _VariableExLibFindVariable 00019ec0 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:00008fc0       _VariableExLibFindNextVariable 00019fc0 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:00009150       _VariableExLibUpdateVariable 0001a150 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:000091d0       _VariableExLibGetScratchBuffer 0001a1d0 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:00009220       _VariableExLibAtRuntime    0001a220 f   VariableRuntimeDxe:VariableExLib.obj
+ 0001:00009230       _VariableSpeculationBarrier 0001a230 f   VariableRuntimeDxe:SpeculationBarrierDxe.obj
+ 0001:00009230       _EfiEventEmptyFunction     0001a230 f   UefiLib:UefiLib.obj
+ 0001:00009240       _FlushPendingRuntimeVariableCacheUpdates 0001a240 f   VariableRuntimeDxe:VariableRuntimeCache.obj
+ 0001:00009380       _SynchronizeRuntimeVariableCache 0001a380 f   VariableRuntimeDxe:VariableRuntimeCache.obj
+ 0001:000094a0       _DebugPrint                0001a4a0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000094d0       _DebugPrintMarker          0001a4d0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000099b0       _DebugVPrint               0001a9b0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000099d0       _DebugAssert               0001a9d0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00009c30       _DebugAssertEnabled        0001ac30 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00009c60       _DebugPrintEnabled         0001ac60 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00009c90       _DebugCodeEnabled          0001ac90 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00009cc0       _DebugPrintLevelEnabled    0001acc0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00009ce0       _CopyGuid                  0001ace0 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00009d30       _CompareGuid               0001ad30 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00009dc0       _CopyMem                   0001adc0 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00009e60       _ZeroMem                   0001ae60 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:00009ee0       _CompareMem                0001aee0 f   BaseMemoryLib:CompareMemWrapper.obj
+ 0001:00009fd0       _SetMem                    0001afd0 f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:0000a030       _InternalMemCopyMem        0001b030 f   BaseMemoryLib:CopyMem.obj
+ 0001:0000a3a0       _InternalMemZeroMem        0001b3a0 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:0000a3c0       _InternalMemCompareMem     0001b3c0 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:0000a410       _InternalMemSetMem         0001b410 f   BaseMemoryLib:SetMem.obj
+ 0001:0000a530       _StrLen                    0001b530 f   BaseLib:String.obj
+ 0001:0000a5f0       _StrSize                   0001b5f0 f   BaseLib:String.obj
+ 0001:0000a610       _StrCmp                    0001b610 f   BaseLib:String.obj
+ 0001:0000a6c0       _StrnCmp                   0001b6c0 f   BaseLib:String.obj
+ 0001:0000a7d0       _AsciiStrLen               0001b7d0 f   BaseLib:String.obj
+ 0001:0000a870       _AsciiStrSize              0001b870 f   BaseLib:String.obj
+ 0001:0000a890       _AsciiStrnCmp              0001b890 f   BaseLib:String.obj
+ 0001:0000a9a0       _InternalSafeStringIsOverlap 0001b9a0 f   BaseLib:SafeString.obj
+ 0001:0000a9e0       _InternalSafeStringNoStrOverlap 0001b9e0 f   BaseLib:SafeString.obj
+ 0001:0000aa20       _InternalSafeStringNoAsciiStrOverlap 0001ba20 f   BaseLib:SafeString.obj
+ 0001:0000aa60       _StrnLenS                  0001ba60 f   BaseLib:SafeString.obj
+ 0001:0000aae0       _StrnSizeS                 0001bae0 f   BaseLib:SafeString.obj
+ 0001:0000ab10       _StrCpyS                   0001bb10 f   BaseLib:SafeString.obj
+ 0001:0000ae50       _AsciiStrnLenS             0001be50 f   BaseLib:SafeString.obj
+ 0001:0000aea0       _AsciiStrnCpyS             0001bea0 f   BaseLib:SafeString.obj
+ 0001:0000b230       _ReadUnaligned16           0001c230 f   BaseLib:Unaligned.obj
+ 0001:0000b270       _ReadUnaligned64           0001c270 f   BaseLib:Unaligned.obj
+ 0001:0000b2b0       _WriteUnaligned64          0001c2b0 f   BaseLib:Unaligned.obj
+ 0001:0000b300       _CpuBreakpoint             0001c300 f   BaseLib:CpuBreakpoint.obj
+ 0001:0000b310       _CpuDeadLoop               0001c310 f   BaseLib:CpuDeadLoop.obj
+ 0001:0000b330       _LShiftU64                 0001c330 f   BaseLib:LShiftU64.obj
+ 0001:0000b380       _MultU64x32                0001c380 f   BaseLib:MultU64x32.obj
+ 0001:0000b3b0       _CpuPause                  0001c3b0 f   BaseLib:CpuPause.obj
+ 0001:0000b3c0       _InternalMathLShiftU64     0001c3c0 f   BaseLib:LShiftU64.obj
+ 0001:0000b3e0       _InternalMathMultU64x32    0001c3e0 f   BaseLib:MultU64x32.obj
+ 0001:0000b400       _InternalAllocatePool      0001c400 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b440       _AllocatePool              0001c440 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b460       _AllocateRuntimePool       0001c460 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b480       _InternalAllocateZeroPool  0001c480 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b4c0       _AllocateZeroPool          0001c4c0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b4e0       _AllocateRuntimeZeroPool   0001c4e0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b500       _InternalAllocateCopyPool  0001c500 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b5a0       _AllocateRuntimeCopyPool   0001c5a0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b5c0       _InternalReallocatePool    0001c5c0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b630       _ReallocateRuntimePool     0001c630 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b650       _FreePool                  0001c650 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000b6e0       _UefiBootServicesTableLibConstructor 0001c6e0 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000b790       _UefiRuntimeServicesTableLibConstructor 0001c790 f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:0000b7d0       _EfiGetSystemConfigurationTable 0001c7d0 f   UefiLib:UefiLib.obj
+ 0001:0000b8a0       _EfiCreateProtocolNotifyEvent 0001c8a0 f   UefiLib:UefiLib.obj
+ 0001:0000ba60       _EfiInitializeLock         0001ca60 f   UefiLib:UefiLib.obj
+ 0001:0000bae0       _EfiAcquireLock            0001cae0 f   UefiLib:UefiLib.obj
+ 0001:0000bb70       _EfiReleaseLock            0001cb70 f   UefiLib:UefiLib.obj
+ 0001:0000bc00       _EfiCreateEventReadyToBootEx 0001cc00 f   UefiLib:UefiNotTiano.obj
+ 0001:0000bd00       _GetHobList                0001cd00 f   DxeHobLib:HobLib.obj
+ 0001:0000bdd0       _HobLibConstructor         0001cdd0 f   DxeHobLib:HobLib.obj
+ 0001:0000bde0       _GetNextHob                0001cde0 f   DxeHobLib:HobLib.obj
+ 0001:0000be50       _GetNextGuidHob            0001ce50 f   DxeHobLib:HobLib.obj
+ 0001:0000beb0       _GetFirstGuidHob           0001ceb0 f   DxeHobLib:HobLib.obj
+ 0001:0000bed0       _DxeEmuLibConstructor      0001ced0 f   DxeEmuLib:DxeEmuLib.obj
+ 0001:0000bf50       _RegisterTimerArchProtocol 0001cf50 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:0000c0c0       _DxeTimerLibConstructor    0001d0c0 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:0000c0f0       _SafeUint64ToUint32        0001d0f0 f   BaseSafeIntLib:SafeIntLib.obj
+ 0001:0000c140       _SafeUint32Add             0001d140 f   BaseSafeIntLib:SafeIntLib.obj
+ 0001:0000c140       _SafeUintnAdd              0001d140 f   BaseSafeIntLib:SafeIntLib32.obj
+ 0001:0000c190       _SafeUint32Mult            0001d190 f   BaseSafeIntLib:SafeIntLib.obj
+ 0001:0000c1c0       _VarCheckUefiIsHexaDecimalDigitCharacter 0001d1c0 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000c1c0       _VarCheckInternalIsHexaDecimalDigitCharacter 0001d1c0 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c200       _VariablePropertyGetWithWildcardName 0001d200 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c360       _VariablePropertyGetFunction 0001d360 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c3f0       _VarCheckAddTableEntry     0001d3f0 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c470       _VarCheckLibInitializeAtEndOfDxe 0001d470 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c6a0       _VarCheckLibRegisterSetVariableCheckHandler 0001d6a0 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c730       _VarCheckLibVariablePropertySet 0001d730 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c890       _VarCheckLibVariablePropertyGet 0001d890 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000c910       _VarCheckLibSetVariableCheck 0001d910 f   VarCheckLib:VarCheckLib.obj
+ 0001:0000cb70       _InterlockedIncrement      0001db70 f   BaseSynchronizationLib:SynchronizationMsc.obj
+ 0001:0000cbb0       _InterlockedDecrement      0001dbb0 f   BaseSynchronizationLib:SynchronizationMsc.obj
+ 0001:0000cbf0       _InternalSyncDecrement     0001dbf0 f   BaseSynchronizationLib:InterlockedDecrementMsc.obj
+ 0001:0000cc10       _InternalSyncIncrement     0001dc10 f   BaseSynchronizationLib:InterlockedIncrementMsc.obj
+ 0001:0000cc30       _RuntimeLibExitBootServicesEvent 0001dc30 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cc40       _RuntimeLibVirtualNotifyEvent 0001dc40 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cc60       _RuntimeDriverLibConstruct 0001dc60 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cdf0       _RuntimeDriverLibDeconstruct 0001ddf0 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cf30       _EfiAtRuntime              0001df30 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cf40       _EfiConvertPointer         0001df40 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:0000cf80       _DxeServicesTableLibConstructor 0001df80 f   DxeServicesTableLib:DxeServicesTableLib.obj
+ 0001:0000d040       _AuthVariableLibInitialize 0001e040 f   AuthVariableLibNull:AuthVariableLibNull.obj
+ 0001:0000d050       _AuthVariableLibProcessVariable 0001e050 f   AuthVariableLibNull:AuthVariableLibNull.obj
+ 0001:0000d180       _GetVariableFlashNvStorageInfo 0001e180 f   BaseVariableFlashInfoLib:BaseVariableFlashInfoLib.obj
+ 0001:0000d600       _RegisterVariablePolicy    0001e600 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000d7d0       _ValidateSetVariable       0001e7d0 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000da80       _DisableVariablePolicy     0001ea80 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dae0       _DumpVariablePolicy        0001eae0 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000db60       _IsVariablePolicyEnabled   0001eb60 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dba0       _LockVariablePolicy        0001eba0 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dbe0       _InitVariablePolicyLib     0001ebe0 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dc60       _IsVariablePolicyLibInitialized 0001ec60 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dcd0       _VariablePolicyExtraInit   0001ecd0 f   VariablePolicyLibRuntimeDxe:VariablePolicyExtraInitRuntimeDxe.obj
+ 0001:0000dd70       _CreateBasicVariablePolicy 0001ed70 f   VariablePolicyHelperLib:VariablePolicyHelperLib.obj
+ 0001:0000dec0       _RegisterBasicVariablePolicy 0001eec0 f   VariablePolicyHelperLib:VariablePolicyHelperLib.obj
+ 0001:0000df40       _InternalVarCheckLoadOption 0001ef40 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e000       _InternalVarCheckKeyOption 0001f000 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e030       _InternalVarCheckDevicePath 0001f030 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e060       _InternalVarCheckAsciiString 0001f060 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e0d0       _InternalVarCheckSizeArray 0001f0d0 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e0f0       _IsHwErrRecVariable        0001f0f0 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e1e0       _GetUefiDefinedVarCheckFunction 0001f1e0 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e370       _SetVariableCheckHandlerUefiDefined 0001f370 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e500       _VariablePropertySetUefiDefined 0001f500 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e5e0       _VarCheckUefiLibNullClassConstructor 0001f5e0 f   VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0001:0000e600       _GetDebugPrintErrorLevel   0001f600 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:0000e610       _InternalGetReportStatusCode 0001f610 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e670       _InternalReportStatusCode  0001f670 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e700       _ReportStatusCodeEx        0001f700 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e8c0       _ReportProgressCodeEnabled 0001f8c0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e8f0       _ReportErrorCodeEnabled    0001f8f0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e920       _ReportDebugCodeEnabled    0001f920 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000e950       _IsDevicePathValid         0001f950 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000ea80       _DevicePathType            0001fa80 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000eac0       _DevicePathSubType         0001fac0 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000eb00       _DevicePathNodeLength      0001fb00 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000eb50       _NextDevicePathNode        0001fb50 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000eba0       _IsDevicePathEndType       0001fba0 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000ec00       _IsDevicePathEnd           0001fc00 f   UefiDevicePathLib:DevicePathUtilities.obj
+ 0001:0000ec70       _GetPcdProtocol            0001fc70 f   DxePcdLib:DxePcdLib.obj
+ 0001:0000ed40       _LibPcdGet64               0001fd40 f   DxePcdLib:DxePcdLib.obj
+ 0001:0000ed60       _InternalMathDivRemU64x32  0001fd60 f   BaseLib:DivU64x32Remainder.obj
+ 0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00020000     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000024       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 00020024     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000050       ??_C@_0EN@BMBDHEJO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00020050     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000009d       __gPcd_FixedAtBuild_PcdAllowVariablePolicyEnforcementDisable 0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000009d       __gPcd_FixedAtBuild_PcdVariableCollectStatistics 0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000009d       __gPcd_FixedAtBuild_PcdEmuVariableNvModeEnable 0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000009d       __gPcd_FixedAtBuild_PcdUefiVariableDefaultLangDeprecate 0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000009d       __gDriverUnloadImageCount  0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000009d       __gPcd_FixedAtBuild_PcdReclaimVariableSpaceAtEndOfDxe 0002009d     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdBoottimeReservedNvVariableSpaceSize 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdMaxVolatileVariableSize 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gUefiDriverRevision      000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdMaxAuthVariableSize 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdHwErrStorageSize 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdMaxUserNvVariableSpaceSize 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdFlashNvStorageVariableBase 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a0       __gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount 000200a0     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000a4       ??_C@_0BD@CJAFIPEF@VariableRuntimeDxe@ 000200a4     VariableRuntimeDxe:AutoGen.obj
+ 0002:000000b8       ??_C@_0IE@JDNHPEJI@f?3?2uefiworkspace?2Build?2Emulator@ 000200b8     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000013c       ??_C@_0CE@IBFOBMLB@?6ASSERT_RETURN_ERROR?5?$CIStatus?5?$DN?5@ 0002013c     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000160       __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 00020160     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000160       __gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength 00020160     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000164       __gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 00020164     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000168       __gPcd_FixedAtBuild_PcdVariableStoreSize 00020168     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000170       __gPcd_FixedAtBuild_PcdEmuVariableNvStoreReserved 00020170     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000178       __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 00020178     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000017c       __gPcd_FixedAtBuild_PcdFlashNvStorageVariableSize 0002017c     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000180       __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00020180     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000184       __gPcd_FixedAtBuild_PcdMaxVariableSize 00020184     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000188       __gPcd_FixedAtBuild_PcdMaxHardwareErrorVariableSize 00020188     VariableRuntimeDxe:AutoGen.obj
+ 0002:0000018c       __gPcd_FixedAtBuild_PcdDebugPropertyMask 0002018c     VariableRuntimeDxe:AutoGen.obj
+ 0002:00000190       ??_C@_0EP@GMMNLMMB@f?3?2uefiworkspace?2edk2?2MdeModule@ 00020190     VariableRuntimeDxe:VariableDxe.obj
+ 0002:000001e0       ??_C@_0CC@CHCOCDIO@?$FLVariable?$FNEND_OF_DXE?5is?5signale@ 000201e0     VariableRuntimeDxe:VariableDxe.obj
+ 0002:00000204       ??_C@_0DL@MOMKHMLG@Variable?5write?5service?5initiali@ 00020204     VariableRuntimeDxe:VariableDxe.obj
+ 0002:00000240       ??_C@_0CJ@HMKMADPC@NvStorageVariableSize?5?$DM?$DN?5FtwMax@ 00020240     VariableRuntimeDxe:VariableDxe.obj
+ 0002:0000026c       ??_C@_0DH@BMPDDGKB@Variable?5driver?5failed?5to?5get?5f@ 0002026c     VariableRuntimeDxe:VariableDxe.obj
+ 0002:000002a8       ??_C@_0EG@EILDOFIE@Variable?5driver?5failed?5to?5add?5E@ 000202a8     VariableRuntimeDxe:VariableDxe.obj
+ 0002:000002f0       ??_C@_1BK@HEJFBPFA@?$AAV?$AAa?$AAr?$AAE?$AAr?$AAr?$AAo?$AAr?$AAF?$AAl?$AAa?$AAg@ 000202f0     VariableRuntimeDxe:Variable.obj
+ 0002:00000310       ??_C@_0EM@PMEAIIDC@f?3?2uefiworkspace?2edk2?2MdeModule@ 00020310     VariableRuntimeDxe:Variable.obj
+ 0002:0000035c       ??_C@_0DD@HNKMGDLP@RecordVarErrorFlag?5?$CI0x?$CF02x?$CJ?5?$CFs?3@ 0002035c     VariableRuntimeDxe:Variable.obj
+ 0002:00000390       ??_C@_0EE@MDIAOIDD@CommonRuntimeVariableSpace?5?$DN?50x@ 00020390     VariableRuntimeDxe:Variable.obj
+ 0002:000003d4       ??_C@_0DN@PGDPNKGJ@CommonVariableSpace?5?$DN?50x?$CFx?5?9?5Co@ 000203d4     VariableRuntimeDxe:Variable.obj
+ 0002:00000418       ??_C@_0EI@OPJCBAKK@CommonMaxUserVariableSpace?5?$DN?50x@ 00020418     VariableRuntimeDxe:Variable.obj
+ 0002:00000460       ??_C@_0CH@LFODLFDP@Initialize?5variable?5error?5flag?5@ 00020460     VariableRuntimeDxe:Variable.obj
+ 0002:00000488       ??_C@_0CL@OFPOKHAJ@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIDoneSt@ 00020488     VariableRuntimeDxe:Variable.obj
+ 0002:000004b4       ??_C@_0BC@FEDIJHFF@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ@ 000204b4     VariableRuntimeDxe:Variable.obj
+ 0002:000004c8       ??_C@_1CE@GLBFGNOF@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg?$AAC?$AAo?$AAd@ 000204c8     VariableRuntimeDxe:Variable.obj
+ 0002:000004ec       ??_C@_0DJ@JOLPIBDA@mVariableModuleGlobal?9?$DOPlatform@ 000204ec     VariableRuntimeDxe:Variable.obj
+ 0002:00000528       ??_C@_0DE@IHKKGFED@mVariableModuleGlobal?9?$DOPlatform@ 00020528     VariableRuntimeDxe:Variable.obj
+ 0002:0000055c       ??_C@_1BE@PMKNNMNM@?$AAL?$AAa?$AAn?$AAg?$AAC?$AAo?$AAd?$AAe?$AAs@ 0002055c     VariableRuntimeDxe:Variable.obj
+ 0002:00000570       ??_C@_0DB@DANJMHI@mVariableModuleGlobal?9?$DOLangCode@ 00020570     VariableRuntimeDxe:Variable.obj
+ 0002:000005a4       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg@ 000205a4     VariableRuntimeDxe:Variable.obj
+ 0002:000005c0       ??_C@_19BALNHBBC@?$AAL?$AAa?$AAn?$AAg@ 000205c0     VariableRuntimeDxe:Variable.obj
+ 0002:000005d0       ??_C@_0EP@JAIEHPHA@Variable?5Driver?5Auto?5Update?5Pla@ 000205d0     VariableRuntimeDxe:Variable.obj
+ 0002:00000620       ??_C@_0EH@EPBEDH@Variable?5Driver?5Auto?5Update?5Lan@ 00020620     VariableRuntimeDxe:Variable.obj
+ 0002:00000668       ??_C@_0EH@KLDHFENI@Update?5NV?5variable?5before?5EFI_V@ 00020668     VariableRuntimeDxe:Variable.obj
+ 0002:000006b0       ??_C@_0EJ@PIJKKBKC@Update?5AUTH?5variable?5before?5EFI@ 000206b0     VariableRuntimeDxe:Variable.obj
+ 0002:000006fc       ??_C@_0DG@HGNGOLDN@CacheVariable?9?$DOInDeletedTransit@ 000206fc     VariableRuntimeDxe:Variable.obj
+ 0002:00000734       ??_C@_0BB@IHBMANOJ@VarDataSize?5?$CB?$DN?50@ 00020734     VariableRuntimeDxe:Variable.obj
+ 0002:00000748       ??_C@_0BB@HEEDHDJN@VarNameSize?5?$CB?$DN?50@ 00020748     VariableRuntimeDxe:Variable.obj
+ 0002:0000075c       ??_C@_0BL@EELNHLCI@VariableServiceSetVariable@ 0002075c     VariableRuntimeDxe:Variable.obj
+ 0002:00000778       ??_C@_0CO@BJEGLAME@?$CFa?3?5Failed?5to?5set?5variable?5?8?$CFs?8@ 00020778     VariableRuntimeDxe:Variable.obj
+ 0002:000007a8       ??_C@_0FD@ODLBILOG@NameSize?$CI0x?$CFx?$CJ?5?$CL?5PayloadSize?$CI0x@ 000207a8     VariableRuntimeDxe:Variable.obj
+ 0002:00000800       ??_C@_0EP@PIAAPIMM@NameSize?$CI0x?$CFx?$CJ?5?$CL?5PayloadSize?$CI0x@ 00020800     VariableRuntimeDxe:Variable.obj
+ 0002:00000850       ??_C@_0FH@GOMLIAIB@NameSize?$CI0x?$CFx?$CJ?5?$CL?5PayloadSize?$CI0x@ 00020850     VariableRuntimeDxe:Variable.obj
+ 0002:000008a8       ??_C@_0GA@LEJLHOIJ@?$FLVariable?$FN?3?5Rewritten?5a?5preexis@ 000208a8     VariableRuntimeDxe:Variable.obj
+ 0002:00000908       ??_C@_0CJ@JLKAPOHL@?$CIVariable?9?$DOAttributes?5?$CG?50x00000@ 00020908     VariableRuntimeDxe:Variable.obj
+ 0002:00000934       ??_C@_0DL@LMHNPCMN@Variable?5driver?5flush?5the?5HOB?5v@ 00020934     VariableRuntimeDxe:Variable.obj
+ 0002:00000970       ??_C@_0EH@GNLIFIG@Variable?5driver?5set?5the?5HOB?5var@ 00020970     VariableRuntimeDxe:Variable.obj
+ 0002:000009b8       ??_C@_0EA@JNHAIEDK@Variable?5driver?3?5all?5HOB?5variab@ 000209b8     VariableRuntimeDxe:Variable.obj
+ 0002:000009f8       ??_C@_0DH@HFIICOHI@Variable?5driver?5will?5work?5with?5@ 000209f8     VariableRuntimeDxe:Variable.obj
+ 0002:00000a30       ??_C@_0DC@OOENMNLB@NOTICE?5?9?5AuthVariableLibInitial@ 00020a30     VariableRuntimeDxe:Variable.obj
+ 0002:00000a68       ??_C@_0EG@DKPIPHJP@Variable?5driver?5will?5continue?5t@ 00020a68     VariableRuntimeDxe:Variable.obj
+ 0002:00000ab0       ??_C@_0BP@IMEEEHNN@AuthVarStorage?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00020ab0     VariableRuntimeDxe:Variable.obj
+ 0002:00000ad0       ??_C@_0CL@KLIAEIPG@AuthVarStorage?9?$DOSize?5?$DM?$DN?5AuthVar@ 00020ad0     VariableRuntimeDxe:Variable.obj
+ 0002:00000afc       ??_C@_0CF@HLANNKA@ERROR?3?5Found?5two?5Auth?5Variable?5@ 00020afc     VariableRuntimeDxe:Variable.obj
+ 0002:00000b24       ??_C@_0DC@OLGEBAOD@ERROR?3?5Found?5one?5Auth?5?$CL?5one?5Nor@ 00020b24     VariableRuntimeDxe:Variable.obj
+ 0002:00000b58       ??_C@_0CH@BEPNCMEL@ERROR?3?5Found?5two?5Normal?5Variabl@ 00020b58     VariableRuntimeDxe:Variable.obj
+ 0002:00000b80       ??_C@_0CJ@BMMLFEEO@HOB?5Variable?5Store?5header?5is?5co@ 00020b80     VariableRuntimeDxe:Variable.obj
+ 0002:00000bac       ??_C@_0DG@KHPPNHOC@Variable?5driver?5will?5work?5with?5@ 00020bac     VariableRuntimeDxe:Variable.obj
+ 0002:00000be4       ??_C@_0DK@BOBGNLGH@Variable?5driver?5will?5work?5witho@ 00020be4     VariableRuntimeDxe:Variable.obj
+ 0002:00000c20       ??_C@_0BK@IGDNCAKI@VariableLockRequestToLock@ 00020c20     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000c3c       ??_C@_0DG@NDNNKNAG@?$CB?$CB?$CB?5DEPRECATED?5INTERFACE?5?$CB?$CB?$CB?5?$CFa@ 00020c3c     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000c78       ??_C@_0EC@EGNGNAAB@?$CB?$CB?$CB?5DEPRECATED?5INTERFACE?5?$CB?$CB?$CB?5Pl@ 00020c78     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000cbc       ??_C@_0CO@HIJFCGIJ@?$CB?$CB?$CB?5DEPRECATED?5INTERFACE?5?$CB?$CB?$CB?5Va@ 00020cbc     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000cec       ??_C@_0CG@DJOKNLBE@?5?5Variable?3?5?$CFg?5?$CFs?5is?5already?5lo@ 00020cec     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000d14       ??_C@_0CG@JPPCCEHH@?5?5Variable?3?5?$CFg?5?$CFs?5can?5not?5be?5lo@ 00020d14     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000d3c       ??_C@_0CF@PHFHFINJ@?$CFa?5?9?5Failed?5to?5lock?5variable?5?$CFs@ 00020d3c     VariableRuntimeDxe:VariableLockRequestToLock.obj
+ 0002:00000d68       ??_C@_1EE@GADHGNAI@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAO?$AAv?$AAe?$AAr?$AAw?$AAr?$AAi?$AAt?$AAe@ 00020d68     VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0002:00000dac       ??_C@_1DM@KHNCPJJB@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAO?$AAv?$AAe?$AAr?$AAw?$AAr?$AAi?$AAt?$AAe@ 00020dac     VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0002:00000de8       ??_C@_0BG@JHIMLMCE@MorLockInitAtEndOfDxe@ 00020de8     VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0002:00000e00       ??_C@_0DD@CCHMGNPO@?$CFa?5?9?5Could?5not?5locate?5VariableP@ 00020e00     VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0002:00000e34       ??_C@_0CF@EHICJPFG@?$CFa?5?9?5Could?5not?5lock?5variable?5?$CFs@ 00020e34     VariableRuntimeDxe:TcgMorLockDxe.obj
+ 0002:00000e5c       ??_C@_1BG@JEGAFCNI@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAe?$AAB?$AAo?$AAo?$AAt@ 00020e5c     VariableRuntimeDxe:Measurement.obj
+ 0002:00000e74       ??_C@_15OKGIJJH@?$AAP?$AAK@ 00020e74     VariableRuntimeDxe:Measurement.obj
+ 0002:00000e7c       ??_C@_17PNKKLKMO@?$AAK?$AAE?$AAK@ 00020e7c     VariableRuntimeDxe:Measurement.obj
+ 0002:00000e84       ??_C@_15EMHHCMJI@?$AAd?$AAb@ 00020e84     VariableRuntimeDxe:Measurement.obj
+ 0002:00000e8c       ??_C@_17CFMLKIPF@?$AAd?$AAb?$AAx@ 00020e8c     VariableRuntimeDxe:Measurement.obj
+ 0002:00000e94       ??_C@_17GPBNBHEN@?$AAd?$AAb?$AAt@ 00020e94     VariableRuntimeDxe:Measurement.obj
+ 0002:00000ea0       ??_C@_0FH@PEFAEJFG@?$CIVarSize?5?$DN?$DN?50?5?$CG?$CG?5VarData?5?$DN?$DN?5?$CI?$CIv@ 00020ea0     VariableRuntimeDxe:Measurement.obj
+ 0002:00000ef8       ??_C@_0EP@NHPBMAHB@f?3?2uefiworkspace?2edk2?2MdeModule@ 00020ef8     VariableRuntimeDxe:Measurement.obj
+ 0002:00000f48       ??_C@_0DJ@HIMFALHC@VariableDxe?3?5MeasureVariable?5?$CIP@ 00020f48     VariableRuntimeDxe:Measurement.obj
+ 0002:00000f84       ??_C@_0CF@EJGGIPIO@VariableName?5?9?5?$CFs?0?5VendorGuid?5?9@ 00020f84     VariableRuntimeDxe:Measurement.obj
+ 0002:00000fac       ??_C@_0BH@FMEOEIBC@?$CKValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00020fac     VariableRuntimeDxe:Measurement.obj
+ 0002:00000fc4       ??_C@_0CP@NIENIDEM@Skip?5measuring?5variable?5?$CFs?5sinc@ 00020fc4     VariableRuntimeDxe:Measurement.obj
+ 0002:00000ff4       ??_C@_0CA@GAMOOMNI@MeasureBootPolicyVariable?5?9?5?$CFr?6@ 00020ff4     VariableRuntimeDxe:Measurement.obj
+ 0002:00001014       ??_C@_0CD@FLADNDEG@mSecureBootVarData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 00021014     VariableRuntimeDxe:Measurement.obj
+ 0002:00001038       ??_C@_0EC@EJICPJCB@?$CFs?5variable?5updated?5according?5t@ 00021038     VariableRuntimeDxe:Measurement.obj
+ 0002:0000107c       ??_C@_0DI@JPCCADGN@RecordSecureBootPolicyVarData?5G@ 0002107c     VariableRuntimeDxe:Measurement.obj
+ 0002:000010b4       ??_C@_0DI@IAABAODH@NameSizeOfVariable?5?$CIPtrTrack?9?$DOC@ 000210b4     VariableRuntimeDxe:VariableParsing.obj
+ 0002:000010f0       ??_C@_0FD@HPNEBJOE@f?3?2uefiworkspace?2edk2?2MdeModule@ 000210f0     VariableRuntimeDxe:VariableParsing.obj
+ 0002:00001144       ??_C@_0CB@EOGGIOIC@StoreType?5?$DM?5VariableStoreTypeMa@ 00021144     VariableRuntimeDxe:VariableParsing.obj
+ 0002:00001168       ??_C@_0BO@FFDJAFPM@?$CKVariableInfo?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021168     VariableRuntimeDxe:VariableParsing.obj
+ 0002:00001188       ??_C@_0CG@EKMEBAKJ@?$CI?$CKVariableInfo?$CJ?9?$DOName?5?$CB?$DN?5?$CI?$CIvoid@ 00021188     VariableRuntimeDxe:VariableParsing.obj
+ 0002:000011b0       ??_C@_0BM@HAPNED@Entry?9?$DONext?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000211b0     VariableRuntimeDxe:VariableParsing.obj
+ 0002:000011cc       ??_C@_0CC@BIJIGAG@Entry?9?$DONext?9?$DOName?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 000211cc     VariableRuntimeDxe:VariableParsing.obj
+ 0002:000011f0       ??_C@_0DG@KEDFAIFP@sizeof?5?$CIVARIABLE_STORE_HEADER?$CJ?5@ 000211f0     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001228       ??_C@_0FH@CJJCMOLI@f?3?2uefiworkspace?2edk2?2MdeModule@ 00021228     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001280       ??_C@_0DD@KFDEPODG@Variable?5Store?5reserved?5at?5?$CFp?5a@ 00021280     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:000012b8       ??_C@_0EK@HHLNPIC@HwErrStorageSize?5?$DM?5?$CIVariableSto@ 000212b8     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001304       ??_C@_0BD@KOJGBFGG@NvStorageBase?5?$CB?$DN?50@ 00021304     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001318       ??_C@_0DI@NDEFKFNA@Variable?3?5NV?5storage?5is?5backed?5@ 00021318     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001350       ??_C@_0FF@HIICAOID@Variable?3?5High?5partial?5NV?5stora@ 00021350     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:000013a8       ??_C@_0DB@CGGLGCCM@Firmware?5Volume?5for?5Variable?5St@ 000213a8     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:000013dc       ??_C@_0CL@KMBJJFJE@VariableStore?9?$DOSize?5?$DN?$DN?5Variable@ 000213dc     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001408       ??_C@_0CE@PHEIGJIC@Variable?5Store?5header?5is?5corrup@ 00021408     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001430       ??_C@_0GH@PGGCLDAP@MaxUserNvVariableSpaceSize?5?$DM?5?$CIV@ 00021430     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001498       ??_C@_0HA@NDNGHFDK@BoottimeReservedNvVariableSpace@ 00021498     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001508       ??_C@_0CO@MDLKCL@Variable?5driver?5common?5space?3?50@ 00021508     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001538       ??_C@_0FK@OGCNODHE@GetNonVolatileMaxVariableSize?5?$CI@ 00021538     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:00001598       ??_C@_0ED@NLDFBLON@Variable?5driver?5will?5work?5at?5em@ 00021598     VariableRuntimeDxe:VariableNonVolatile.obj
+ 0002:000015dc       ??_C@_0CG@OAPIFIMI@FtwBufferSize?5?$DN?$DN?5VariableBuffer@ 000215dc     VariableRuntimeDxe:Reclaim.obj
+ 0002:00001608       ??_C@_0EL@GNOBJEMA@f?3?2uefiworkspace?2edk2?2MdeModule@ 00021608     VariableRuntimeDxe:Reclaim.obj
+ 0002:00001654       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021654     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00001670       ??_C@_0FF@OJMNGPG@f?3?2uefiworkspace?2edk2?2MdeModule@ 00021670     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000016c8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000216c8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000016f8       ??_C@_01OHGJGJJP@?$FL@     000216f8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000016fc       ??_C@_02PBFOLPKM@?$FN?5@   000216fc     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00001700       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021700     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00001718       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJ@ 00021718     BaseMemoryLib:MemLibGuid.obj
+ 0002:00001744       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 00021744     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00001780       ??_C@_0EE@GOMGOBAA@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021780     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000017c4       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 000217c4     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000017f8       ??_C@_0EE@NKGEIAMH@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000217f8     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:0000183c       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0002183c     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001860       ??_C@_0EH@LNGKEKLE@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021860     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:000018a8       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000218a8     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:000018c8       ??_C@_0CN@BPIPMCPJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 000218c8     BaseMemoryLib:SetMemWrapper.obj
+ 0002:000018f8       ??_C@_0ED@EDHDDFPL@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000218f8     BaseMemoryLib:SetMemWrapper.obj
+ 0002:0000193c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0002193c     BaseLib:String.obj
+ 0002:00001954       ??_C@_0DG@ODLLMBNP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021954     BaseLib:String.obj
+ 0002:0000198c       ??_C@_0CC@GFNLNIOC@?$CI?$CIUINTN?$CJString?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0002198c     BaseLib:String.obj
+ 0002:000019b0       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 000219b0     BaseLib:String.obj
+ 0002:000019ec       ??_C@_0BL@JAAMOCAJ@StrSize?5?$CIFirstString?$CJ?5?$CB?$DN?50@ 000219ec     BaseLib:String.obj
+ 0002:00001a08       ??_C@_0BM@DALBOILC@StrSize?5?$CISecondString?$CJ?5?$CB?$DN?50@ 00021a08     BaseLib:String.obj
+ 0002:00001a24       ??_C@_0DL@LFIMEMJP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 00021a24     BaseLib:String.obj
+ 0002:00001a60       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 00021a60     BaseLib:String.obj
+ 0002:00001a98       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 00021a98     BaseLib:String.obj
+ 0002:00001ab4       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 00021ab4     BaseLib:String.obj
+ 0002:00001ad0       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 00021ad0     BaseLib:String.obj
+ 0002:00001b0c       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021b0c     BaseLib:SafeString.obj
+ 0002:00001b48       ??_C@_0CH@LALFPBMC@?$CI?$CIUINTN?$CJDestination?5?$CG?50x0000000@ 00021b48     BaseLib:SafeString.obj
+ 0002:00001b70       ??_C@_0CC@HEBCMBPF@?$CI?$CIUINTN?$CJSource?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00021b70     BaseLib:SafeString.obj
+ 0002:00001b94       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00021b94     BaseLib:SafeString.obj
+ 0002:00001bb4       ??_C@_07KBGDFDAM@StrCpyS@  00021bb4     BaseLib:SafeString.obj
+ 0002:00001bc0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 00021bc0     BaseLib:SafeString.obj
+ 0002:00001c00       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00021c00     BaseLib:SafeString.obj
+ 0002:00001c20       ??_C@_0EA@BBALOHPI@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00021c20     BaseLib:SafeString.obj
+ 0002:00001c60       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 00021c60     BaseLib:SafeString.obj
+ 0002:00001c70       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 00021c70     BaseLib:SafeString.obj
+ 0002:00001c88       ??_C@_0FH@PPBLBDBJ@InternalSafeStringNoStrOverlap?5@ 00021c88     BaseLib:SafeString.obj
+ 0002:00001ce0       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00021ce0     BaseLib:SafeString.obj
+ 0002:00001d20       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 00021d20     BaseLib:SafeString.obj
+ 0002:00001d7c       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00021d7c     BaseLib:SafeString.obj
+ 0002:00001d8c       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00021d8c     BaseLib:SafeString.obj
+ 0002:00001dcc       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021dcc     BaseLib:Unaligned.obj
+ 0002:00001e08       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 00021e08     BaseLib:LShiftU64.obj
+ 0002:00001e14       ??_C@_0DJ@POKPBLDK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021e14     BaseLib:LShiftU64.obj
+ 0002:00001e50       ??_C@_0FD@NABGIAAK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021e50     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001ea4       ??_C@_0DD@HIGIPKGN@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9@ 00021ea4     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00001ed8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021ed8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001ef8       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021ef8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001f54       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021f54     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001f68       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021f68     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001f7c       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021f7c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001f90       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00021f90     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001ff0       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00021ff0     UefiLib:UefiLib.obj
+ 0002:0000200c       ??_C@_0DH@CPNBINNB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0002200c     UefiLib:UefiLib.obj
+ 0002:00002044       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022044     UefiLib:UefiLib.obj
+ 0002:0000205c       ??_C@_0BN@HHGHCLME@ProtocolGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0002205c     UefiLib:UefiLib.obj
+ 0002:0000207c       ??_C@_0BP@DEIEJICI@NotifyFunction?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0002207c     UefiLib:UefiLib.obj
+ 0002:0000209c       ??_C@_0BN@OMCJCPAI@Registration?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0002209c     UefiLib:UefiLib.obj
+ 0002:000020bc       ??_C@_0BF@JGGLMCFN@Lock?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000220bc     UefiLib:UefiLib.obj
+ 0002:000020d4       ??_C@_0P@EOAOOBNP@Priority?5?$DM?$DN?531@ 000220d4     UefiLib:UefiLib.obj
+ 0002:000020e4       ??_C@_0BO@IJOPPPFL@Lock?9?$DOLock?5?$DN?$DN?5EfiLockReleased@ 000220e4     UefiLib:UefiLib.obj
+ 0002:00002104       ??_C@_0BO@FHNOFLFJ@Lock?9?$DOLock?5?$DN?$DN?5EfiLockAcquired@ 00022104     UefiLib:UefiLib.obj
+ 0002:00002124       ??_C@_0DM@NMFFNOAG@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00022124     UefiLib:UefiNotTiano.obj
+ 0002:00002160       ??_C@_0CB@LNNMJOKK@ReadyToBootEvent?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50@ 00022160     UefiLib:UefiNotTiano.obj
+ 0002:00002184       ??_C@_0CH@LOBIJKLE@EFI1?41?5can?8t?5support?5ReadyToBoo@ 00022184     UefiLib:UefiNotTiano.obj
+ 0002:000021ac       ??_C@_0DI@FAIEECKB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000221ac     DxeHobLib:HobLib.obj
+ 0002:000021e4       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000221e4     DxeHobLib:HobLib.obj
+ 0002:00002200       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022200     DxeHobLib:HobLib.obj
+ 0002:0000221c       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0002221c     DxeEmuLib:DxeEmuLib.obj
+ 0002:00002238       ??_C@_0EA@KMGBCHIO@f?3?2uefiworkspace?2edk2?2EmulatorP@ 00022238     DxeEmuLib:DxeEmuLib.obj
+ 0002:00002278       ??_C@_0BK@ELNDAPDH@gEmuThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022278     DxeEmuLib:DxeEmuLib.obj
+ 0002:00002298       ??_C@_0EE@GLJNJGMI@f?3?2uefiworkspace?2edk2?2EmulatorP@ 00022298     EmuDxeTimerLib:DxeTimerLib.obj
+ 0002:000022dc       ??_C@_1BC@INDPOKJG@?$AAB?$AAo?$AAo?$AAt?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$CD@ 000222dc     VarCheckLib:VarCheckLib.obj
+ 0002:000022f0       ??_C@_1BG@HHCJINCN@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$CD@ 000222f0     VarCheckLib:VarCheckLib.obj
+ 0002:00002308       ??_C@_1BI@HIEBMGJE@?$AAS?$AAy?$AAs?$AAP?$AAr?$AAe?$AAp?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$CD@ 00022308     VarCheckLib:VarCheckLib.obj
+ 0002:00002320       ??_C@_1BA@DGFAJJOC@?$AAK?$AAe?$AAy?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$CD@ 00022320     VarCheckLib:VarCheckLib.obj
+ 0002:00002330       ??_C@_1CK@MLEAPEAI@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAR?$AAe?$AAc?$AAo?$AAv?$AAe?$AAr@ 00022330     VarCheckLib:VarCheckLib.obj
+ 0002:0000235c       ??_C@_1BK@OHIJFJDK@?$AAH?$AAw?$AAE?$AAr?$AAr?$AAR?$AAe?$AAc?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$CD@ 0002235c     VarCheckLib:VarCheckLib.obj
+ 0002:00002378       ??_C@_0CO@GDCJKCHC@mVarCheckLibAddressPointerCount@ 00022378     VarCheckLib:VarCheckLib.obj
+ 0002:000023a8       ??_C@_0EF@IJJIHDBN@f?3?2uefiworkspace?2edk2?2MdeModule@ 000223a8     VarCheckLib:VarCheckLib.obj
+ 0002:000023f0       ??_C@_0DG@BGONGNBL@VarCheckLibRegisterSetVariableC@ 000223f0     VarCheckLib:VarCheckLib.obj
+ 0002:00002428       ??_C@_0DC@DJLHHOEM@Variable?5Check?5ReadOnly?5variabl@ 00022428     VarCheckLib:VarCheckLib.obj
+ 0002:0000245c       ??_C@_0DN@NFPHFBDA@Variable?5Check?5Attributes?$CI0x?$CF08@ 0002245c     VarCheckLib:VarCheckLib.obj
+ 0002:000024a0       ??_C@_0EC@OPGFOCPA@Variable?5Check?5DataSize?5fail?$CI0x@ 000224a0     VarCheckLib:VarCheckLib.obj
+ 0002:000024e4       ??_C@_0CI@HMFENEED@Variable?5Check?5handler?5fail?5?$CFr?5@ 000224e4     VarCheckLib:VarCheckLib.obj
+ 0002:00002510       ??_C@_0FB@HDPIFDBJ@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00022510     BaseSynchronizationLib:SynchronizationMsc.obj
+ 0002:00002564       ??_C@_0BG@GJANEBOB@Value?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022564     BaseSynchronizationLib:SynchronizationMsc.obj
+ 0002:00002580       ??_C@_0EB@BDJFOKM@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00022580     UefiRuntimeLib:RuntimeLib.obj
+ 0002:000025c8       ??_C@_0EP@MEOPCBEF@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000225c8     DxeServicesTableLib:DxeServicesTableLib.obj
+ 0002:00002618       ??_C@_0BE@IOIFLNKO@gDS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022618     DxeServicesTableLib:DxeServicesTableLib.obj
+ 0002:00002630       ??_C@_0FF@NMKNMEAJ@f?3?2uefiworkspace?2edk2?2MdeModule@ 00022630     AuthVariableLibNull:AuthVariableLibNull.obj
+ 0002:00002688       ??_C@_0DC@HLELONJE@ERROR?3?5Found?5two?5variable?5flash@ 00022688     BaseVariableFlashInfoLib:BaseVariableFlashInfoLib.obj
+ 0002:000026c0       ??_C@_0FP@HEGPAADK@f?3?2uefiworkspace?2edk2?2MdeModule@ 000226c0     BaseVariableFlashInfoLib:BaseVariableFlashInfoLib.obj
+ 0002:00002720       ??_C@_0BE@LCGJNMJP@ValidateSetVariable@ 00022720     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0002:00002734       ??_C@_0CC@CAJNPIIF@?$CFa?5?9?5Bad?5Size?4?50x?$CFX?5?$DM?$DO?50x?$CFX?90x?$CF@ 00022734     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0002:00002758       ??_C@_0CI@LNNCMHNF@?$CFa?5?9?5Bad?5Attributes?4?50x?$CFX?5?$DM?$DO?50x@ 00022758     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0002:00002780       ??_C@_0CF@HGPICMLO@?$CFa?5?9?5Variable?5?$CI?$CFg?3?$CFs?$CJ?5returning@ 00022780     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0002:000027a8       ??_C@_0BO@DIMHDDCF@TotalSize?5?$DM?$DN?5?$CI?$CIUINT16?$CJ0xFFFF?$CJ@ 000227a8     VariablePolicyHelperLib:VariablePolicyHelperLib.obj
+ 0002:000027c8       ??_C@_0FN@OLMPFOCM@f?3?2uefiworkspace?2edk2?2MdeModule@ 000227c8     VariablePolicyHelperLib:VariablePolicyHelperLib.obj
+ 0002:00002828       ??_C@_1BA@BKONPLFM@?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt@ 00022828     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002838       ??_C@_1M@NFPEGKHA@?$AAC?$AAo?$AAn?$AAI?$AAn@ 00022838     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002844       ??_C@_1O@MJHLOIFA@?$AAC?$AAo?$AAn?$AAO?$AAu?$AAt@ 00022844     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002854       ??_C@_1O@JOJMCOJC@?$AAE?$AAr?$AAr?$AAO?$AAu?$AAt@ 00022854     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002864       ??_C@_1BC@OBFMLJLI@?$AAC?$AAo?$AAn?$AAI?$AAn?$AAD?$AAe?$AAv@ 00022864     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002878       ??_C@_1BE@INNAKDAF@?$AAC?$AAo?$AAn?$AAO?$AAu?$AAt?$AAD?$AAe?$AAv@ 00022878     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:0000288c       ??_C@_1BE@JFPOEAHF@?$AAE?$AAr?$AAr?$AAO?$AAu?$AAt?$AAD?$AAe?$AAv@ 0002288c     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000028a0       ??_C@_1BE@CHCFCNKI@?$AAB?$AAo?$AAo?$AAt?$AAO?$AAr?$AAd?$AAe?$AAr@ 000228a0     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000028b4       ??_C@_1BC@HGEHGBBD@?$AAB?$AAo?$AAo?$AAt?$AAN?$AAe?$AAx?$AAt@ 000228b4     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000028c8       ??_C@_1BI@LBNGELID@?$AAB?$AAo?$AAo?$AAt?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@ 000228c8     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000028e0       ??_C@_1CE@BKEAGEIL@?$AAB?$AAo?$AAo?$AAt?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAS?$AAu?$AAp?$AAp?$AAo@ 000228e0     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002904       ??_C@_1BI@PDMCFEDG@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAO?$AAr?$AAd?$AAe?$AAr@ 00022904     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:0000291c       ??_C@_1BK@CHMLNGLH@?$AAS?$AAy?$AAs?$AAP?$AAr?$AAe?$AAp?$AAO?$AAr?$AAd?$AAe?$AAr@ 0002291c     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002938       ??_C@_1CA@BOALBJHG@?$AAH?$AAw?$AAE?$AAr?$AAr?$AAR?$AAe?$AAc?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt@ 00022938     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002958       ??_C@_1BE@DFEPFMAE@?$AAS?$AAe?$AAt?$AAu?$AAp?$AAM?$AAo?$AAd?$AAe@ 00022958     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:0000296c       ??_C@_1CC@BAFCPNPB@?$AAS?$AAi?$AAg?$AAn?$AAa?$AAt?$AAu?$AAr?$AAe?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr@ 0002296c     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002990       ??_C@_1BG@DACLAPBO@?$AAK?$AAE?$AAK?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt@ 00022990     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000029a8       ??_C@_1BE@BGOOPGMO@?$AAP?$AAK?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt@ 000229a8     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000029bc       ??_C@_1BE@HHMEGGE@?$AAd?$AAb?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt@ 000229bc     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000029d0       ??_C@_1BG@GPFEKEP@?$AAd?$AAb?$AAx?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt@ 000229d0     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:000029e8       ??_C@_1BG@BKAMDDEF@?$AAd?$AAb?$AAt?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt@ 000229e8     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002a00       ??_C@_1CO@MENFEBKM@?$AAO?$AAs?$AAI?$AAn?$AAd?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AAS?$AAu@ 00022a00     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002a30       ??_C@_1BM@MDLAABPK@?$AAO?$AAs?$AAI?$AAn?$AAd?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs@ 00022a30     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002a4c       ??_C@_1BG@OIEIGDIF@?$AAV?$AAe?$AAn?$AAd?$AAo?$AAr?$AAK?$AAe?$AAy?$AAs@ 00022a4c     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002a64       ??_C@_1BC@IONJEEFP@?$AAH?$AAw?$AAE?$AAr?$AAr?$AAR?$AAe?$AAc@ 00022a64     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002a78       ??_C@_0DG@BHHBAHFJ@UEFI?5Variable?5Check?5fail?5?$CFr?5?9?5?$CF@ 00022a78     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002ab0       ??_C@_0CO@BPBHJICJ@UEFI?5Variable?5Check?5function?5fa@ 00022ab0     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0002:00002ae0       ??_C@_0FI@PJEDBJM@f?3?2uefiworkspace?2edk2?2MdeModule@ 00022ae0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002b38       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022b38     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002b78       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022b78     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00002bb8       ??_C@_0BF@CBLMFKOC@Node?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022bb8     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00002bd0       ??_C@_0EN@MFEGGAD@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00022bd0     UefiDevicePathLib:DevicePathUtilities.obj
+ 0002:00002c20       ??_C@_0DL@GLFBHAOF@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00022c20     DxePcdLib:DxePcdLib.obj
+ 0002:00002c5c       ??_C@_0BF@OOKDELHM@mPcd?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00022c5c     DxePcdLib:DxePcdLib.obj
+ 0002:00002cc8       ___volatile_metadata       00022cc8     <linker-defined>
+ 0003:00000000       _gEfiLoadedImageProtocolGuid 00023000     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000010       _gEfiStatusCodeSpecificDataGuid 00023010     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000020       _gEfiGlobalVariableGuid    00023020     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000030       _gEfiStatusCodeRuntimeProtocolGuid 00023030     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000040       _gEdkiiVarErrorFlagGuid    00023040     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000050       _gEfiFirmwareVolumeBlockProtocolGuid 00023050     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000060       _gEfiEventReadyToBootGuid  00023060     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000070       _gEfiSystemNvDataFvGuid    00023070     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000080       _gEfiHardwareErrorVariableGuid 00023080     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000090       _gEfiImageSecurityDatabaseGuid 00023090     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000a0       _gEfiVariableWriteArchProtocolGuid 000230a0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000b0       _gEdkiiVariableLockProtocolGuid 000230b0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000c0       _gPcdProtocolGuid          000230c0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000d0       _gVariableFlashInfoHobGuid 000230d0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000e0       _gEfiVariableGuid          000230e0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000f0       _gEfiCallerBaseName        000230f0     VariableRuntimeDxe:AutoGen.obj
+ 0003:000000f4       _gEfiFaultTolerantWriteProtocolGuid 000230f4     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000104       _gEfiStatusCodeDataTypeDebugGuid 00023104     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000114       _gEfiMemoryOverwriteControlDataGuid 00023114     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000124       _gEfiAuthenticatedVariableGuid 00023124     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000134       _gEfiMemoryOverwriteRequestControlLockGuid 00023134     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000144       _gEdkiiFaultTolerantWriteGuid 00023144     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000154       _gEfiTimerArchProtocolGuid 00023154     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000164       _gEfiHobListGuid           00023164     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000174       _gEdkiiVarCheckProtocolGuid 00023174     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000184       _gEfiEndOfDxeEventGroupGuid 00023184     VariableRuntimeDxe:AutoGen.obj
+ 0003:00000194       _gEfiEventVirtualAddressChangeGuid 00023194     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001a4       _gEfiDxeServicesTableGuid  000231a4     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001b4       _gEfiCallerIdGuid          000231b4     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001c4       _gEdkiiVariablePolicyProtocolGuid 000231c4     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001d4       _gEfiVariableArchProtocolGuid 000231d4     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001e4       _gEmuThunkProtocolGuid     000231e4     VariableRuntimeDxe:AutoGen.obj
+ 0003:000001f4       _mVariableLock             000231f4     VariableRuntimeDxe:VariableDxe.obj
+ 0003:000001f8       _mVarCheck                 000231f8     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000208       _mVariablePolicyProtocol   00023208     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000228       _mVariableEntryProperty    00023228     VariableRuntimeDxe:Variable.obj
+ 0003:00000240       _mCurrentBootVarErrFlag    00023240     VariableRuntimeDxe:Variable.obj
+ 0003:00000244       _mAuthContextIn            00023244     VariableRuntimeDxe:Variable.obj
+ 0003:00000268       _mRequestSource            00023268     VariableRuntimeDxe:Variable.obj
+ 0003:0000026c       _mVariableType             0002326c     VariableRuntimeDxe:Measurement.obj
+ 0003:000002a0       _mVarCheckVariableWithWildcardName 000232a0     VarCheckLib:VarCheckLib.obj
+ 0003:00000330       _mHwErrRecVariable         00023330     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0003:00000348       _mGlobalVariableList       00023348     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0003:00000630       _mImageSecurityVariableList 00023630     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0003:00000678       _mUefiDefinedGuid          00023678     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0003:00000688       _mGlobalVariableList2      00023688     VarCheckUefiLib:VarCheckUefiLibNullClass.obj
+ 0003:00000700       _mVarCheckAddressPointer   00023700     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000704       _mHandle                   00023704     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000708       _mVarCheckAddressPointerCount 00023708     VariableRuntimeDxe:VariableDxe.obj
+ 0003:0000070c       _mVirtualAddressChangeEvent 0002370c     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000710       _mFtwRegistration          00023710     VariableRuntimeDxe:VariableDxe.obj
+ 0003:00000714       _mEndOfDxe                 00023714     VariableRuntimeDxe:Variable.obj
+ 0003:00000718       _mNvFvHeaderCache          00023718     VariableRuntimeDxe:Variable.obj
+ 0003:0000071c       _mNvVariableCache          0002371c     VariableRuntimeDxe:Variable.obj
+ 0003:00000720       _gVariableInfo             00023720     VariableRuntimeDxe:Variable.obj
+ 0003:00000724       _mSecureBootVarData        00023724     VariableRuntimeDxe:Measurement.obj
+ 0003:00000728       _mSecureBootVarDataSize    00023728     VariableRuntimeDxe:Measurement.obj
+ 0003:0000072c       _gST                       0002372c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000730       _gBS                       00023730     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000734       _gImageHandle              00023734     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000738       _gRT                       00023738     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:0000073c       _mHobList                  0002373c     DxeHobLib:HobLib.obj
+ 0003:00000740       _gEmuThunk                 00023740     DxeEmuLib:DxeEmuLib.obj
+ 0003:0000075c       _mVarCheckLibEndOfDxeCallback 0002375c     VarCheckLib:VarCheckLib.obj
+ 0003:00000760       _mVarCheckLibAddressPointerMaxCount 00023760     VarCheckLib:VarCheckLib.obj
+ 0003:00000764       _mMaxNumberOfVarCheckVariable 00023764     VarCheckLib:VarCheckLib.obj
+ 0003:00000768       _mVarCheckLibAddressPointer 00023768     VarCheckLib:VarCheckLib.obj
+ 0003:0000076c       _mVarCheckLibEndOfDxe      0002376c     VarCheckLib:VarCheckLib.obj
+ 0003:00000770       _mVarCheckHandlerTable     00023770     VarCheckLib:VarCheckLib.obj
+ 0003:00000774       _mNumberOfVarCheckHandler  00023774     VarCheckLib:VarCheckLib.obj
+ 0003:00000778       _mVarCheckLibAddressPointerCount 00023778     VarCheckLib:VarCheckLib.obj
+ 0003:0000077c       _mVarCheckLibEndOfDxeCallbackMaxCount 0002377c     VarCheckLib:VarCheckLib.obj
+ 0003:00000780       _mNumberOfVarCheckVariable 00023780     VarCheckLib:VarCheckLib.obj
+ 0003:00000784       _mVarCheckVariableTable    00023784     VarCheckLib:VarCheckLib.obj
+ 0003:00000788       _mMaxNumberOfVarCheckHandler 00023788     VarCheckLib:VarCheckLib.obj
+ 0003:0000078c       _mVarCheckLibEndOfDxeCallbackCount 0002378c     VarCheckLib:VarCheckLib.obj
+ 0003:00000790       _mEfiAtRuntime             00023790     UefiRuntimeLib:RuntimeLib.obj
+ 0003:00000791       _mEfiGoneVirtual           00023791     UefiRuntimeLib:RuntimeLib.obj
+ 0003:00000794       _gDS                       00023794     DxeServicesTableLib:DxeServicesTableLib.obj
+ 0003:00000798       _mGetVariableHelper        00023798     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007a4       _mPolicyTable              000237a4     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007b8       _mReportStatusCodeLibStatusCodeProtocol 000237b8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:000007bc       _mPcd                      000237bc     DxePcdLib:DxePcdLib.obj
+ 0003:000007c4       _mEfiVirtualNotifyEvent    000237c4     <common>
+ 0003:000007c8       _mInternalRT               000237c8     <common>
+ 0003:000007cc       _mEfiExitBootServicesEvent 000237cc     <common>
+ 0003:000007d0       _mVariableModuleGlobal     000237d0     <common>
+ 0003:000007e0       _mAuthContextOut           000237e0     <common>
+
+ entry point at        0001:000000c0
+
+ Static symbols
+
+ 0000:fffea000       .debug$S                   00010000     VariableRuntimeDxe.exp
+ 0001:00000016       _InternalMathDivRemU64x64.0 00011016     BaseLib:DivU64x64Remainder.obj
+ 0001:0000001b       _@DivRemU64x64             0001101b     BaseLib:DivU64x64Remainder.obj
+ 0001:0000002e       _@DivRemU64x64.1           0001102e     BaseLib:DivU64x64Remainder.obj
+ 0001:0000005b       @TooLarge                  0001105b     BaseLib:DivU64x64Remainder.obj
+ 0001:00000066       @Correct                   00011066     BaseLib:DivU64x64Remainder.obj
+ 0001:00000071       @Return                    00011071     BaseLib:DivU64x64Remainder.obj
+ 0001:0000d090       _GetVariableFlashInfoFromHob 0001e090 f   BaseVariableFlashInfoLib:BaseVariableFlashInfoLib.obj
+ 0001:0000d230       _IsValidVariablePolicyStructure 0001e230 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000d3f0       _EvaluatePolicyMatch       0001e3f0 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000d550       _GetBestPolicyMatch        0001e550 f   VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0001:0000dc90       _VariablePolicyLibVirtualAddressCallback 0001ec90 f   VariablePolicyLibRuntimeDxe:VariablePolicyExtraInitRuntimeDxe.obj
+ 0001:0000dd00       _PopulateCommonData        0001ed00 f   VariablePolicyHelperLib:VariablePolicyHelperLib.obj
+ 0003:00000744       _gRegistration             00023744     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:00000748       _gTimerEvent               00023748     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:00000750       _gTimerPeriod              00023750     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:00000758       _gTimerAp                  00023758     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:0000079c       _mInterfaceLocked          0002379c     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007a0       _mCurrentTableUsage        000237a0     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007a8       _mCurrentTableSize         000237a8     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007ac       _mProtectionDisabled       000237ac     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007b0       _mCurrentTableCount        000237b0     VariablePolicyLibRuntimeDxe:VariablePolicyLib.obj
+ 0003:000007b4       _mVariablePolicyLibVirtualAddressChangeEvent 000237b4     VariablePolicyLibRuntimeDxe:VariablePolicyExtraInitRuntimeDxe.obj
+ 0003:000007c0       ?Reclaimed@?1??ReclaimForOS@@9@9 000237c0     VariableRuntimeDxe:Variable.obj
+ 0003:000007c1       _mIsVirtualAddrConverted   000237c1     VariablePolicyLibRuntimeDxe:VariablePolicyExtraInitRuntimeDxe.obj
+ 0004:00000000       .edata                     00024000     VariableRuntimeDxe.exp
+ 0004:00000028       rgpv                       00024028     VariableRuntimeDxe.exp
+ 0004:0000002c       rgszName                   0002402c     VariableRuntimeDxe.exp
+ 0004:00000030       rgwOrd                     00024030     VariableRuntimeDxe.exp
+ 0004:00000032       szName                     00024032     VariableRuntimeDxe.exp
+ 0004:00000049       $N00001                    00024049     VariableRuntimeDxe.exp

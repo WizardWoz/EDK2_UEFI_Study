@@ -1,0 +1,1 @@
+  f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\MdeModulePkg\Core\RuntimeDxe\Runtime.c f:\uefiworkspace\edk2\MdeModulePkg\Core\RuntimeDxe\Crc32.c

@@ -1,0 +1,16 @@
+f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\BuildOptions
+f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\TOOLS_DEF.IA32
+f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\PcdTokenNumber
+f:\uefiworkspace\edk2-libc\AppPkg\AppPkg.dec
+f:\uefiworkspace\edk2-libc\AppPkg\AppPkg.dsc
+f:\uefiworkspace\edk2-libc\AppPkg\Applications\Sockets\Sockets.inc
+f:\uefiworkspace\edk2-libc\StdLibPrivateInternalFiles\DoNotUse.dec
+f:\uefiworkspace\edk2-libc\StdLib\StdLib.dec
+f:\uefiworkspace\edk2-libc\StdLib\StdLib.inc
+f:\uefiworkspace\edk2\MdeModulePkg\MdeModulePkg.dec
+f:\uefiworkspace\edk2\MdePkg\MdeLibs.dsc.inc
+f:\uefiworkspace\edk2\MdePkg\MdePkg.dec
+f:\uefiworkspace\edk2\ShellPkg\ShellPkg.dec
+f:\uefiworkspace\edk2\UefiCpuPkg\UefiCpuPkg.dec
+f:\uefiworkspace\edk2\conf\build_rule.txt
+f:\uefiworkspace\edk2\conf\tools_def.txt

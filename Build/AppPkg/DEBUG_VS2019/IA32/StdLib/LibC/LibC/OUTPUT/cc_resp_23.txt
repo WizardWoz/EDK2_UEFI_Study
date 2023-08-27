@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\StdLib\LibC\Main\Ia32\isinfl.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Main\Ia32\isnanl.c

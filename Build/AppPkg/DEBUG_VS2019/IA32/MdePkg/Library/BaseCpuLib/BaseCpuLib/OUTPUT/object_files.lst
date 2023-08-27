@@ -1,0 +1,4 @@
+f:/uefiworkspace/Build/AppPkg/DEBUG_VS2019/IA32/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/X86BaseCpuLib.obj
+f:/uefiworkspace/Build/AppPkg/DEBUG_VS2019/IA32/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/Ia32/CpuSleep.obj
+f:/uefiworkspace/Build/AppPkg/DEBUG_VS2019/IA32/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/X86CpuFlushTlb.obj
+f:/uefiworkspace/Build/AppPkg/DEBUG_VS2019/IA32/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/Ia32/InitializeFpu.obj

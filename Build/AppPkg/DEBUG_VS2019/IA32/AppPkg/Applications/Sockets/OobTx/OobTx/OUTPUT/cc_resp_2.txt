@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\AppPkg\Applications\Sockets\OobTx\Main.c f:\uefiworkspace\edk2-libc\AppPkg\Applications\Sockets\OobTx\OobTx.c f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\AppPkg\Applications\Sockets\OobTx\OobTx\DEBUG\AutoGen.c

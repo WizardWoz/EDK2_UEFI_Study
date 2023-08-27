@@ -1,0 +1,43 @@
+﻿  **********************************************************************
+  ** Visual Studio 2019 Developer Command Prompt v16.11.29
+  ** Copyright (c) 2021 Microsoft Corporation
+  **********************************************************************
+  [vcvarsall.bat] Environment initialized for: 'x86'
+  Using EDK2 in-source Basetools
+            PATH      = F:\UEFIWorkspace\edk2\BaseTools\BinWrappers\WindowsLike;E:\Visual Studio\IDE\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;E:\Visual Studio\IDE\Common7\IDE\VC\VCPackages;E:\Visual Studio\IDE\Common7\IDE\CommonExtensions\Microsoft\TestWindow;E:\Visual Studio\IDE\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;E:\Visual Studio\IDE\MSBuild\Current\bin\Roslyn;E:\Visual Studio\IDE\Team Tools\Performance Tools;E:\Visual Studio\Share\Common\VSPerfCollectionTools\vs2019\;E:\Visual Studio\IDE\Common7\Tools\devinit;E:\Windows Kits\10\bin\10.0.17763.0\x86;E:\Windows Kits\10\bin\x86;E:\Visual Studio\IDE\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;E:\Visual Studio\IDE\Common7\IDE\;E:\Visual Studio\IDE\Common7\Tools\;F:\UEFIWorkspace\edk2\BaseTools\Bin\Win32;E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;E:\Windows Kits\10\bin\10.0.17763.0\x86;;E:\Visual Studio\IDE\Common7\tools;E:\Visual Studio\IDE\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;E:\Visual Studio\IDE\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;E:\Python311\Scripts\;E:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Git\cmd;D:\nodejs\;D:\mingw64\bin;D:\QEMU;D:\PuTTY\;D:\WinSCP\;C:\Users\93672\AppData\Local\Microsoft\WindowsApps;C:\Users\93672\AppData\Roaming\npm;E:\Microsoft VS Code\bin;;E:\Visual Studio\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;E:\Visual Studio\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+  
+       WORKSPACE      = F:\UEFIWorkspace
+   PACKAGES_PATH      = F:\UEFIWorkspace\edk2;F:\UEFIWorkspace\edk2-libc
+  EDK_TOOLS_PATH      = F:\UEFIWorkspace\edk2\BaseTools
+  BASE_TOOLS_PATH     = F:\UEFIWorkspace\edk2\BaseTools
+   EDK_TOOLS_BIN      = F:\UEFIWorkspace\edk2\BaseTools\Bin\Win32
+       CONF_PATH      = F:\UEFIWorkspace\edk2\Conf
+       PYTHON_COMMAND = py -3
+           PYTHONPATH = F:\UEFIWorkspace\edk2\BaseTools\Source\Python;
+  
+  Build environment: Windows-10-10.0.18363-SP0
+  Build start time: 16:56:19, Aug.27 2023
+  
+  WORKSPACE        = f:\uefiworkspace
+  PACKAGES_PATH    = f:\uefiworkspace\edk2;f:\uefiworkspace\edk2-libc
+  EDK_TOOLS_PATH   = f:\uefiworkspace\edk2\basetools
+  EDK_TOOLS_BIN    = f:\uefiworkspace\edk2\basetools\bin\win32
+  CONF_PATH        = f:\uefiworkspace\edk2\conf
+  PYTHON_COMMAND   = py -3
+  
+  
+  build.py...
+EXEC : error 0004: File read failure
+  	f:\uefiworkspace\edk2\EmulatorPkg\EmulatorPkg.dsc
+  
+  - Failed -
+  Build end time: 16:56:19, Aug.27 2023
+  Build total time: 00:00:00
+  
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 命令“
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 			cd /D F:\UEFIWorkspace
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 			set WORKSPACE=F:\UEFIWorkspace
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 			call mybuild.bat
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 			call edk2\edksetup.bat
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 			call build.bat -p EmulatorPkg\EmulatorPkg.dsc -a IA32 -m MdeModulePkg\Application\HelloWorld\HelloWorld.inf -b DEBUG
+E:\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 		”已退出，代码为 4。

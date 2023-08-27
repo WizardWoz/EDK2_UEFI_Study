@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\EmuSnpDxe\ComponentName.c f:\uefiworkspace\edk2\EmulatorPkg\EmuSnpDxe\EmuSnpDxe.c f:\uefiworkspace\Build\EmulatorX64\DEBUG_VS2019\X64\EmulatorPkg\EmuSnpDxe\EmuSnpDxe\DEBUG\AutoGen.c

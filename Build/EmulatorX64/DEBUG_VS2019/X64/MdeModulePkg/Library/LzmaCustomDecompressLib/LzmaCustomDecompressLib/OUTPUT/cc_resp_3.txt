@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Library\LzmaCustomDecompressLib\GuidedSectionExtraction.c f:\uefiworkspace\edk2\MdeModulePkg\Library\LzmaCustomDecompressLib\LzmaDecompress.c

@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\AppPkg\Applications\Main\Main.c f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\AppPkg\Applications\Main\Main\DEBUG\AutoGen.c

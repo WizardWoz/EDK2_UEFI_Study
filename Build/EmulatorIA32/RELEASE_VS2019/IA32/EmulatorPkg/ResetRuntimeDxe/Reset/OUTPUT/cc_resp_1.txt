@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\ResetRuntimeDxe\Reset.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\EmulatorPkg\ResetRuntimeDxe\Reset\DEBUG\AutoGen.c

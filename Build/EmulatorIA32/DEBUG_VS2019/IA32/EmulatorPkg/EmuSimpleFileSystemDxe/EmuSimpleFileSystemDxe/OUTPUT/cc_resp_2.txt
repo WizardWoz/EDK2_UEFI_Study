@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystem.c f:\uefiworkspace\edk2\EmulatorPkg\EmuSimpleFileSystemDxe\ComponentName.c f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystemDxe\DEBUG\AutoGen.c

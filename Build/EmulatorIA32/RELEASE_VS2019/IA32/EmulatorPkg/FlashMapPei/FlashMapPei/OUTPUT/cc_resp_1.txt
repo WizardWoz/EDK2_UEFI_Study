@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\FlashMapPei\FlashMapPei.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\EmulatorPkg\FlashMapPei\FlashMapPei\DEBUG\AutoGen.c

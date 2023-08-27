@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\UefiLib.c f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\Acpi.c f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\UefiNotTiano.c f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\UefiDriverModel.c f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\Console.c f:\uefiworkspace\edk2\MdePkg\Library\UefiLib\UefiLibPrint.c

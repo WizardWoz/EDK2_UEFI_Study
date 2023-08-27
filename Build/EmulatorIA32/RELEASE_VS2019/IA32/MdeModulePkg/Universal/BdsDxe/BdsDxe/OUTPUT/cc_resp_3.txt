@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Universal\BdsDxe\Language.c f:\uefiworkspace\edk2\MdeModulePkg\Universal\BdsDxe\HwErrRecSupport.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\MdeModulePkg\Universal\BdsDxe\BdsDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\MdeModulePkg\Universal\BdsDxe\BdsEntry.c

@@ -1,0 +1,1 @@
+  f:\uefiworkspace\Build\EmulatorX64\RELEASE_VS2019\X64\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\MdeModulePkg\Universal\EbcDxe\EbcInt.c f:\uefiworkspace\edk2\MdeModulePkg\Universal\EbcDxe\EbcDebuggerHook.c f:\uefiworkspace\edk2\MdeModulePkg\Universal\EbcDxe\EbcExecute.c

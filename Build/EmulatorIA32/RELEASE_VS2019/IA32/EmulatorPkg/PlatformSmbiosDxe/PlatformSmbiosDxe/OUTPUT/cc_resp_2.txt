@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\EmulatorPkg\PlatformSmbiosDxe\SmbiosTable.c f:\uefiworkspace\Build\EmulatorIA32\RELEASE_VS2019\IA32\EmulatorPkg\PlatformSmbiosDxe\PlatformSmbiosDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\EmulatorPkg\PlatformSmbiosDxe\PlatformSmbiosDxe.c

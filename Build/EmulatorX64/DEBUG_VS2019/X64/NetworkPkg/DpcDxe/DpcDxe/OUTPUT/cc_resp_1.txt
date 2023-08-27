@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\NetworkPkg\DpcDxe\Dpc.c f:\uefiworkspace\Build\EmulatorX64\DEBUG_VS2019\X64\NetworkPkg\DpcDxe\DpcDxe\DEBUG\AutoGen.c

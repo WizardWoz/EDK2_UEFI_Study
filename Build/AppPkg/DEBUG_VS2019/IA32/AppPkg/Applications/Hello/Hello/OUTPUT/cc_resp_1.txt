@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\AppPkg\Applications\Hello\Hello.c f:\uefiworkspace\Build\AppPkg\DEBUG_VS2019\IA32\AppPkg\Applications\Hello\Hello\DEBUG\AutoGen.c

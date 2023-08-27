@@ -1,0 +1,478 @@
+ Fat
+
+ Timestamp is 64e9c824 (Sat Aug 26 17:38:44 2023)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000bc26H .text$mn                CODE
+ 0002:00000000 000018e0H .rdata                  DATA
+ 0002:000018e0 00000068H .rdata$voltmd           DATA
+ 0002:00001948 00000114H .rdata$zzzdbg           DATA
+ 0003:00000000 000001d8H .data                   DATA
+ 0003:000001d8 00000018H .bss                    DATA
+ 0004:00000000 0000004bH .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0001:00000000       __DriverUnloadHandler      00011000 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000040       __ModuleEntryPoint         00011040 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000150       _ProcessLibraryConstructorList 00011150 f   Fat:AutoGen.obj
+ 0001:000002e0       _ProcessLibraryDestructorList 000112e0 f   Fat:AutoGen.obj
+ 0001:000002f0       _ProcessModuleEntryPointList 000112f0 f   Fat:AutoGen.obj
+ 0001:00000310       _ProcessModuleUnloadList   00011310 f   Fat:AutoGen.obj
+ 0001:00000330       _FatEntryPoint             00011330 f   Fat:Fat.obj
+ 0001:000003d0       _FatUnload                 000113d0 f   Fat:Fat.obj
+ 0001:000005c0       _FatDriverBindingSupported 000115c0 f   Fat:Fat.obj
+ 0001:00000660       _FatDriverBindingStart     00011660 f   Fat:Fat.obj
+ 0001:00000800       _FatDriverBindingStop      00011800 f   Fat:Fat.obj
+ 0001:000009e0       _FatComponentNameGetDriverName 000119e0 f   Fat:ComponentName.obj
+ 0001:00000a20       _FatComponentNameGetControllerName 00011a20 f   Fat:ComponentName.obj
+ 0001:00000a90       _FatCreateTask             00011a90 f   Fat:Misc.obj
+ 0001:00000af0       _FatDestroyTask            00011af0 f   Fat:Misc.obj
+ 0001:00000b90       _FatWaitNonblockingTask    00011b90 f   Fat:Misc.obj
+ 0001:00000bd0       _FatDestroySubtask         00011bd0 f   Fat:Misc.obj
+ 0001:00000c10       _FatQueueTask              00011c10 f   Fat:Misc.obj
+ 0001:00000ec0       _FatAccessVolumeDirty      00011ec0 f   Fat:Misc.obj
+ 0001:00000f10       _FatOnAccessComplete       00011f10 f   Fat:Misc.obj
+ 0001:00001060       _FatDiskIo                 00012060 f   Fat:Misc.obj
+ 0001:00001250       _FatAcquireLock            00012250 f   Fat:Misc.obj
+ 0001:00001270       _FatAcquireLockOrFail      00012270 f   Fat:Misc.obj
+ 0001:00001290       _FatReleaseLock            00012290 f   Fat:Misc.obj
+ 0001:000012b0       _FatFreeDirEnt             000122b0 f   Fat:Misc.obj
+ 0001:000012e0       _FatFreeVolume             000122e0 f   Fat:Misc.obj
+ 0001:00001320       _FatEfiTimeToFatTime       00012320 f   Fat:Misc.obj
+ 0001:00001440       _FatFatTimeToEfiTime       00012440 f   Fat:Misc.obj
+ 0001:000014f0       _FatGetCurrentFatTime      000124f0 f   Fat:Misc.obj
+ 0001:00001560       _FatIsValidTime            00012560 f   Fat:Misc.obj
+ 0001:00001660       _FatAllocateVolume         00012660 f   Fat:Init.obj
+ 0001:000017f0       _FatAbandonVolume          000127f0 f   Fat:Init.obj
+ 0001:000018c0       _FatOpenDevice             000128c0 f   Fat:Init.obj
+ 0001:00001d70       _InitializeUnicodeCollationSupportWorker 00012d70 f   Fat:UnicodeCollation.obj
+ 0001:00001ec0       _InitializeUnicodeCollationSupport 00012ec0 f   Fat:UnicodeCollation.obj
+ 0001:00001f20       _FatStriCmp                00012f20 f   Fat:UnicodeCollation.obj
+ 0001:00001fe0       _FatStrUpr                 00012fe0 f   Fat:UnicodeCollation.obj
+ 0001:00002070       _FatStrLwr                 00013070 f   Fat:UnicodeCollation.obj
+ 0001:00002100       _FatFatToStr               00013100 f   Fat:UnicodeCollation.obj
+ 0001:000021e0       _FatStrToFat               000131e0 f   Fat:UnicodeCollation.obj
+ 0001:00002640       _FatAccessCache            00013640 f   Fat:DiskCache.obj
+ 0001:00002870       _FatVolumeFlushCache       00013870 f   Fat:DiskCache.obj
+ 0001:00002950       _FatInitializeDiskCache    00013950 f   Fat:DiskCache.obj
+ 0001:00002c10       _FatDiscardODir            00013c10 f   Fat:DirectoryCache.obj
+ 0001:00002d10       _FatRequestODir            00013d10 f   Fat:DirectoryCache.obj
+ 0001:00002e00       _FatCleanupODirCache       00013e00 f   Fat:DirectoryCache.obj
+ 0001:00002eb0       _FatOpenVolume             00013eb0 f   Fat:OpenVolume.obj
+ 0001:00002f80       _FatFlushEx                00013f80 f   Fat:Flush.obj
+ 0001:000030f0       _FatFlush                  000140f0 f   Fat:Flush.obj
+ 0001:00003110       _FatClose                  00014110 f   Fat:Flush.obj
+ 0001:000031a0       _FatIFileClose             000141a0 f   Fat:Flush.obj
+ 0001:00003270       _FatOFileFlush             00014270 f   Fat:Flush.obj
+ 0001:00003360       _FatCheckOFileRef          00014360 f   Fat:Flush.obj
+ 0001:00003490       _FatCleanupVolume          00014490 f   Fat:Flush.obj
+ 0001:000035c0       _FatSetVolumeError         000145c0 f   Fat:Flush.obj
+ 0001:00003660       _FatGetPosition            00014660 f   Fat:ReadWrite.obj
+ 0001:000036f0       _FatSetPosition            000146f0 f   Fat:ReadWrite.obj
+ 0001:000037c0       _FatIFileReadDir           000147c0 f   Fat:ReadWrite.obj
+ 0001:00003880       _FatIFileAccess            00014880 f   Fat:ReadWrite.obj
+ 0001:00003b80       _FatRead                   00014b80 f   Fat:ReadWrite.obj
+ 0001:00003ba0       _FatReadEx                 00014ba0 f   Fat:ReadWrite.obj
+ 0001:00003bd0       _FatWrite                  00014bd0 f   Fat:ReadWrite.obj
+ 0001:00003bf0       _FatWriteEx                00014bf0 f   Fat:ReadWrite.obj
+ 0001:00003c20       _FatAccessOFile            00014c20 f   Fat:ReadWrite.obj
+ 0001:00003da0       _FatExpandOFile            00014da0 f   Fat:ReadWrite.obj
+ 0001:00003df0       _FatWriteZeroPool          00014df0 f   Fat:ReadWrite.obj
+ 0001:00003eb0       _FatTruncateOFile          00014eb0 f   Fat:ReadWrite.obj
+ 0001:00003ed0       _FatAllocateIFile          00014ed0 f   Fat:Open.obj
+ 0001:00003fe0       _FatOFileOpen              00014fe0 f   Fat:Open.obj
+ 0001:00004270       _FatOpenEx                 00015270 f   Fat:Open.obj
+ 0001:00004450       _FatOpen                   00015450 f   Fat:Open.obj
+ 0001:00004480       _FatGetFileInfo            00015480 f   Fat:Info.obj
+ 0001:000044b0       _FatGetVolumeInfo          000154b0 f   Fat:Info.obj
+ 0001:000045c0       _FatGetVolumeLabelInfo     000155c0 f   Fat:Info.obj
+ 0001:00004640       _FatSetVolumeInfo          00015640 f   Fat:Info.obj
+ 0001:000046a0       _FatSetVolumeLabelInfo     000156a0 f   Fat:Info.obj
+ 0001:000046d0       _FatSetFileInfo            000156d0 f   Fat:Info.obj
+ 0001:00004bb0       _FatSetOrGetInfo           00015bb0 f   Fat:Info.obj
+ 0001:00004e00       _FatGetInfo                00015e00 f   Fat:Info.obj
+ 0001:00004e20       _FatSetInfo                00015e20 f   Fat:Info.obj
+ 0001:00004e40       _FatDelete                 00015e40 f   Fat:Delete.obj
+ 0001:00005080       _FatStoreDirEnt            00016080 f   Fat:DirectoryManage.obj
+ 0001:00005220       _FatIsDotDirEnt            00016220 f   Fat:DirectoryManage.obj
+ 0001:000052b0       _FatUpdateDirEntClusterSizeInfo 000162b0 f   Fat:DirectoryManage.obj
+ 0001:00005300       _FatCloneDirEnt            00016300 f   Fat:DirectoryManage.obj
+ 0001:000056b0       _FatGetDirEntInfo          000166b0 f   Fat:DirectoryManage.obj
+ 0001:000059a0       _FatResetODirCursor        000169a0 f   Fat:DirectoryManage.obj
+ 0001:00005a00       _FatGetNextDirEnt          00016a00 f   Fat:DirectoryManage.obj
+ 0001:00005fa0       _FatGetVolumeEntry         00016fa0 f   Fat:DirectoryManage.obj
+ 0001:00005ff0       _FatSetVolumeEntry         00016ff0 f   Fat:DirectoryManage.obj
+ 0001:000060c0       _FatCreateDotDirEnts       000170c0 f   Fat:DirectoryManage.obj
+ 0001:00006140       _FatCreateDirEnt           00017140 f   Fat:DirectoryManage.obj
+ 0001:000062b0       _FatRemoveDirEnt           000172b0 f   Fat:DirectoryManage.obj
+ 0001:00006330       _FatOpenDirEnt             00017330 f   Fat:DirectoryManage.obj
+ 0001:00006520       _FatCloseDirEnt            00017520 f   Fat:DirectoryManage.obj
+ 0001:000065e0       _FatLocateOFile            000175e0 f   Fat:DirectoryManage.obj
+ 0001:00006d90       _FatShrinkEof              00017d90 f   Fat:FileSpace.obj
+ 0001:00006f10       _FatGrowEof                00017f10 f   Fat:FileSpace.obj
+ 0001:000071d0       _FatOFilePosition          000181d0 f   Fat:FileSpace.obj
+ 0001:000073f0       _FatPhysicalDirSize        000183f0 f   Fat:FileSpace.obj
+ 0001:000074e0       _FatPhysicalFileSize       000184e0 f   Fat:FileSpace.obj
+ 0001:00007520       _FatComputeFreeInfo        00018520 f   Fat:FileSpace.obj
+ 0001:000075e0       _FatCheckIs8Dot3Name       000185e0 f   Fat:FileName.obj
+ 0001:00007750       _FatNameToStr              00018750 f   Fat:FileName.obj
+ 0001:00007790       _FatCreate8Dot3Name        00018790 f   Fat:FileName.obj
+ 0001:000079c0       _FatSetCaseFlag            000189c0 f   Fat:FileName.obj
+ 0001:00007ae0       _FatGetFileNameViaCaseFlag 00018ae0 f   Fat:FileName.obj
+ 0001:00007b80       _FatCheckSum               00018b80 f   Fat:FileName.obj
+ 0001:00007bf0       _FatGetNextNameComponent   00018bf0 f   Fat:FileName.obj
+ 0001:00007c50       _FatFileNameIsValid        00018c50 f   Fat:FileName.obj
+ 0001:00007e20       _FatLongNameHashSearch     00018e20 f   Fat:Hash.obj
+ 0001:00007e80       _FatShortNameHashSearch    00018e80 f   Fat:Hash.obj
+ 0001:00007ee0       _FatInsertToHashTable      00018ee0 f   Fat:Hash.obj
+ 0001:00007f60       _FatDeleteFromHashTable    00018f60 f   Fat:Hash.obj
+ 0001:00007fa0       _DebugPrint                00018fa0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00007fd0       _DebugPrintMarker          00018fd0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000084b0       _DebugVPrint               000194b0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000084d0       _DebugAssert               000194d0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00008730       _DebugAssertEnabled        00019730 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00008760       _DebugPrintEnabled         00019760 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00008790       _DebugPrintLevelEnabled    00019790 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000087b0       _InternalBaseLibIsListValid 000197b0 f   BaseLib:LinkedList.obj
+ 0001:000088a0       _IsNodeInList              000198a0 f   BaseLib:LinkedList.obj
+ 0001:00008970       _InitializeListHead        00019970 f   BaseLib:LinkedList.obj
+ 0001:000089c0       _InsertHeadList            000199c0 f   BaseLib:LinkedList.obj
+ 0001:00008a80       _InsertTailList            00019a80 f   BaseLib:LinkedList.obj
+ 0001:00008b40       _GetFirstNode              00019b40 f   BaseLib:LinkedList.obj
+ 0001:00008b90       _GetNextNode               00019b90 f   BaseLib:LinkedList.obj
+ 0001:00008c30       _IsListEmpty               00019c30 f   BaseLib:LinkedList.obj
+ 0001:00008c90       _IsNull                    00019c90 f   BaseLib:LinkedList.obj
+ 0001:00008d40       _RemoveEntryList           00019d40 f   BaseLib:LinkedList.obj
+ 0001:00008da0       _HighBitSet32              00019da0 f   BaseLib:HighBitSet32.obj
+ 0001:00008de0       _LShiftU64                 00019de0 f   BaseLib:LShiftU64.obj
+ 0001:00008e30       _StrLen                    00019e30 f   BaseLib:String.obj
+ 0001:00008ef0       _StrSize                   00019ef0 f   BaseLib:String.obj
+ 0001:00008f10       _StrCmp                    00019f10 f   BaseLib:String.obj
+ 0001:00008fc0       _AsciiStrLen               00019fc0 f   BaseLib:String.obj
+ 0001:00009060       _AsciiStrSize              0001a060 f   BaseLib:String.obj
+ 0001:00009080       _AsciiStrnCmp              0001a080 f   BaseLib:String.obj
+ 0001:00009190       _RShiftU64                 0001a190 f   BaseLib:RShiftU64.obj
+ 0001:000091e0       _InternalSafeStringIsOverlap 0001a1e0 f   BaseLib:SafeString.obj
+ 0001:00009220       _InternalSafeStringNoStrOverlap 0001a220 f   BaseLib:SafeString.obj
+ 0001:00009260       _InternalSafeStringNoAsciiStrOverlap 0001a260 f   BaseLib:SafeString.obj
+ 0001:000092a0       _StrnLenS                  0001a2a0 f   BaseLib:SafeString.obj
+ 0001:00009320       _StrCpyS                   0001a320 f   BaseLib:SafeString.obj
+ 0001:00009660       _StrnCpyS                  0001a660 f   BaseLib:SafeString.obj
+ 0001:00009a50       _StrCatS                   0001aa50 f   BaseLib:SafeString.obj
+ 0001:00009e30       _AsciiStrnLenS             0001ae30 f   BaseLib:SafeString.obj
+ 0001:00009e90       _AsciiStrnCpyS             0001ae90 f   BaseLib:SafeString.obj
+ 0001:0000a220       _CpuBreakpoint             0001b220 f   BaseLib:CpuBreakpoint.obj
+ 0001:0000a230       _CpuDeadLoop               0001b230 f   BaseLib:CpuDeadLoop.obj
+ 0001:0000a250       _InternalMathLShiftU64     0001b250 f   BaseLib:LShiftU64.obj
+ 0001:0000a270       _InternalMathRShiftU64     0001b270 f   BaseLib:RShiftU64.obj
+ 0001:0000a290       _CpuPause                  0001b290 f   BaseLib:CpuPause.obj
+ 0001:0000a2a0       _ZeroMem                   0001b2a0 f   BaseMemoryLib:ZeroMemWrapper.obj
+ 0001:0000a320       _CopyMem                   0001b320 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:0000a3c0       _CompareMem                0001b3c0 f   BaseMemoryLib:CompareMemWrapper.obj
+ 0001:0000a4b0       _CopyGuid                  0001b4b0 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:0000a500       _CompareGuid               0001b500 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:0000a590       _SetMem                    0001b590 f   BaseMemoryLib:SetMemWrapper.obj
+ 0001:0000a5f0       _InternalMemZeroMem        0001b5f0 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:0000a610       _InternalMemCompareMem     0001b610 f   BaseMemoryLib:MemLibGeneric.obj
+ 0001:0000a660       _InternalMemCopyMem        0001b660 f   BaseMemoryLib:CopyMem.obj
+ 0001:0000a9d0       _InternalMemSetMem         0001b9d0 f   BaseMemoryLib:SetMem.obj
+ 0001:0000aaf0       _InternalAllocatePool      0001baf0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ab30       _AllocatePool              0001bb30 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ab50       _InternalAllocateZeroPool  0001bb50 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ab90       _AllocateZeroPool          0001bb90 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000abb0       _InternalAllocateCopyPool  0001bbb0 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ac50       _AllocateCopyPool          0001bc50 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ac70       _FreePool                  0001bc70 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:0000ad00       _UefiBootServicesTableLibConstructor 0001bd00 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:0000adb0       _UefiRuntimeServicesTableLibConstructor 0001bdb0 f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:0000adf0       _UefiLibConstructor        0001bdf0 f   UefiLib:UefiLib.obj
+ 0001:0000ae00       _CompareIso639LanguageCode 0001be00 f   UefiLib:UefiLib.obj
+ 0001:0000ae40       _EfiGetCurrentTpl          0001be40 f   UefiLib:UefiLib.obj
+ 0001:0000ae70       _EfiAcquireLock            0001be70 f   UefiLib:UefiLib.obj
+ 0001:0000af00       _EfiAcquireLockOrFail      0001bf00 f   UefiLib:UefiLib.obj
+ 0001:0000afa0       _EfiReleaseLock            0001bfa0 f   UefiLib:UefiLib.obj
+ 0001:0000b030       _EfiTestManagedDevice      0001c030 f   UefiLib:UefiLib.obj
+ 0001:0000b0e0       _IsLanguageSupported       0001c0e0 f   UefiLib:UefiLib.obj
+ 0001:0000b190       _LookupUnicodeString2      0001c190 f   UefiLib:UefiLib.obj
+ 0001:0000b310       _GetVariable2              0001c310 f   UefiLib:UefiLib.obj
+ 0001:0000b450       _GetEfiGlobalVariable2     0001c450 f   UefiLib:UefiLib.obj
+ 0001:0000b470       _GetBestLanguage           0001c470 f   UefiLib:UefiLib.obj
+ 0001:0000b660       _EfiLibInstallDriverBindingComponentName2 0001c660 f   UefiLib:UefiDriverModel.obj
+ 0001:0000b810       _GetDebugPrintErrorLevel   0001c810 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:0000b820       _InternalGetReportStatusCode 0001c820 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000b880       _InternalReportStatusCode  0001c880 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000b910       _ReportStatusCodeEx        0001c910 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000bad0       _ReportProgressCodeEnabled 0001cad0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000bb00       _ReportErrorCodeEnabled    0001cb00 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000bb30       _ReportDebugCodeEnabled    0001cb30 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000bb60       _ReadUnaligned24           0001cb60 f   BaseLib:Unaligned.obj
+ 0001:0000bba0       _ReadUnaligned64           0001cba0 f   BaseLib:Unaligned.obj
+ 0001:0000bbe0       _WriteUnaligned64          0001cbe0 f   BaseLib:Unaligned.obj
+ 0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 0001d000     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000024       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 0001d024     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000050       ??_C@_0EN@BMBDHEJO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001d050     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000009d       __gDriverUnloadImageCount  0001d09d     Fat:AutoGen.obj
+ 0002:000000a0       __gUefiDriverRevision      0001d0a0     Fat:AutoGen.obj
+ 0002:000000a4       ??_C@_03GCICDKOH@Fat@      0001d0a4     Fat:AutoGen.obj
+ 0002:000000a8       ??_C@_0GA@JNOBLELH@f?3?2uefiworkspace?2Build?2Emulator@ 0001d0a8     Fat:AutoGen.obj
+ 0002:00000108       __gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength 0001d108     Fat:AutoGen.obj
+ 0002:00000108       __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0001d108     Fat:AutoGen.obj
+ 0002:00000108       __gPcd_FixedAtBuild_PcdMaximumLinkedListLength 0001d108     Fat:AutoGen.obj
+ 0002:0000010c       __gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 0001d10c     Fat:AutoGen.obj
+ 0002:00000110       __gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang 0001d110     Fat:AutoGen.obj
+ 0002:00000118       __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 0001d118     Fat:AutoGen.obj
+ 0002:0000011c       __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 0001d11c     Fat:AutoGen.obj
+ 0002:00000120       __gPcd_FixedAtBuild_PcdComponentNameDisable 0001d120     Fat:AutoGen.obj
+ 0002:00000120       __gPcd_FixedAtBuild_PcdComponentName2Disable 0001d120     Fat:AutoGen.obj
+ 0002:00000120       __gPcd_FixedAtBuild_PcdVerifyNodeInList 0001d120     Fat:AutoGen.obj
+ 0002:00000121       __gPcd_FixedAtBuild_PcdDebugPropertyMask 0001d121     Fat:AutoGen.obj
+ 0002:00000124       __gPcd_FixedAtBuild_PcdUefiVariableDefaultLang 0001d124     Fat:AutoGen.obj
+ 0002:00000128       ??_C@_0DC@PFFHGKBE@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d128     Fat:Fat.obj
+ 0002:0000015c       ??_C@_0BF@NDBIKIKC@CR?5has?5Bad?5Signature@ 0001d15c     Fat:Fat.obj
+ 0002:00000174       ??_C@_03LKLGDMJI@eng@      0001d174     Fat:ComponentName.obj
+ 0002:00000178       ??_C@_02LFNMGJAP@en@       0001d178     Fat:ComponentName.obj
+ 0002:0000017c       ??_C@_06DALJLGPG@eng?$DLen@ 0001d17c     Fat:ComponentName.obj
+ 0002:00000184       ??_C@_1CO@HMNJNNLH@?$AAF?$AAA?$AAT?$AA?5?$AAF?$AAi?$AAl?$AAe?$AA?5?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm@ 0001d184     Fat:ComponentName.obj
+ 0002:000001b4       ??_C@_1CA@NFKDMACF@?$AAF?$AAA?$AAT?$AA?5?$AAF?$AAi?$AAl?$AAe?$AA?5?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm@ 0001d1b4     Fat:ComponentName.obj
+ 0002:000001d4       ??_C@_0DD@BJLHCPIH@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d1d4     Fat:Misc.obj
+ 0002:00000208       ??_C@_0CH@BLGOOHNK@EfiGetCurrentTpl?5?$CI?$CJ?5?$DN?$DN?5FatTaskL@ 0001d208     Fat:Misc.obj
+ 0002:00000230       ??_C@_0EJ@JLLKJFHB@Task?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8f?8?$CJ?5?$HM?5?$CI?8@ 0001d230     Fat:Misc.obj
+ 0002:00000280       ??_C@_0EM@HBNAPHGL@Subtask?9?$DOSignature?5?$DN?$DN?5?$CI?$CI?$CI?8f?8?$CJ?5?$HM@ 0001d280     Fat:Misc.obj
+ 0002:000002cc       ??_C@_0BF@NHFDNFBH@FatDiskIo?3?5error?5?$CFr?6@ 0001d2cc     Fat:Misc.obj
+ 0002:000002e4       ??_C@_0CA@MEKKGLDJ@Installed?5Fat?5filesystem?5on?5?$CFp?6@ 0001d2e4     Fat:Init.obj
+ 0002:00000304       ??_C@_0CL@DGBOMBHF@FatOpenDevice?3?5read?5of?5part_lba@ 0001d304     Fat:Init.obj
+ 0002:00000330       ??_C@_0BI@BCGMNHIB@FatType?5?$CB?$DN?5FatUndefined@ 0001d330     Fat:Init.obj
+ 0002:00000348       ??_C@_0DD@BHGDNLCJ@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d348     Fat:Init.obj
+ 0002:0000037b       ??_C@_00CNPNBAHC@@         0001d37b     Fat:UnicodeCollation.obj
+ 0002:0000037c       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg@ 0001d37c     Fat:UnicodeCollation.obj
+ 0002:00000398       ??_C@_19BALNHBBC@?$AAL?$AAa?$AAn?$AAg@ 0001d398     Fat:UnicodeCollation.obj
+ 0002:000003a4       ??_C@_0BC@LIMPIMPH@StrSize?5?$CIS1?$CJ?5?$CB?$DN?50@ 0001d3a4     Fat:UnicodeCollation.obj
+ 0002:000003b8       ??_C@_0DP@NEILDINO@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d3b8     Fat:UnicodeCollation.obj
+ 0002:000003f8       ??_C@_0BC@DGEAILBE@StrSize?5?$CIS2?$CJ?5?$CB?$DN?50@ 0001d3f8     Fat:UnicodeCollation.obj
+ 0002:0000040c       ??_C@_0CL@FAPDEIP@mUnicodeCollationInterface?5?$CB?$DN?5?$CI@ 0001d40c     Fat:UnicodeCollation.obj
+ 0002:00000438       ??_C@_0BG@KBNOLIGE@StrSize?5?$CIString?$CJ?5?$CB?$DN?50@ 0001d438     Fat:UnicodeCollation.obj
+ 0002:00000450       ??_C@_0BE@FFHIJPBJ@Fat?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d450     Fat:UnicodeCollation.obj
+ 0002:00000464       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d464     Fat:UnicodeCollation.obj
+ 0002:0000047c       ??_C@_0BM@LPHAAFGH@?$CI?$CIUINTN?$CJString?5?$CG?50x01?$CJ?5?$DN?$DN?50@ 0001d47c     Fat:UnicodeCollation.obj
+ 0002:00000498       ??_C@_0CL@CDKDPNAC@FatDiskIo?3?5Cache?5Page?5OutBound?5@ 0001d498     Fat:DiskCache.obj
+ 0002:000004c4       ??_C@_0CE@FPKPHIJC@Volume?9?$DOCacheBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK@ 0001d4c4     Fat:DiskCache.obj
+ 0002:000004e8       ??_C@_0DI@NFPLLGK@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d4e8     Fat:DiskCache.obj
+ 0002:00000520       ??_C@_0BL@JDACPMOF@CacheDataType?5?$DN?$DN?5CacheData@ 0001d520     Fat:DiskCache.obj
+ 0002:0000053c       ??_C@_0DN@GFNAGNMB@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d53c     Fat:DirectoryCache.obj
+ 0002:0000057c       ??_C@_0BO@FGACLDFI@DirEnt?9?$DOOFile?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d57c     Fat:DirectoryCache.obj
+ 0002:0000059c       ??_C@_0DJ@ILFCLMFF@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d59c     Fat:OpenVolume.obj
+ 0002:000005d8       ??_C@_0DE@ECMDMHNE@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d5d8     Fat:Flush.obj
+ 0002:0000060c       ??_C@_0BL@GMBAHJFD@?$CGFatFsLock?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d60c     Fat:Flush.obj
+ 0002:00000628       ??_C@_0BG@NHNIBEOI@?$CGFatFsLock?5not?5locked@ 0001d628     Fat:Flush.obj
+ 0002:00000640       ??_C@_0DI@LCMOBPNC@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d640     Fat:ReadWrite.obj
+ 0002:00000678       ??_C@_0BD@HBMAIGKB@IoMode?5?$DN?$DN?5ReadData@ 0001d678     Fat:ReadWrite.obj
+ 0002:0000068c       ??_C@_0BM@PAOMAEIJ@Position?5?$DM?$DN?5OFile?9?$DOFileSize@ 0001d68c     Fat:ReadWrite.obj
+ 0002:000006a8       ??_C@_0DD@LHDLNHAC@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d6a8     Fat:Open.obj
+ 0002:000006dc       ??_C@_0BH@OBBOMLAL@DirEnt?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d6dc     Fat:Open.obj
+ 0002:000006f4       ??_C@_0BG@FCLHKHOM@FSOpen?3?5Open?5?8?$CFS?8?5?$CFr?6@ 0001d6f4     Fat:Open.obj
+ 0002:0000070c       ??_C@_0BO@OCFJBJJ@OFile?9?$DOParent?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d70c     Fat:Info.obj
+ 0002:0000072c       ??_C@_0DD@BCCLJMGG@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d72c     Fat:Info.obj
+ 0002:00000760       ??_C@_0DF@EIBLFNHE@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d760     Fat:Delete.obj
+ 0002:00000798       ??_C@_0DO@GCFLGDHK@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d798     Fat:DirectoryManage.obj
+ 0002:000007d8       ??_C@_13JOFGPIOO@?$AA?4@   0001d7d8     Fat:DirectoryManage.obj
+ 0002:000007dc       ??_C@_15DDHGOCBH@?$AA?4?$AA?4@ 0001d7dc     Fat:DirectoryManage.obj
+ 0002:000007e4       ??_C@_0BM@PCBCCOMN@OFile?9?$DOODir?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d7e4     Fat:DirectoryManage.obj
+ 0002:00000800       ??_C@_0BF@GOEONEEM@ODir?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d800     Fat:DirectoryManage.obj
+ 0002:00000818       ??_C@_0BA@JOMIKDBI@?$CBODir?9?$DOEndOfDir@ 0001d818     Fat:DirectoryManage.obj
+ 0002:00000828       ??_C@_0BG@HGDFJMCI@OFile?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001d828     Fat:DirectoryManage.obj
+ 0002:00000840       ??_C@_0CK@MGLHGANA@FSOpen?3?5Created?5new?5directory?5e@ 0001d840     Fat:DirectoryManage.obj
+ 0002:0000086c       ??_C@_0CF@DFAEHOPP@FatShrinkEof?3?5cluster?5chain?5cor@ 0001d86c     Fat:FileSpace.obj
+ 0002:00000894       ??_C@_0DI@HIAJBCEJ@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d894     Fat:FileSpace.obj
+ 0002:000008cc       ??_C@_0CD@PDLKPEEL@FatGrowEof?3?5cluster?5chain?5corru@ 0001d8cc     Fat:FileSpace.obj
+ 0002:000008f0       ??_C@_0DJ@NKCDIFLJ@FatGrowEof?3?5cluster?5chain?5size?5@ 0001d8f0     Fat:FileSpace.obj
+ 0002:0000092c       ??_C@_0CJ@CLJDAFAF@FatOFilePosition?3?5cluster?5chain@ 0001d92c     Fat:FileSpace.obj
+ 0002:00000958       ??_C@_0CD@JJJIGFI@FATDirSize?3?5cluster?5chain?5corru@ 0001d958     Fat:FileSpace.obj
+ 0002:0000097c       ??_C@_0BH@PAPENKKD@Parent?9?$DOODir?9?$DOEndOfDir@ 0001d97c     Fat:FileName.obj
+ 0002:00000994       ??_C@_0DH@MNGABGCO@f?3?2uefiworkspace?2edk2?2FatPkg?2En@ 0001d994     Fat:FileName.obj
+ 0002:000009cc       ??_C@_0CD@GKEMBKIB@DirEnt?9?$DOFileString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 0001d9cc     Fat:FileName.obj
+ 0002:000009f0       ??_C@_0DD@LBEIKFAB@StrSize?5?$CIDirEnt?9?$DOFileString?$CJ?5?$DM?$DN@ 0001d9f0     Fat:FileName.obj
+ 0002:00000a24       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001da24     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000a40       ??_C@_0FF@OJMNGPG@f?3?2uefiworkspace?2edk2?2MdeModule@ 0001da40     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000a98       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 0001da98     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000ac8       ??_C@_01OHGJGJJP@?$FL@     0001dac8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000acc       ??_C@_02PBFOLPKM@?$FN?5@   0001dacc     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000ad0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001dad0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000ae8       ??_C@_0BF@NJNGJMPC@List?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001dae8     BaseLib:LinkedList.obj
+ 0002:00000b00       ??_C@_0DK@OGPFJBAL@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001db00     BaseLib:LinkedList.obj
+ 0002:00000b3c       ??_C@_0CC@KDLPLAED@List?9?$DOForwardLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0001db3c     BaseLib:LinkedList.obj
+ 0002:00000b60       ??_C@_0BP@IJJCCMAK@List?9?$DOBackLink?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001db60     BaseLib:LinkedList.obj
+ 0002:00000b80       ??_C@_0CI@BMHOPIIO@InternalBaseLibIsListValid?5?$CIFir@ 0001db80     BaseLib:LinkedList.obj
+ 0002:00000ba8       ??_C@_0BM@BAIHHOEP@SecondEntry?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001dba8     BaseLib:LinkedList.obj
+ 0002:00000bc4       ??_C@_0BJ@NJABNCDK@ListHead?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001dbc4     BaseLib:LinkedList.obj
+ 0002:00000be0       ??_C@_0DI@HOMAKAJD@?$CI?$CIBOOLEAN?$CJ?$CI0?$DN?$DN1?$CJ?$CJ?5?$DN?$DN?5IsNodeInLi@ 0001dbe0     BaseLib:LinkedList.obj
+ 0002:00000c18       ??_C@_0CG@LGIALJFK@InternalBaseLibIsListValid?5?$CILis@ 0001dc18     BaseLib:LinkedList.obj
+ 0002:00000c40       ??_C@_0CC@JLDICICM@InternalBaseLibIsListValid?5?$CILis@ 0001dc40     BaseLib:LinkedList.obj
+ 0002:00000c64       ??_C@_0DD@OAAIDOJD@?$CI?$CIBOOLEAN?$CJ?$CI1?$DN?$DN1?$CJ?$CJ?5?$DN?$DN?5IsNodeInLi@ 0001dc64     BaseLib:LinkedList.obj
+ 0002:00000c98       ??_C@_0BF@NMBJJECB@?$CBIsListEmpty?5?$CIEntry?$CJ@ 0001dc98     BaseLib:LinkedList.obj
+ 0002:00000cb0       ??_C@_0L@MEMPDLHB@Count?5?$DM?564@ 0001dcb0     BaseLib:LShiftU64.obj
+ 0002:00000cbc       ??_C@_0DJ@POKPBLDK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001dcbc     BaseLib:LShiftU64.obj
+ 0002:00000cf8       ??_C@_0DG@ODLLMBNP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001dcf8     BaseLib:String.obj
+ 0002:00000d30       ??_C@_0CC@GFNLNIOC@?$CI?$CIUINTN?$CJString?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0001dd30     BaseLib:String.obj
+ 0002:00000d54       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0001dd54     BaseLib:String.obj
+ 0002:00000d90       ??_C@_0BL@JAAMOCAJ@StrSize?5?$CIFirstString?$CJ?5?$CB?$DN?50@ 0001dd90     BaseLib:String.obj
+ 0002:00000dac       ??_C@_0BM@DALBOILC@StrSize?5?$CISecondString?$CJ?5?$CB?$DN?50@ 0001ddac     BaseLib:String.obj
+ 0002:00000dc8       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0001ddc8     BaseLib:String.obj
+ 0002:00000e00       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ@ 0001de00     BaseLib:String.obj
+ 0002:00000e1c       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ@ 0001de1c     BaseLib:String.obj
+ 0002:00000e38       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pc@ 0001de38     BaseLib:String.obj
+ 0002:00000e74       ??_C@_0DJ@BLIGCFNI@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001de74     BaseLib:RShiftU64.obj
+ 0002:00000eb0       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001deb0     BaseLib:SafeString.obj
+ 0002:00000eec       ??_C@_0CH@LALFPBMC@?$CI?$CIUINTN?$CJDestination?5?$CG?50x0000000@ 0001deec     BaseLib:SafeString.obj
+ 0002:00000f14       ??_C@_0CC@HEBCMBPF@?$CI?$CIUINTN?$CJSource?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 0001df14     BaseLib:SafeString.obj
+ 0002:00000f38       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001df38     BaseLib:SafeString.obj
+ 0002:00000f58       ??_C@_07KBGDFDAM@StrCpyS@  0001df58     BaseLib:SafeString.obj
+ 0002:00000f60       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 0001df60     BaseLib:SafeString.obj
+ 0002:00000fa0       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001dfa0     BaseLib:SafeString.obj
+ 0002:00000fc0       ??_C@_0EA@BBALOHPI@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0001dfc0     BaseLib:SafeString.obj
+ 0002:00001000       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0001e000     BaseLib:SafeString.obj
+ 0002:00001010       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0001e010     BaseLib:SafeString.obj
+ 0002:00001028       ??_C@_0FH@PPBLBDBJ@InternalSafeStringNoStrOverlap?5@ 0001e028     BaseLib:SafeString.obj
+ 0002:00001080       ??_C@_08INOAHJON@StrnCpyS@ 0001e080     BaseLib:SafeString.obj
+ 0002:0000108c       ??_C@_0DP@PBOJGJC@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0001e08c     BaseLib:SafeString.obj
+ 0002:000010cc       ??_C@_07EBBOPAKF@StrCatS@  0001e0cc     BaseLib:SafeString.obj
+ 0002:000010d4       ??_C@_0P@BHOOOJPD@?$CICopyLen?5?$CB?$DN?50?$CJ@ 0001e0d4     BaseLib:SafeString.obj
+ 0002:000010e4       ??_C@_0BG@BPGICNPK@?$CICopyLen?5?$DO?5SourceLen?$CJ@ 0001e0e4     BaseLib:SafeString.obj
+ 0002:000010fc       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 0001e0fc     BaseLib:SafeString.obj
+ 0002:00001140       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 0001e140     BaseLib:SafeString.obj
+ 0002:0000119c       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 0001e19c     BaseLib:SafeString.obj
+ 0002:000011ac       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 0001e1ac     BaseLib:SafeString.obj
+ 0002:000011f0       ??_C@_0EE@NKGEIAMH@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e1f0     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00001234       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJ@ 0001e234     BaseMemoryLib:ZeroMemWrapper.obj
+ 0002:00001260       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 0001e260     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00001298       ??_C@_0EE@GOMGOBAA@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e298     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000012dc       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 0001e2dc     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00001310       ??_C@_0CC@JOEHDGKB@DestinationBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 0001e310     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001338       ??_C@_0EH@LNGKEKLE@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e338     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:00001380       ??_C@_0BN@MDMCNBCC@SourceBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e380     BaseMemoryLib:CompareMemWrapper.obj
+ 0002:000013a0       ??_C@_0CN@BPIPMCPJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 0001e3a0     BaseMemoryLib:SetMemWrapper.obj
+ 0002:000013d0       ??_C@_0ED@EDHDDFPL@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e3d0     BaseMemoryLib:SetMemWrapper.obj
+ 0002:00001418       ??_C@_0FD@NABGIAAK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e418     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:0000146c       ??_C@_0DD@HIGIPKGN@AllocationSize?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9@ 0001e46c     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000014a0       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e4a0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000014c0       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e4c0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:0000151c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e51c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001530       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e530     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00001544       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e544     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00001558       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e558     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000015b8       ??_C@_0DH@CPNBINNB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e5b8     UefiLib:UefiLib.obj
+ 0002:000015f0       ??_C@_0BN@HHGHCLME@ProtocolGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e5f0     UefiLib:UefiLib.obj
+ 0002:00001610       ??_C@_0BF@JGGLMCFN@Lock?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e610     UefiLib:UefiLib.obj
+ 0002:00001628       ??_C@_0BO@IJOPPPFL@Lock?9?$DOLock?5?$DN?$DN?5EfiLockReleased@ 0001e628     UefiLib:UefiLib.obj
+ 0002:00001648       ??_C@_0CD@PGOFFOAH@Lock?9?$DOLock?5?$CB?$DN?5EfiLockUninitiali@ 0001e648     UefiLib:UefiLib.obj
+ 0002:0000166c       ??_C@_0BO@FHNOFLFJ@Lock?9?$DOLock?5?$DN?$DN?5EfiLockAcquired@ 0001e66c     UefiLib:UefiLib.obj
+ 0002:00001690       ??_C@_0EG@GOBFPEEP@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Guid?5?$CB?$DN@ 0001e690     UefiLib:UefiLib.obj
+ 0002:000016d8       ??_C@_0BH@FMEOEIBC@?$CKValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e6d8     UefiLib:UefiLib.obj
+ 0002:000016f0       ??_C@_0CD@OLFKAJF@SupportedLanguages?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ@ 0001e6f0     UefiLib:UefiLib.obj
+ 0002:00001714       ??_C@_0BO@MHFMIIAE@DriverBinding?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e714     UefiLib:UefiDriverModel.obj
+ 0002:00001734       ??_C@_0DP@LJJEMLKP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e734     UefiLib:UefiDriverModel.obj
+ 0002:00001778       ??_C@_0FI@PJEDBJM@f?3?2uefiworkspace?2edk2?2MdeModule@ 0001e778     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000017d0       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e7d0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00001810       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001e810     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00001850       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001e850     BaseLib:Unaligned.obj
+ 0002:000018e0       ___volatile_metadata       0001e8e0     <linker-defined>
+ 0003:00000000       _gEfiLoadedImageProtocolGuid 0001f000     Fat:AutoGen.obj
+ 0003:00000010       _gEfiStatusCodeSpecificDataGuid 0001f010     Fat:AutoGen.obj
+ 0003:00000020       _gEfiGlobalVariableGuid    0001f020     Fat:AutoGen.obj
+ 0003:00000030       _gEfiStatusCodeRuntimeProtocolGuid 0001f030     Fat:AutoGen.obj
+ 0003:00000040       _gEfiUnicodeCollation2ProtocolGuid 0001f040     Fat:AutoGen.obj
+ 0003:00000050       _gEfiComponentName2ProtocolGuid 0001f050     Fat:AutoGen.obj
+ 0003:00000060       _gEfiFileSystemInfoGuid    0001f060     Fat:AutoGen.obj
+ 0003:00000070       _gEfiDiskIoProtocolGuid    0001f070     Fat:AutoGen.obj
+ 0003:00000080       _gEfiFileInfoGuid          0001f080     Fat:AutoGen.obj
+ 0003:00000090       _gEfiCallerBaseName        0001f090     Fat:AutoGen.obj
+ 0003:00000094       _gEfiStatusCodeDataTypeDebugGuid 0001f094     Fat:AutoGen.obj
+ 0003:000000a4       _gEfiSimpleFileSystemProtocolGuid 0001f0a4     Fat:AutoGen.obj
+ 0003:000000b4       _gEfiUnicodeCollationProtocolGuid 0001f0b4     Fat:AutoGen.obj
+ 0003:000000c4       _gEfiFileSystemVolumeLabelInfoIdGuid 0001f0c4     Fat:AutoGen.obj
+ 0003:000000d4       _gEfiDiskIo2ProtocolGuid   0001f0d4     Fat:AutoGen.obj
+ 0003:000000e4       _gEfiDriverBindingProtocolGuid 0001f0e4     Fat:AutoGen.obj
+ 0003:000000f4       _gEfiComponentNameProtocolGuid 0001f0f4     Fat:AutoGen.obj
+ 0003:00000104       _gEfiBlockIoProtocolGuid   0001f104     Fat:AutoGen.obj
+ 0003:00000114       _gEfiCallerIdGuid          0001f114     Fat:AutoGen.obj
+ 0003:00000124       _gFatDriverBinding         0001f124     Fat:Fat.obj
+ 0003:0000013c       _gFatComponentName2        0001f13c     Fat:ComponentName.obj
+ 0003:00000148       _gFatComponentName         0001f148     Fat:ComponentName.obj
+ 0003:00000154       _mFatControllerNameTable   0001f154     Fat:ComponentName.obj
+ 0003:00000164       _mFatDriverNameTable       0001f164     Fat:ComponentName.obj
+ 0003:00000174       _mMonthDays                0001f174     Fat:Misc.obj
+ 0003:00000180       _FatFsLock                 0001f180     Fat:Data.obj
+ 0003:0000018c       _FatTaskLock               0001f18c     Fat:Data.obj
+ 0003:00000198       _FatFileInterface          0001f198     Fat:Data.obj
+ 0003:000001d8       _mUnicodeCollationInterface 0001f1d8     Fat:UnicodeCollation.obj
+ 0003:000001dc       _gST                       0001f1dc     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001e0       _gBS                       0001f1e0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001e4       _gImageHandle              0001f1e4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000001e8       _gRT                       0001f1e8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000001ec       _mReportStatusCodeLibStatusCodeProtocol 0001f1ec     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+
+ entry point at        0001:00000040
+
+ Static symbols
+
+ 0000:fffee000       .debug$S                   00010000     Fat.exp
+ 0001:000022a0       _FatFlushDataCacheRange    000132a0 f   Fat:DiskCache.obj
+ 0001:00002380       _FatExchangeCachePage      00013380 f   Fat:DiskCache.obj
+ 0001:00002500       _FatGetCachePage           00013500 f   Fat:DiskCache.obj
+ 0001:00002590       _FatAccessUnalignedCachePage 00013590 f   Fat:DiskCache.obj
+ 0001:00002af0       _FatFreeODir               00013af0 f   Fat:DirectoryCache.obj
+ 0001:00002bc0       _FatAllocateODir           00013bc0 f   Fat:DirectoryCache.obj
+ 0001:000033e0       _FatCheckVolumeRef         000143e0 f   Fat:Flush.obj
+ 0001:00004ff0       _FatAccessEntry            00015ff0 f   Fat:DirectoryManage.obj
+ 0001:00005270       _FatSetDirEntCluster       00016270 f   Fat:DirectoryManage.obj
+ 0001:00005340       _FatLoadLongNameEntry      00016340 f   Fat:DirectoryManage.obj
+ 0001:000054c0       _FatAddDirEnt              000164c0 f   Fat:DirectoryManage.obj
+ 0001:00005500       _FatLoadNextDirEnt         00016500 f   Fat:DirectoryManage.obj
+ 0001:00005890       _FatSearchODir             00016890 f   Fat:DirectoryManage.obj
+ 0001:00005b20       _FatSetEntryCount          00016b20 f   Fat:DirectoryManage.obj
+ 0001:00005c40       _FatExpandODir             00016c40 f   Fat:DirectoryManage.obj
+ 0001:00005c70       _FatSeekVolumeId           00016c70 f   Fat:DirectoryManage.obj
+ 0001:00005d20       _FatFirstFitInsertDirEnt   00016d20 f   Fat:DirectoryManage.obj
+ 0001:00005e60       _FatNewEntryPos            00016e60 f   Fat:DirectoryManage.obj
+ 0001:00006800       _FatLoadFatEntry           00017800 f   Fat:FileSpace.obj
+ 0001:000068c0       _FatGetFatEntry            000178c0 f   Fat:FileSpace.obj
+ 0001:000069f0       _FatSetFatEntry            000179f0 f   Fat:FileSpace.obj
+ 0001:00006be0       _FatFreeClusters           00017be0 f   Fat:FileSpace.obj
+ 0001:00006c70       _FatAllocateCluster        00017c70 f   Fat:FileSpace.obj
+ 0001:00006d50       _FatSizeToClusters         00017d50 f   Fat:FileSpace.obj
+ 0001:00007720       _FatTrimAsciiTrailingBlanks 00018720 f   Fat:FileName.obj
+ 0001:00007940       _FatCheckNameCase          00018940 f   Fat:FileName.obj
+ 0001:00007d80       _FatHashLongName           00018d80 f   Fat:Hash.obj
+ 0001:00007df0       _FatHashShortName          00018df0 f   Fat:Hash.obj
+ 0004:00000000       .edata                     00020000     Fat.exp
+ 0004:00000028       rgpv                       00020028     Fat.exp
+ 0004:0000002c       rgszName                   0002002c     Fat.exp
+ 0004:00000030       rgwOrd                     00020030     Fat.exp
+ 0004:00000032       szName                     00020032     Fat.exp
+ 0004:0000003a       $N00001                    0002003a     Fat.exp

@@ -1,0 +1,16 @@
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/SetMem.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/ScanMem64Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/ScanMem32Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/ScanMem16Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/ScanMem8Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/ZeroMemWrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/CompareMemWrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/SetMem64Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/SetMem32Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/SetMem16Wrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/SetMemWrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/CopyMemWrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/IsZeroBufferWrapper.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/MemLibGeneric.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/MemLibGuid.obj
+f:/uefiworkspace/Build/EmulatorX64/DEBUG_VS2019/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/CopyMem.obj

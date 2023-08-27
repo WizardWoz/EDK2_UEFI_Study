@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\compat.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\Xform.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\StubFunctions.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\select.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\writev.c f:\uefiworkspace\edk2-libc\StdLib\LibC\Uefi\SysCalls.c

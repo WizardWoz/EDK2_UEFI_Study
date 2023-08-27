@@ -1,0 +1,206 @@
+ Metronome
+
+ Timestamp is 64e9c80e (Sat Aug 26 17:38:22 2023)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000080H .text                   CODE
+ 0001:00000080 00002691H .text$mn                CODE
+ 0002:00000000 00000accH .rdata                  DATA
+ 0002:00000acc 00000058H .rdata$voltmd           DATA
+ 0002:00000b24 0000013cH .rdata$zzzdbg           DATA
+ 0003:00000000 000000a0H .data                   DATA
+ 0003:000000a0 00000038H .bss                    DATA
+ 0004:00000000 00000051H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0001:00000000       _InternalMathDivRemU64x64  00011000     BaseLib:DivU64x64Remainder.obj
+ 0001:00000080       __DriverUnloadHandler      00011080 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000000c0       __ModuleEntryPoint         000110c0 f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:000001d0       _ProcessLibraryConstructorList 000111d0 f   Metronome:AutoGen.obj
+ 0001:000004d0       _ProcessLibraryDestructorList 000114d0 f   Metronome:AutoGen.obj
+ 0001:000004e0       _ProcessModuleEntryPointList 000114e0 f   Metronome:AutoGen.obj
+ 0001:00000500       _UefiLibConstructor        00011500 f   UefiLib:UefiLib.obj
+ 0001:00000500       _ProcessModuleUnloadList   00011500 f   Metronome:AutoGen.obj
+ 0001:00000510       _WaitForTick               00011510 f   Metronome:Metronome.obj
+ 0001:00000550       _InstallMetronome          00011550 f   Metronome:Metronome.obj
+ 0001:000006a0       _DebugPrint                000116a0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000006d0       _DebugPrintMarker          000116d0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000bb0       _DebugVPrint               00011bb0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000bd0       _DebugAssert               00011bd0 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000e30       _DebugAssertEnabled        00011e30 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000e60       _DebugPrintEnabled         00011e60 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000e90       _DebugPrintLevelEnabled    00011e90 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000eb0       _UefiBootServicesTableLibConstructor 00011eb0 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000f60       _UefiRuntimeServicesTableLibConstructor 00011f60 f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0001:00000fa0       _EfiGetSystemConfigurationTable 00011fa0 f   UefiLib:UefiLib.obj
+ 0001:00001070       _EfiCreateProtocolNotifyEvent 00012070 f   UefiLib:UefiLib.obj
+ 0001:00001230       _EfiGetCurrentTpl          00012230 f   UefiLib:UefiLib.obj
+ 0001:00001260       _GetHobList                00012260 f   DxeHobLib:HobLib.obj
+ 0001:00001330       _HobLibConstructor         00012330 f   DxeHobLib:HobLib.obj
+ 0001:00001340       _GetNextHob                00012340 f   DxeHobLib:HobLib.obj
+ 0001:000013b0       _GetNextGuidHob            000123b0 f   DxeHobLib:HobLib.obj
+ 0001:00001410       _GetFirstGuidHob           00012410 f   DxeHobLib:HobLib.obj
+ 0001:00001430       _DxeEmuLibConstructor      00012430 f   DxeEmuLib:DxeEmuLib.obj
+ 0001:000014b0       _RegisterTimerArchProtocol 000124b0 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:00001620       _MicroSecondDelay          00012620 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:00001640       _NanoSecondDelay           00012640 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:000017e0       _DxeTimerLibConstructor    000127e0 f   EmuDxeTimerLib:DxeTimerLib.obj
+ 0001:00001810       _GetDebugPrintErrorLevel   00012810 f   BaseDebugPrintErrorLevelLib:BaseDebugPrintErrorLevelLib.obj
+ 0001:00001820       _AsciiStrLen               00012820 f   BaseLib:String.obj
+ 0001:000018c0       _AsciiStrSize              000128c0 f   BaseLib:String.obj
+ 0001:000018e0       _InternalSafeStringIsOverlap 000128e0 f   BaseLib:SafeString.obj
+ 0001:00001920       _InternalSafeStringNoAsciiStrOverlap 00012920 f   BaseLib:SafeString.obj
+ 0001:00001960       _AsciiStrnLenS             00012960 f   BaseLib:SafeString.obj
+ 0001:000019b0       _AsciiStrnCpyS             000129b0 f   BaseLib:SafeString.obj
+ 0001:00001d40       _CpuBreakpoint             00012d40 f   BaseLib:CpuBreakpoint.obj
+ 0001:00001d50       _CpuDeadLoop               00012d50 f   BaseLib:CpuDeadLoop.obj
+ 0001:00001d70       _ReadUnaligned64           00012d70 f   BaseLib:Unaligned.obj
+ 0001:00001db0       _WriteUnaligned64          00012db0 f   BaseLib:Unaligned.obj
+ 0001:00001e00       _DivU64x32                 00012e00 f   BaseLib:DivU64x32.obj
+ 0001:00001e50       _MultU64x32                00012e50 f   BaseLib:MultU64x32.obj
+ 0001:00001e80       _CpuPause                  00012e80 f   BaseLib:CpuPause.obj
+ 0001:00001e90       _InternalMathDivU64x32     00012e90 f   BaseLib:DivU64x32.obj
+ 0001:00001eb0       _InternalMathMultU64x32    00012eb0 f   BaseLib:MultU64x32.obj
+ 0001:00001ed0       _InternalMathDivRemU64x32  00012ed0 f   BaseLib:DivU64x32Remainder.obj
+ 0001:00001ef0       _CopyMem                   00012ef0 f   BaseMemoryLib:CopyMemWrapper.obj
+ 0001:00001f90       _CopyGuid                  00012f90 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00001fe0       _CompareGuid               00012fe0 f   BaseMemoryLib:MemLibGuid.obj
+ 0001:00002070       _InternalMemCopyMem        00013070 f   BaseMemoryLib:CopyMem.obj
+ 0001:000023e0       _InternalGetReportStatusCode 000133e0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002440       _InternalReportStatusCode  00013440 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000024d0       _ReportStatusCodeEx        000134d0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002690       _ReportProgressCodeEnabled 00013690 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000026c0       _ReportErrorCodeEnabled    000136c0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000026f0       _ReportDebugCodeEnabled    000136f0 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000000       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ@ 00014000     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000024       ??_C@_0CH@BBNBJKHK@?$CB?$CI?$CI?$CIINTN?$CJ?$CIRETURN_STATUS?$CJ?$CIStatus@ 00014024     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000050       ??_C@_0EN@BMBDHEJO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014050     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000009d       __gDriverUnloadImageCount  0001409d     Metronome:AutoGen.obj
+ 0002:000000a0       __gUefiDriverRevision      000140a0     Metronome:AutoGen.obj
+ 0002:000000a4       ??_C@_09NGEINFHN@Metronome@ 000140a4     Metronome:AutoGen.obj
+ 0002:000000b0       ??_C@_0HB@DMLDJAJA@f?3?2uefiworkspace?2Build?2Emulator@ 000140b0     Metronome:AutoGen.obj
+ 0002:00000121       __gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask 00014121     Metronome:AutoGen.obj
+ 0002:00000124       __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel 00014124     Metronome:AutoGen.obj
+ 0002:00000128       __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel 00014128     Metronome:AutoGen.obj
+ 0002:0000012c       __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength 0001412c     Metronome:AutoGen.obj
+ 0002:00000130       __gPcd_FixedAtBuild_PcdDebugPropertyMask 00014130     Metronome:AutoGen.obj
+ 0002:00000134       ??_C@_0CP@NFDMFBDK@?$CGgEfiMetronomeArchProtocolGuid?5@ 00014134     Metronome:Metronome.obj
+ 0002:00000168       ??_C@_0ED@DFHFOBKC@f?3?2uefiworkspace?2edk2?2MdeModule@ 00014168     Metronome:Metronome.obj
+ 0002:000001ac       ??_C@_0DN@LEFBHHGB@?$CGgEfiMetronomeArchProtocolGuid?5@ 000141ac     Metronome:Metronome.obj
+ 0002:000001f0       ??_C@_0EB@IAJPDIO@?$CGgEfiMetronomeArchProtocolGuid?5@ 000141f0     Metronome:Metronome.obj
+ 0002:00000234       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014234     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000250       ??_C@_0FF@OJMNGPG@f?3?2uefiworkspace?2edk2?2MdeModule@ 00014250     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002a8       ??_C@_0CP@EFCGCEBK@?$CICHAR8?5?$CK?$CJBaseListMarkerPointer?5@ 000142a8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002d8       ??_C@_01OHGJGJJP@?$FL@     000142d8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002dc       ??_C@_02PBFOLPKM@?$FN?5@   000142dc     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002e0       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000142e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000002f8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000142f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000318       ??_C@_0FJ@LLOKMAMB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014318     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000374       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014374     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000388       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014388     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:0000039c       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001439c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000003b0       ??_C@_0FP@KMDGPEO@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000143b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000410       ??_C@_0BK@PPOBBAMB@TableGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014410     UefiLib:UefiLib.obj
+ 0002:0000042c       ??_C@_0DH@CPNBINNB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 0001442c     UefiLib:UefiLib.obj
+ 0002:00000464       ??_C@_0BG@JDKEGFNB@Table?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014464     UefiLib:UefiLib.obj
+ 0002:0000047c       ??_C@_0BN@HHGHCLME@ProtocolGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001447c     UefiLib:UefiLib.obj
+ 0002:0000049c       ??_C@_0BP@DEIEJICI@NotifyFunction?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001449c     UefiLib:UefiLib.obj
+ 0002:000004bc       ??_C@_0BN@OMCJCPAI@Registration?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000144bc     UefiLib:UefiLib.obj
+ 0002:000004dc       ??_C@_0DI@FAIEECKB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000144dc     DxeHobLib:HobLib.obj
+ 0002:00000514       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014514     DxeHobLib:HobLib.obj
+ 0002:00000530       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014530     DxeHobLib:HobLib.obj
+ 0002:0000054c       ??_C@_0BI@EDOKPJOP@GuidHob?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001454c     DxeEmuLib:DxeEmuLib.obj
+ 0002:00000568       ??_C@_0EA@KMGBCHIO@f?3?2uefiworkspace?2edk2?2EmulatorP@ 00014568     DxeEmuLib:DxeEmuLib.obj
+ 0002:000005a8       ??_C@_0BK@ELNDAPDH@gEmuThunk?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000145a8     DxeEmuLib:DxeEmuLib.obj
+ 0002:000005c8       ??_C@_0EE@GLJNJGMI@f?3?2uefiworkspace?2edk2?2EmulatorP@ 000145c8     EmuDxeTimerLib:DxeTimerLib.obj
+ 0002:0000060c       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0001460c     BaseLib:String.obj
+ 0002:00000624       ??_C@_0DG@ODLLMBNP@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014624     BaseLib:String.obj
+ 0002:0000065c       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_Pcd@ 0001465c     BaseLib:String.obj
+ 0002:00000694       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014694     BaseLib:SafeString.obj
+ 0002:000006d0       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000146d0     BaseLib:SafeString.obj
+ 0002:000006f0       ??_C@_0EA@PDPDJJNN@?$CFa?$CI?$CFd?$CJ?5?$CFa?3?5SAFE_STRING_CONSTRAI@ 000146f0     BaseLib:SafeString.obj
+ 0002:00000730       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00014730     BaseLib:SafeString.obj
+ 0002:0000074c       ??_C@_0P@PMIMLIHM@?$CIDestMax?5?$CB?$DN?50?$CJ@ 0001474c     BaseLib:SafeString.obj
+ 0002:0000075c       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ@ 0001475c     BaseLib:SafeString.obj
+ 0002:00000774       ??_C@_0DO@LJFOOPII@?$CIDestMax?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild@ 00014774     BaseLib:SafeString.obj
+ 0002:000007b8       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOve@ 000147b8     BaseLib:SafeString.obj
+ 0002:00000814       ??_C@_0O@DIHNCLLG@AsciiStrnCpyS@ 00014814     BaseLib:SafeString.obj
+ 0002:00000824       ??_C@_0DN@DLAADCJE@?$CILength?5?$DM?$DN?5?$CI_gPcd_FixedAtBuild_@ 00014824     BaseLib:SafeString.obj
+ 0002:00000864       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014864     BaseLib:Unaligned.obj
+ 0002:000008a0       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000148a0     BaseLib:DivU64x32.obj
+ 0002:000008b0       ??_C@_0DJ@IEJALMDK@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000148b0     BaseLib:DivU64x32.obj
+ 0002:000008ec       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 000148ec     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:00000928       ??_C@_0EE@GOMGOBAA@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00014928     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:0000096c       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CI@ 0001496c     BaseMemoryLib:CopyMemWrapper.obj
+ 0002:000009a0       ??_C@_0FI@PJEDBJM@f?3?2uefiworkspace?2edk2?2MdeModule@ 000149a0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000009f8       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 000149f8     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000a38       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 00014a38     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000acc       ___volatile_metadata       00014acc     <linker-defined>
+ 0003:00000000       _gEfiLoadedImageProtocolGuid 00015000     Metronome:AutoGen.obj
+ 0003:00000010       _gEfiStatusCodeSpecificDataGuid 00015010     Metronome:AutoGen.obj
+ 0003:00000020       _gEfiStatusCodeRuntimeProtocolGuid 00015020     Metronome:AutoGen.obj
+ 0003:00000030       _gEfiCallerBaseName        00015030     Metronome:AutoGen.obj
+ 0003:00000034       _gEfiStatusCodeDataTypeDebugGuid 00015034     Metronome:AutoGen.obj
+ 0003:00000044       _gEfiMetronomeArchProtocolGuid 00015044     Metronome:AutoGen.obj
+ 0003:00000054       _gEfiTimerArchProtocolGuid 00015054     Metronome:AutoGen.obj
+ 0003:00000064       _gEfiHobListGuid           00015064     Metronome:AutoGen.obj
+ 0003:00000074       _gEfiCallerIdGuid          00015074     Metronome:AutoGen.obj
+ 0003:00000084       _gEmuThunkProtocolGuid     00015084     Metronome:AutoGen.obj
+ 0003:00000094       _mMetronome                00015094     Metronome:Metronome.obj
+ 0003:000000a0       _mMetronomeHandle          000150a0     Metronome:Metronome.obj
+ 0003:000000a4       _gST                       000150a4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000a8       _gBS                       000150a8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000ac       _gImageHandle              000150ac     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000b0       _gRT                       000150b0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000000b4       _mHobList                  000150b4     DxeHobLib:HobLib.obj
+ 0003:000000b8       _gEmuThunk                 000150b8     DxeEmuLib:DxeEmuLib.obj
+ 0003:000000d4       _mReportStatusCodeLibStatusCodeProtocol 000150d4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+
+ entry point at        0001:000000c0
+
+ Static symbols
+
+ 0000:ffff8000       .debug$S                   00010000     Metronome.exp
+ 0001:00000016       _InternalMathDivRemU64x64.0 00011016     BaseLib:DivU64x64Remainder.obj
+ 0001:0000001b       _@DivRemU64x64             0001101b     BaseLib:DivU64x64Remainder.obj
+ 0001:0000002e       _@DivRemU64x64.1           0001102e     BaseLib:DivU64x64Remainder.obj
+ 0001:0000005b       @TooLarge                  0001105b     BaseLib:DivU64x64Remainder.obj
+ 0001:00000066       @Correct                   00011066     BaseLib:DivU64x64Remainder.obj
+ 0001:00000071       @Return                    00011071     BaseLib:DivU64x64Remainder.obj
+ 0003:000000bc       _gRegistration             000150bc     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:000000c0       _gTimerEvent               000150c0     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:000000c8       _gTimerPeriod              000150c8     EmuDxeTimerLib:DxeTimerLib.obj
+ 0003:000000d0       _gTimerAp                  000150d0     EmuDxeTimerLib:DxeTimerLib.obj
+ 0004:00000000       .edata                     00016000     Metronome.exp
+ 0004:00000028       rgpv                       00016028     Metronome.exp
+ 0004:0000002c       rgszName                   0001602c     Metronome.exp
+ 0004:00000030       rgwOrd                     00016030     Metronome.exp
+ 0004:00000032       szName                     00016032     Metronome.exp
+ 0004:00000040       $N00001                    00016040     Metronome.exp

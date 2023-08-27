@@ -1,0 +1,1 @@
+  f:\uefiworkspace\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ScsiDiskDxe\DEBUG\AutoGen.c f:\uefiworkspace\edk2\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ScsiDisk.c f:\uefiworkspace\edk2\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ComponentName.c

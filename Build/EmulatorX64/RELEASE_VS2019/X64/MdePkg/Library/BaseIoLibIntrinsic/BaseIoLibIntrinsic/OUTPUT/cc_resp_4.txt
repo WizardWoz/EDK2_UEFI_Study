@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\IoLib.c f:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\IoLibInternalTdxNull.c f:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\IoHighLevel.c f:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\IoLibMsc.c f:\uefiworkspace\edk2\MdePkg\Library\BaseIoLibIntrinsic\IoLibMmioBuffer.c

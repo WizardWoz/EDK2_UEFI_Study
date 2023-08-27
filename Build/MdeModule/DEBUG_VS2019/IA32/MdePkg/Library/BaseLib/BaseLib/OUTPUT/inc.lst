@@ -1,0 +1,9 @@
+/If:\uefiworkspace\edk2\MdePkg\Library\BaseLib\Ia32
+/If:\uefiworkspace\edk2\MdePkg\Library\BaseLib
+/If:\uefiworkspace\Build\MdeModule\DEBUG_VS2019\IA32\MdePkg\Library\BaseLib\BaseLib\DEBUG
+/If:\uefiworkspace\edk2\MdePkg
+/If:\uefiworkspace\edk2\MdePkg\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\UnitTest\Include
+/If:\uefiworkspace\edk2\MdePkg\Test\Mock\Include
+/If:\uefiworkspace\edk2\MdePkg\Library\MipiSysTLib\mipisyst\library\include
+/If:\uefiworkspace\edk2\MdePkg\Include\Ia32

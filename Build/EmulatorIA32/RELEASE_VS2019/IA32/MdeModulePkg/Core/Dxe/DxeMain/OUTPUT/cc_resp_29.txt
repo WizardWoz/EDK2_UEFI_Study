@@ -1,0 +1,1 @@
+  f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVol.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolWrite.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolRead.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\FwVol\Ffs.c f:\uefiworkspace\edk2\MdeModulePkg\Core\Dxe\FwVol\FwVolAttrib.c

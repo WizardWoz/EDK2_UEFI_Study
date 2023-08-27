@@ -1,0 +1,89 @@
+ Hello
+
+ Timestamp is 64e9c8f3 (Sat Aug 26 17:42:11 2023)
+
+ Preferred load address is 00000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000eb3H .text$mn                CODE
+ 0002:00000000 00000634H .rdata                  DATA
+ 0002:00000634 00000020H .rdata$voltmd           DATA
+ 0002:00000654 00000104H .rdata$zzzdbg           DATA
+ 0003:00000000 00000020H .data                   DATA
+ 0003:00000020 00000010H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0001:00000000       __ModuleEntryPoint         00000260 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:00000029       _DebugAssert               00000289 f   BaseDebugLibNull:DebugLib.obj
+ 0001:0000002c       _DebugAssertEnabled        0000028c f   BaseDebugLibNull:DebugLib.obj
+ 0001:0000002f       _ShellCEntryLib            0000028f f   UefiShellCEntryLib:UefiShellCEntryLib.obj
+ 0001:000000a6       _InternalAllocatePool      00000306 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:000000cd       _InternalPrint             0000032d f   UefiLib:UefiLibPrint.obj
+ 0001:00000110       _Print                     00000370 f   UefiLib:UefiLibPrint.obj
+ 0001:00000129       _UnicodeVSPrint            00000389 f   BasePrintLib:PrintLib.obj
+ 0001:00000146       _BasePrintLibFillBuffer    000003a6 f   BasePrintLib:PrintLibInternal.obj
+ 0001:0000017a       _BasePrintLibValueToString 000003da f   BasePrintLib:PrintLibInternal.obj
+ 0001:000001b3       _BasePrintLibSPrintMarker  00000413 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000d5e       _BasePrintLibSPrint        00000fbe f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000d7d       _ReadUnaligned16           00000fdd f   BaseLib:Unaligned.obj
+ 0001:00000da8       _ReadUnaligned32           00001008 f   BaseLib:Unaligned.obj
+ 0001:00000dd5       _AsciiStrnLenS             00001035 f   BaseLib:SafeString.obj
+ 0001:00000e04       _StrnLenS                  00001064 f   BaseLib:SafeString.obj
+ 0001:00000e5a       _DivU64x32Remainder        000010ba f   BaseLib:DivU64x32Remainder.obj
+ 0001:00000e96       _InternalMathDivRemU64x32  000010f6 f   BaseLib:DivU64x32Remainder.obj
+ 0002:00000000       ??_C@_0CC@GFNLNIOC@?$CI?$CIUINTN?$CJString?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00001120     BaseLib:String.obj
+ 0002:00000024       ??_C@_0DJ@GPHHHNOB@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00001144     BaseLib:Unaligned.obj
+ 0002:00000060       ??_C@_0DK@NEJELINC@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 00001180     BaseLib:SafeString.obj
+ 0002:0000009c       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50@ 000011bc     BaseLib:DivU64x32.obj
+ 0002:000000b0       ??_C@_0EC@JNPELHIH@f?3?2uefiworkspace?2edk2?2MdePkg?2Li@ 000011d0     BaseLib:DivU64x32Remainder.obj
+ 0002:000000f8       ??_C@_1EA@IHMNDMJH@?$AAH?$AAe?$AAl?$AAl?$AAo?$AA?5?$AAt?$AAh?$AAe?$AAr?$AAe?$AA?5?$AAf?$AAe?$AAl@ 00001218     Hello:Hello.obj
+ 0002:00000138       ??_C@_1EC@KCEGHLOD@?$AAW?$AAe?$AAl?$AAc?$AAo?$AAm?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAt?$AAh?$AAe?$AA?5@ 00001258     Hello:Hello.obj
+ 0002:0000017c       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ@ 0000129c     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000194       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO@ 000012b4     BasePrintLib:PrintLibInternal.obj
+ 0002:000001a4       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO@ 000012c4     BasePrintLib:PrintLibInternal.obj
+ 0002:000001b0       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02@ 000012d0     BasePrintLib:PrintLibInternal.obj
+ 0002:000001e4       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO@ 00001304     BasePrintLib:PrintLibInternal.obj
+ 0002:000001f0       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d@ 00001310     BasePrintLib:PrintLibInternal.obj
+ 0002:0000020c       ??_C@_04JIMNDDED@?$CF08X@  0000132c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000214       ??_C@_02PCIJFNDE@?$AN?6@   00001334     BasePrintLib:PrintLibInternal.obj
+ 0002:00000218       ??_C@_01LIIJDEN@?$AN@      00001338     BasePrintLib:PrintLibInternal.obj
+ 0002:00000220       _mWarningString            00001340     BasePrintLib:PrintLibInternal.obj
+ 0002:000002e8       _mErrorString              00001408     BasePrintLib:PrintLibInternal.obj
+ 0002:000005d0       _mHexStr                   000016f0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000634       ___volatile_metadata       00001754     <linker-defined>
+ 0003:00000000       _gEfiShellParametersProtocolGuid 00001880     Hello:AutoGen.obj
+ 0003:00000010       _gEfiShellInterfaceGuid    00001890     Hello:AutoGen.obj
+ 0003:00000020       _gST                       000018a0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000024       _gImageHandle              000018a4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000028       _gBS                       000018a8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:0000002c       _gRT                       000018ac     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+

@@ -1,0 +1,1 @@
+f:\uefiworkspace\Build\EmulatorX64\DEBUG_VS2019\X64\ShellPkg\Library\UefiShellLevel3CommandsLib\UefiShellLevel3CommandsLib\Makefile
